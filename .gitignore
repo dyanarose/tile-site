@@ -5,3 +5,12 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# IDE
+.idea/
+
+# Claude Code
+.claude/
+
+# Project plan docs (not needed in repo)
+*.docx
