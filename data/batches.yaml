@@ -1,0 +1,22 @@
+- id: batch-001
+  date: 2024-09-14
+  clay_body: Valentine's Stoneware
+  cone: 10
+  atmosphere: reduction
+  glazes:
+    - Tenmoku
+    - Shino
+  notes: "First high-fire reduction firing. Kiln ran slightly hot on bottom shelf."
+  tags: [high-fire, reduction, stoneware]
+
+- id: batch-002
+  date: 2024-11-22
+  clay_body: Scarva ES50 Earthstone
+  cone: 6
+  atmosphere: oxidation
+  glazes:
+    - Celadon
+    - Rutile Blue
+    - Transparent
+  notes: "Mid-fire oxidation test. Experimenting with layering celadon under rutile blue."
+  tags: [mid-fire, oxidation, layering, earthstone]
