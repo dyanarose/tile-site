@@ -41,7 +41,7 @@
         <select
           class="border border-stone-300 rounded px-2 py-1.5 text-sm bg-white"
           x-model="filters.clay_body"
-          @change="syncToUrl()"
+          @change="page = 1; syncToUrl()"
         >
           <option value="">All</option>
           <template x-for="opt in options.clay_bodies" :key="opt">
@@ -56,7 +56,7 @@
         <select
           class="border border-stone-300 rounded px-2 py-1.5 text-sm bg-white"
           x-model="filters.glaze"
-          @change="syncToUrl()"
+          @change="page = 1; syncToUrl()"
         >
           <option value="">All</option>
           <template x-for="opt in options.glazes" :key="opt">
@@ -71,7 +71,7 @@
         <select
           class="border border-stone-300 rounded px-2 py-1.5 text-sm bg-white"
           x-model="filters.cone"
-          @change="syncToUrl()"
+          @change="page = 1; syncToUrl()"
         >
           <option value="">All</option>
           <template x-for="opt in options.cones" :key="opt">
@@ -86,7 +86,7 @@
         <select
           class="border border-stone-300 rounded px-2 py-1.5 text-sm bg-white"
           x-model="filters.atmosphere"
-          @change="syncToUrl()"
+          @change="page = 1; syncToUrl()"
         >
           <option value="">All</option>
           <template x-for="opt in options.atmospheres" :key="opt">
@@ -101,7 +101,7 @@
         <select
           class="border border-stone-300 rounded px-2 py-1.5 text-sm bg-white"
           x-model="filters.tag"
-          @change="syncToUrl()"
+          @change="page = 1; syncToUrl()"
         >
           <option value="">All</option>
           <template x-for="opt in options.tags" :key="opt">
@@ -122,11 +122,11 @@
     </section>
 
     <!-- Results count -->
-    <p class="text-stone-500 text-sm -mt-2" x-text="`${filteredTiles.length} tile${filteredTiles.length === 1 ? '' : 's'}`"></p>
+    <p class="text-stone-500 text-sm -mt-2" x-text="`Showing ${visibleTiles.length} of ${filteredTiles.length} tile${filteredTiles.length === 1 ? '' : 's'}`"></p>
 
     <!-- Gallery grid -->
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-      <template x-for="tile in filteredTiles" :key="tile.id">
+      <template x-for="tile in visibleTiles" :key="tile.id">
         <div
           class="relative group bg-white rounded-lg overflow-hidden shadow-sm cursor-pointer hover:shadow-md transition-shadow"
           @click="openTile(tile)"
@@ -145,7 +145,7 @@
           <!-- Caption overlay on hover -->
           <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-3">
             <span class="text-white text-sm font-medium" x-text="tile.id"></span>
-            <span class="text-stone-300 text-xs mt-0.5" x-text="tile.glaze_combo ?? tile.glazes?.join(', ') ?? '—'"></span>
+            <span class="text-stone-300 text-xs mt-0.5" x-text="tile.glaze_combo || '—'"></span>
           </div>
         </div>
       </template>
@@ -154,6 +154,15 @@
     <!-- Empty state -->
     <div x-show="filteredTiles.length === 0" class="text-center text-stone-400 py-24">
       No tiles match the current filters.
+    </div>
+
+    <!-- Load more -->
+    <div x-show="hasMore" class="flex justify-center pt-4 pb-8">
+      <button
+        @click="loadMore()"
+        class="px-6 py-2 bg-stone-800 text-stone-100 rounded-lg hover:bg-stone-700 transition-colors text-sm"
+        x-text="`Load more (${filteredTiles.length - visibleTiles.length} remaining)`"
+      ></button>
     </div>
 
   </div>
@@ -225,20 +234,10 @@
                 </div>
               </template>
 
-              <!-- Glazes: tile-specific combo shown first, then batch glazes as "available" -->
               <template x-if="activeTile.glaze_combo">
                 <div class="contents">
                   <dt class="text-stone-500 font-medium">Glaze combo</dt>
                   <dd x-text="activeTile.glaze_combo"></dd>
-                </div>
-              </template>
-
-              <template x-if="activeTile.glazes?.length">
-                <div class="contents">
-                  <dt class="text-stone-500 font-medium">
-                    <span x-text="activeTile.glaze_combo ? 'Batch glazes' : 'Glazes'"></span>
-                  </dt>
-                  <dd x-text="activeTile.glazes.join(', ')"></dd>
                 </div>
               </template>
 
@@ -318,6 +317,8 @@
         error:      null,
         tiles:      [],
         activeTile: null,
+        page:       1,
+        pageSize:   24,
 
         filters: {
           clay_body:  '',
@@ -345,13 +346,21 @@
           return [...this.tiles]
             .filter(t => {
               if (clay_body  && t.clay_body  !== clay_body)                          return false;
-              if (glaze      && !t.glazes?.includes(glaze))                          return false;
+              if (glaze      && !this.glazesFromCombo(t.glaze_combo).includes(glaze)) return false;
               if (cone       && String(t.cone) !== String(cone))                     return false;
               if (atmosphere && t.atmosphere  !== atmosphere)                        return false;
               if (tag        && !t.tags?.includes(tag))                              return false;
               return true;
             })
             .sort((a, b) => new Date(b.date) - new Date(a.date));
+        },
+
+        get visibleTiles() {
+          return this.filteredTiles.slice(0, this.page * this.pageSize);
+        },
+
+        get hasMore() {
+          return this.visibleTiles.length < this.filteredTiles.length;
         },
 
         init() {
@@ -372,10 +381,18 @@
           }
         },
 
+        glazesFromCombo(combo) {
+          if (!combo) return [];
+          return combo
+            .split(/ over | under | and /i)
+            .map(g => g.replace(/ alone$/i, '').trim())
+            .filter(Boolean);
+        },
+
         buildOptions() {
           const unique = (arr) => [...new Set(arr.filter(Boolean))].sort();
           this.options.clay_bodies = unique(this.tiles.map(t => t.clay_body));
-          this.options.glazes      = unique(this.tiles.flatMap(t => t.glazes ?? []));
+          this.options.glazes      = unique(this.tiles.flatMap(t => this.glazesFromCombo(t.glaze_combo)));
           this.options.cones       = unique(this.tiles.map(t => String(t.cone)));
           this.options.atmospheres = unique(this.tiles.map(t => t.atmosphere));
           this.options.tags        = unique(this.tiles.flatMap(t => t.tags ?? []));
@@ -399,7 +416,12 @@
 
         clearFilters() {
           for (const key of Object.keys(this.filters)) this.filters[key] = '';
+          this.page = 1;
           this.syncToUrl();
+        },
+
+        loadMore() {
+          this.page++;
         },
 
         photoUrl(filename) {
@@ -433,7 +455,7 @@
             .filter(t => t.id !== a.id)
             .map(t => {
               let score = 0;
-              const sharedGlazes = (a.glazes ?? []).filter(g => (t.glazes ?? []).includes(g));
+              const sharedGlazes = this.glazesFromCombo(a.glaze_combo).filter(g => this.glazesFromCombo(t.glaze_combo).includes(g));
               score += sharedGlazes.length * 2;
               if (t.clay_body === a.clay_body) score += 1;
               const sharedTags = (a.tags ?? []).filter(tag => (t.tags ?? []).includes(tag));
