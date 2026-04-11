@@ -1,0 +1,339 @@
+# Batch 001 — SIO2 Barcino Grey, cone 6 oxidation
+# Tiles only record what differs from their parent batch.
+# At minimum: id, batch, photo.
+
+- id: tile-260300-front
+  batch: batch-001
+  photo: 2603/260300_front.jpg
+  glaze_combo: [mayco-sw-112]
+  notes: ""
+
+- id: tile-260300-back
+  batch: batch-001
+  photo: 2603/260300_back.jpg
+  glaze_combo: [mayco-sw-112]
+  notes: ""
+
+- id: tile-260301-front
+  batch: batch-001
+  photo: 2603/260301_front.jpg
+  glaze_combo: [mayco-sw-189]
+  notes: ""
+
+- id: tile-260301-back
+  batch: batch-001
+  photo: 2603/260301_back.jpg
+  glaze_combo: [mayco-sw-189]
+  notes: ""
+
+- id: tile-260302-front
+  batch: batch-001
+  photo: 2603/260302_front.jpg
+  glaze_combo: [mayco-sw-190]
+  notes: ""
+
+- id: tile-260302-back
+  batch: batch-001
+  photo: 2603/260302_back.jpg
+  glaze_combo: [mayco-sw-190]
+  notes: ""
+
+- id: tile-260303-front
+  batch: batch-001
+  photo: 2603/260303_front.jpg
+  glaze_combo: [mayco-sw-191]
+  notes: ""
+
+- id: tile-260303-back
+  batch: batch-001
+  photo: 2603/260303_back.jpg
+  glaze_combo: [mayco-sw-191]
+  notes: ""
+
+- id: tile-260304-front
+  batch: batch-001
+  photo: 2603/260304_front.jpg
+  glaze_combo: [mayco-sw-192]
+  notes: ""
+
+- id: tile-260304-back
+  batch: batch-001
+  photo: 2603/260304_back.jpg
+  glaze_combo: [mayco-sw-192]
+  notes: ""
+
+- id: tile-260305-front
+  batch: batch-001
+  photo: 2603/260305_front.jpg
+  glaze_combo: [mayco-sw-193]
+  notes: ""
+
+- id: tile-260305-back
+  batch: batch-001
+  photo: 2603/260305_back.jpg
+  glaze_combo: [mayco-sw-193]
+  notes: ""
+
+- id: tile-260306-front
+  batch: batch-001
+  photo: 2603/260306_front.jpg
+  glaze_combo: [mayco-sw-194]
+  notes: ""
+
+- id: tile-260306-back
+  batch: batch-001
+  photo: 2603/260306_back.jpg
+  glaze_combo: [mayco-sw-194]
+  notes: ""
+
+- id: tile-260307-front
+  batch: batch-001
+  photo: 2603/260307_front.jpg
+  glaze_combo: [mayco-sw-195]
+  notes: ""
+
+- id: tile-260307-back
+  batch: batch-001
+  photo: 2603/260307_back.jpg
+  glaze_combo: [mayco-sw-195]
+  notes: ""
+
+- id: tile-260308-front
+  batch: batch-001
+  photo: 2603/260308_front.jpg
+  glaze_combo: [mayco-sw-196]
+  notes: ""
+
+- id: tile-260308-back
+  batch: batch-001
+  photo: 2603/260308_back.jpg
+  glaze_combo: [mayco-sw-196]
+  notes: ""
+
+- id: tile-260309-front
+  batch: batch-001
+  photo: 2603/260309_front.jpg
+  glaze_combo: [mayco-sw-197]
+  notes: ""
+
+- id: tile-260309-back
+  batch: batch-001
+  photo: 2603/260309_back.jpg
+  glaze_combo: [mayco-sw-197]
+  notes: ""
+
+- id: tile-260310-front
+  batch: batch-001
+  photo: 2603/260310_front.jpg
+  glaze_combo: [mayco-sw-198]
+  notes: ""
+
+- id: tile-260310-back
+  batch: batch-001
+  photo: 2603/260310_back.jpg
+  glaze_combo: [mayco-sw-198]
+  notes: ""
+
+- id: tile-260311-front
+  batch: batch-001
+  photo: 2603/260311_front.jpg
+  glaze_combo: [mayco-sw-199]
+  notes: ""
+
+- id: tile-260311-back
+  batch: batch-001
+  photo: 2603/260311_back.jpg
+  glaze_combo: [mayco-sw-199]
+  notes: ""
+
+- id: tile-260312-front
+  batch: batch-001
+  photo: 2603/260312_front.jpg
+  glaze_combo: [mayco-sw-214]
+  notes: ""
+
+- id: tile-260312-back
+  batch: batch-001
+  photo: 2603/260312_back.jpg
+  glaze_combo: [mayco-sw-214]
+  notes: ""
+
+- id: tile-260313-front
+  batch: batch-001
+  photo: 2603/260313_front.jpg
+  glaze_combo: [mayco-sw-215]
+  notes: ""
+
+- id: tile-260313-back
+  batch: batch-001
+  photo: 2603/260313_back.jpg
+  glaze_combo: [mayco-sw-215]
+  notes: ""
+
+- id: tile-260314-front
+  batch: batch-001
+  photo: 2603/260314_front.jpg
+  glaze_combo: [mayco-sw-216]
+  notes: ""
+
+- id: tile-260314-back
+  batch: batch-001
+  photo: 2603/260314_back.jpg
+  glaze_combo: [mayco-sw-216]
+  notes: ""
+
+- id: tile-260315-front
+  batch: batch-001
+  photo: 2603/260315_front.jpg
+  glaze_combo: [mayco-sw-217]
+  notes: ""
+
+- id: tile-260315-back
+  batch: batch-001
+  photo: 2603/260315_back.jpg
+  glaze_combo: [mayco-sw-217]
+  notes: ""
+
+- id: tile-260316-front
+  batch: batch-001
+  photo: 2603/260316_front.jpg
+  glaze_combo: [mayco-sw-218]
+  notes: ""
+
+- id: tile-260316-back
+  batch: batch-001
+  photo: 2603/260316_back.jpg
+  glaze_combo: [mayco-sw-218]
+  notes: ""
+
+- id: tile-260317-front
+  batch: batch-001
+  photo: 2603/260317_front.jpg
+  glaze_combo: [mayco-sw-220]
+  notes: ""
+
+- id: tile-260317-back
+  batch: batch-001
+  photo: 2603/260317_back.jpg
+  glaze_combo: [mayco-sw-220]
+  notes: ""
+
+- id: tile-260318-front
+  batch: batch-001
+  photo: 2603/260318_front.jpg
+  glaze_combo: [mayco-sw-221]
+  notes: ""
+
+- id: tile-260318-back
+  batch: batch-001
+  photo: 2603/260318_back.jpg
+  glaze_combo: [mayco-sw-221]
+  notes: ""
+
+- id: tile-260319-front
+  batch: batch-001
+  photo: 2603/260319_front.jpg
+  glaze_combo: [mayco-sw-222]
+  notes: ""
+
+- id: tile-260319-back
+  batch: batch-001
+  photo: 2603/260319_back.jpg
+  glaze_combo: [mayco-sw-222]
+  notes: ""
+
+- id: tile-260320-front
+  batch: batch-001
+  photo: 2603/260320_front.jpg
+  glaze_combo: [mayco-sw-224]
+  notes: ""
+
+- id: tile-260320-back
+  batch: batch-001
+  photo: 2603/260320_back.jpg
+  glaze_combo: [mayco-sw-224]
+  notes: ""
+
+- id: tile-260321-front
+  batch: batch-001
+  photo: 2603/260321_front.jpg
+  glaze_combo: [amaco-c-21]
+  notes: ""
+
+- id: tile-260321-back
+  batch: batch-001
+  photo: 2603/260321_back.jpg
+  glaze_combo: [amaco-c-21]
+  notes: ""
+
+- id: tile-260322-front
+  batch: batch-001
+  photo: 2603/260322_front.jpg
+  glaze_combo: [amaco-pc-20]
+  notes: ""
+
+- id: tile-260322-back
+  batch: batch-001
+  photo: 2603/260322_back.jpg
+  glaze_combo: [amaco-pc-20]
+  notes: ""
+
+- id: tile-260323-front
+  batch: batch-001
+  photo: 2603/260323_front.jpg
+  glaze_combo: [speedball-mf-002136]
+  notes: ""
+
+- id: tile-260323-back
+  batch: batch-001
+  photo: 2603/260323_back.jpg
+  glaze_combo: [speedball-mf-002136]
+  notes: ""
+
+- id: tile-260324-front
+  batch: batch-001
+  photo: 2603/260324_front.jpg
+  glaze_combo: [speedball-mf-002132]
+  notes: ""
+
+- id: tile-260324-back
+  batch: batch-001
+  photo: 2603/260324_back.jpg
+  glaze_combo: [speedball-mf-002132]
+  notes: ""
+
+- id: tile-260325-front
+  batch: batch-001
+  photo: 2603/260325_front.jpg
+  glaze_combo: [speedball-mf-002108]
+  notes: ""
+
+- id: tile-260325-back
+  batch: batch-001
+  photo: 2603/260325_back.jpg
+  glaze_combo: [speedball-mf-002108]
+  notes: ""
+
+- id: tile-260326-front
+  batch: batch-001
+  photo: 2603/260326_front.jpg
+  glaze_combo: [speedball-mf-002133]
+  notes: ""
+
+- id: tile-260326-back
+  batch: batch-001
+  photo: 2603/260326_back.jpg
+  glaze_combo: [speedball-mf-002133]
+  notes: ""
+
+- id: tile-260327-front
+  batch: batch-001
+  photo: 2603/260327_front.jpg
+  glaze_combo: [speedball-mf-002135]
+  notes: ""
+
+- id: tile-260327-back
+  batch: batch-001
+  photo: 2603/260327_back.jpg
+  glaze_combo: [speedball-mf-002135]
+  notes: ""

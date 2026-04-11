@@ -8,8 +8,12 @@ from datetime import datetime, timezone
 
 root    = pathlib.Path(__file__).parent
 batches = yaml.safe_load((root / "data/batches.yaml").read_text(encoding="utf-8"))
-tiles   = yaml.safe_load((root / "data/tiles.yaml").read_text(encoding="utf-8"))
 glazes  = yaml.safe_load((root / "data/glazes.yaml").read_text(encoding="utf-8"))
+
+# Load tiles from data/tiles/*.yaml (one file per batch), sorted by filename
+tiles = []
+for path in sorted((root / "data/tiles").glob("*.yaml")):
+    tiles.extend(yaml.safe_load(path.read_text(encoding="utf-8")))
 
 # Dates must be strings (YAML parses them as date objects)
 for b in batches:
