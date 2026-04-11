@@ -297,13 +297,58 @@
 
 - { id: amaco-v-361, name: Black, brand: Amaco, product_line: "Velvet Underglaze", sku: V-361, cone: [-6, 10], finish: matte, color: black }
 
-# ── Speedball ─────────────────────────────────────────────────────────────────
+# ── Speedball — Underglaze ────────────────────────────────────────────────────
 
 - { id: speedball-underglaze-cobalt-blue, name: Cobalt Blue, brand: Speedball, product_line: Underglaze, cone: [-6, 6], finish: matte, color: blue }
 - { id: speedball-underglaze-red,         name: Red,         brand: Speedball, product_line: Underglaze, cone: [-6, 6], finish: matte, color: red }
 - { id: speedball-underglaze-yellow,      name: Yellow,      brand: Speedball, product_line: Underglaze, cone: [-6, 6], finish: matte, color: yellow }
 - { id: speedball-underglaze-black,       name: Black,       brand: Speedball, product_line: Underglaze, cone: [-6, 6], finish: matte, color: black }
 - { id: speedball-underglaze-white,       name: White,       brand: Speedball, product_line: Underglaze, cone: [-6, 6], finish: matte, color: white }
+
+# ── Speedball — Mid-Fire Glaze (cone 5–6, glossy, mottled) ───────────────────
+
+- { id: speedball-mf-002100, name: Blue Tiger's Eye,    brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002100", cone: [5, 6], finish: glossy, color: blue }
+- { id: speedball-mf-002101, name: Blackened Copper,    brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002101", cone: [5, 6], finish: glossy, color: dark copper }
+- { id: speedball-mf-002102, name: Blushing White,      brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002102", cone: [5, 6], finish: glossy, color: white }
+- { id: speedball-mf-002103, name: Dragon Stone,        brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002103", cone: [5, 6], finish: glossy, color: grey green }
+- { id: speedball-mf-002104, name: Teal Agate,          brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002104", cone: [5, 6], finish: glossy, color: teal }
+- { id: speedball-mf-002105, name: Blue Topaz,          brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002105", cone: [5, 6], finish: glossy, color: blue }
+- { id: speedball-mf-002106, name: Blue Moss,           brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002106", cone: [5, 6], finish: glossy, color: blue green }
+- { id: speedball-mf-002107, name: Lavender Mist,       brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002107", cone: [5, 6], finish: glossy, color: lavender }
+- { id: speedball-mf-002108, name: Natural Opal,        brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002108", cone: [5, 6], finish: glossy, color: white }
+- { id: speedball-mf-002109, name: Wisteria,            brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002109", cone: [5, 6], finish: glossy, color: purple }
+- { id: speedball-mf-002110, name: Variegated Lapis,    brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002110", cone: [5, 6], finish: glossy, color: dark blue }
+- { id: speedball-mf-002111, name: Sea Glass,           brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002111", cone: [5, 6], finish: glossy, color: seafoam }
+- { id: speedball-mf-002112, name: Basque Green,        brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002112", cone: [5, 6], finish: glossy, color: green }
+- { id: speedball-mf-002113, name: Gossamer Drift,      brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002113", cone: [5, 6], finish: glossy, color: white }
+- { id: speedball-mf-002114, name: Smoke,               brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002114", cone: [5, 6], finish: glossy, color: grey }
+- { id: speedball-mf-002115, name: Blackcurrant,        brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002115", cone: [5, 6], finish: glossy, color: dark purple }
+- { id: speedball-mf-002116, name: Hematite,            brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002116", cone: [5, 6], finish: glossy, color: dark grey }
+- { id: speedball-mf-002117, name: Storied Sage,        brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002117", cone: [5, 6], finish: glossy, color: sage green }
+- { id: speedball-mf-002118, name: Buttermilk,          brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002118", cone: [5, 6], finish: glossy, color: cream }
+- { id: speedball-mf-002119, name: Champagne Quartz,    brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002119", cone: [5, 6], finish: glossy, color: champagne }
+- { id: speedball-mf-002120, name: Coriander,           brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002120", cone: [5, 6], finish: glossy, color: warm brown }
+- { id: speedball-mf-002121, name: Prussian Jade,       brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002121", cone: [5, 6], finish: glossy, color: dark teal }
+- { id: speedball-mf-002123, name: Ethereal Blue,       brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002123", cone: [5, 6], finish: glossy, color: light blue }
+- { id: speedball-mf-002124, name: Midnight Plum,       brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002124", cone: [5, 6], finish: glossy, color: dark purple }
+- { id: speedball-mf-002125, name: Jasper,              brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002125", cone: [5, 6], finish: glossy, color: red brown }
+- { id: speedball-mf-002126, name: Nightshade,          brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002126", cone: [5, 6], finish: glossy, color: dark purple }
+- { id: speedball-mf-002127, name: Biscotti,            brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002127", cone: [5, 6], finish: glossy, color: tan }
+- { id: speedball-mf-002128, name: Green Tourmaline,    brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002128", cone: [5, 6], finish: glossy, color: green }
+- { id: speedball-mf-002129, name: Orange Creamsicle,   brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002129", cone: [5, 6], finish: glossy, color: orange }
+- { id: speedball-mf-002130, name: Raspberry Fizz,      brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002130", cone: [5, 6], finish: glossy, color: pink red }
+- { id: speedball-mf-002131, name: Living Coral,        brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002131", cone: [5, 6], finish: glossy, color: coral }
+- { id: speedball-mf-002132, name: Lemon Drop,          brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002132", cone: [5, 6], finish: glossy, color: yellow }
+- { id: speedball-mf-002133, name: Dragon's Eye,        brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002133", cone: [5, 6], finish: glossy, color: blue purple }
+- { id: speedball-mf-002134, name: Galaxy Mist,         brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002134", cone: [5, 6], finish: glossy, color: blue purple }
+- { id: speedball-mf-002135, name: Prisma Green,        brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002135", cone: [5, 6], finish: glossy, color: green }
+- { id: speedball-mf-002136, name: Blue Flame,          brand: Speedball, product_line: "Mid-Fire Glaze", sku: "002136", cone: [5, 6], finish: glossy, color: blue red }
+
+# ── Speedball — Mid-Fire Flux Glaze (cone 5–6, transparent) ──────────────────
+
+- { id: speedball-flux-002137, name: Vanilla,       brand: Speedball, product_line: "Mid-Fire Flux Glaze", sku: "002137", cone: [5, 6], finish: glossy, color: transparent cream }
+- { id: speedball-flux-002138, name: Carolina Blue, brand: Speedball, product_line: "Mid-Fire Flux Glaze", sku: "002138", cone: [5, 6], finish: glossy, color: transparent blue }
+- { id: speedball-flux-002139, name: Cocoa,         brand: Speedball, product_line: "Mid-Fire Flux Glaze", sku: "002139", cone: [5, 6], finish: glossy, color: transparent brown }
 
 # ── Chrysanthos ───────────────────────────────────────────────────────────────
 
