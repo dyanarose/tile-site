@@ -7,7 +7,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
   <script src="./js/merge.js"></script>
-  <script src="./data/data.js?v=20260410113515"></script>
+  <script src="./data/data.js?v=20260411102215"></script>
 
   <style>
     [x-cloak] { display: none !important; }
@@ -145,7 +145,7 @@
           <!-- Caption overlay on hover -->
           <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-3">
             <span class="text-white text-sm font-medium" x-text="tile.id"></span>
-            <span class="text-stone-300 text-xs mt-0.5" x-text="tile.glaze_combo || '—'"></span>
+            <span class="text-stone-300 text-xs mt-0.5" x-text="tile.resolvedGlazes?.length ? tile.resolvedGlazes.map(g => g.name).join(' / ') : (tile.glaze_combo || '—')"></span>
           </div>
         </div>
       </template>
@@ -234,7 +234,23 @@
                 </div>
               </template>
 
-              <template x-if="activeTile.glaze_combo">
+              <!-- Structured glazes (bottom to top) -->
+              <template x-if="activeTile.resolvedGlazes?.length">
+                <div class="contents">
+                  <dt class="text-stone-500 font-medium">Glazes</dt>
+                  <dd class="flex flex-col gap-0.5">
+                    <template x-for="(g, i) in activeTile.resolvedGlazes" :key="g.id">
+                      <span>
+                        <span x-text="g.name" class="font-medium"></span>
+                        <span x-text="g.brand ? ` (${g.brand})` : ''" class="text-stone-400 text-xs"></span>
+                        <span x-show="activeTile.resolvedGlazes.length > 1" x-text="i === 0 ? ' — base' : ' — over'" class="text-stone-400 text-xs"></span>
+                      </span>
+                    </template>
+                  </dd>
+                </div>
+              </template>
+              <!-- Free-text fallback -->
+              <template x-if="!activeTile.resolvedGlazes?.length && activeTile.glaze_combo">
                 <div class="contents">
                   <dt class="text-stone-500 font-medium">Glaze combo</dt>
                   <dd x-text="activeTile.glaze_combo"></dd>
@@ -346,7 +362,7 @@
           return [...this.tiles]
             .filter(t => {
               if (clay_body  && t.clay_body  !== clay_body)                          return false;
-              if (glaze      && !this.glazesFromCombo(t.glaze_combo).includes(glaze)) return false;
+              if (glaze      && !(t.resolvedGlazes ?? []).some(g => g.name === glaze)) return false;
               if (cone       && String(t.cone) !== String(cone))                     return false;
               if (atmosphere && t.atmosphere  !== atmosphere)                        return false;
               if (tag        && !t.tags?.includes(tag))                              return false;
@@ -365,8 +381,8 @@
 
         init() {
           try {
-            const { batches, tiles } = window.SITE_DATA;
-            this.tiles = mergeTiles(batches, tiles);
+            const { batches, tiles, glazes } = window.SITE_DATA;
+            this.tiles = mergeTiles(batches, tiles, glazes);
             this.buildOptions();
             this.readFromUrl();
             const tileParam = new URLSearchParams(window.location.search).get('tile');
@@ -381,18 +397,10 @@
           }
         },
 
-        glazesFromCombo(combo) {
-          if (!combo) return [];
-          return combo
-            .split(/ over | under | and /i)
-            .map(g => g.replace(/ alone$/i, '').trim())
-            .filter(Boolean);
-        },
-
         buildOptions() {
           const unique = (arr) => [...new Set(arr.filter(Boolean))].sort();
           this.options.clay_bodies = unique(this.tiles.map(t => t.clay_body));
-          this.options.glazes      = unique(this.tiles.flatMap(t => this.glazesFromCombo(t.glaze_combo)));
+          this.options.glazes      = unique(this.tiles.flatMap(t => (t.resolvedGlazes ?? []).map(g => g.name)));
           this.options.cones       = unique(this.tiles.map(t => String(t.cone)));
           this.options.atmospheres = unique(this.tiles.map(t => t.atmosphere));
           this.options.tags        = unique(this.tiles.flatMap(t => t.tags ?? []));
@@ -455,7 +463,8 @@
             .filter(t => t.id !== a.id)
             .map(t => {
               let score = 0;
-              const sharedGlazes = this.glazesFromCombo(a.glaze_combo).filter(g => this.glazesFromCombo(t.glaze_combo).includes(g));
+              const aGlazeIds    = (a.resolvedGlazes ?? []).map(g => g.id);
+              const sharedGlazes = (t.resolvedGlazes ?? []).filter(g => aGlazeIds.includes(g.id));
               score += sharedGlazes.length * 2;
               if (t.clay_body === a.clay_body) score += 1;
               const sharedTags = (a.tags ?? []).filter(tag => (t.tags ?? []).includes(tag));
