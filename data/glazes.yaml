@@ -553,6 +553,10 @@
 - { id: botz-9318, name: Calcite Yellow, brand: Botz, product_line: "Botz PRO", sku: "9318", cone: [-6, 10], finish: glossy, color: pale yellow }
 - { id: botz-9319, name: Peridot,        brand: Botz, product_line: "Botz PRO", sku: "9319", cone: [-6, 10], finish: glossy, color: yellow green }
 
+# ── Botz — SPS (cone 06–10, 1020–1280°C, melting point reducer) ────────────
+
+- { id: botz-9800, name: SPS - Melting Point Reducer,    brand: Botz, product_line: "Botz SPS", sku: "9800", cone: [-6, 10], finish: glossy, color: transparent }
+
 # ── Spectrum — 1100 Series Opaque Gloss (cone 4-6) ───────────────────────────
 
 - { id: spectrum-1100, name: Transparent,            brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1100", cone: [4, 6], finish: glossy,   color: transparent }

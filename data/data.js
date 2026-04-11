@@ -1056,7 +1056,8 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260240_front.jpg",
       "glaze_combo": [
-        "mayco-sw-194"
+        "mayco-sw-194",
+        "botz-9800"
       ],
       "notes": ""
     },
@@ -1065,7 +1066,8 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260240_back.jpg",
       "glaze_combo": [
-        "mayco-sw-512"
+        "mayco-sw-512",
+        "botz-9800"
       ],
       "notes": ""
     },
@@ -1074,7 +1076,8 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260241_front.jpg",
       "glaze_combo": [
-        "mayco-sw-195"
+        "mayco-sw-195",
+        "botz-9800"
       ],
       "notes": ""
     },
@@ -1083,7 +1086,8 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260241_back.jpg",
       "glaze_combo": [
-        "mayco-sw-511"
+        "mayco-sw-511",
+        "botz-9800"
       ],
       "notes": ""
     },
@@ -1092,7 +1096,8 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260242_front.jpg",
       "glaze_combo": [
-        "mayco-sw-196"
+        "mayco-sw-196",
+        "botz-9800"
       ],
       "notes": ""
     },
@@ -1101,7 +1106,8 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260242_back.jpg",
       "glaze_combo": [
-        "mayco-sw-224"
+        "mayco-sw-224",
+        "botz-9800"
       ],
       "notes": ""
     },
@@ -1110,7 +1116,8 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260244_front.jpg",
       "glaze_combo": [
-        "mayco-sw-197"
+        "mayco-sw-197",
+        "botz-9800"
       ],
       "notes": ""
     },
@@ -1119,7 +1126,8 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260244_back.jpg",
       "glaze_combo": [
-        "mayco-sw-222"
+        "mayco-sw-222",
+        "botz-9800"
       ],
       "notes": ""
     },
@@ -1128,7 +1136,8 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260245_front.jpg",
       "glaze_combo": [
-        "mayco-sw-198"
+        "mayco-sw-198",
+        "botz-9800"
       ],
       "notes": ""
     },
@@ -1137,7 +1146,8 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260245_back.jpg",
       "glaze_combo": [
-        "mayco-sw-221"
+        "mayco-sw-221",
+        "botz-9800"
       ],
       "notes": ""
     },
@@ -1146,7 +1156,8 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260246_front.jpg",
       "glaze_combo": [
-        "mayco-sw-199"
+        "mayco-sw-199",
+        "botz-9800"
       ],
       "notes": ""
     },
@@ -1155,7 +1166,8 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260246_back.jpg",
       "glaze_combo": [
-        "mayco-sw-220"
+        "mayco-sw-220",
+        "botz-9800"
       ],
       "notes": ""
     },
@@ -1164,7 +1176,8 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260247_front.jpg",
       "glaze_combo": [
-        "mayco-sw-214"
+        "mayco-sw-214",
+        "botz-9800"
       ],
       "notes": ""
     },
@@ -1173,7 +1186,8 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260247_back.jpg",
       "glaze_combo": [
-        "mayco-sw-219"
+        "mayco-sw-219",
+        "botz-9800"
       ],
       "notes": ""
     },
@@ -1182,7 +1196,8 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260248_front.jpg",
       "glaze_combo": [
-        "mayco-sw-215"
+        "mayco-sw-215",
+        "botz-9800"
       ],
       "notes": ""
     },
@@ -1191,7 +1206,8 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260248_back.jpg",
       "glaze_combo": [
-        "mayco-sw-218"
+        "mayco-sw-218",
+        "botz-9800"
       ],
       "notes": ""
     },
@@ -1200,7 +1216,8 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260249_front.jpg",
       "glaze_combo": [
-        "mayco-sw-216"
+        "mayco-sw-216",
+        "botz-9800"
       ],
       "notes": ""
     },
@@ -1209,7 +1226,8 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260249_back.jpg",
       "glaze_combo": [
-        "mayco-sw-217"
+        "mayco-sw-217",
+        "botz-9800"
       ],
       "notes": ""
     },
@@ -1218,7 +1236,8 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260251_front.jpg",
       "glaze_combo": [
-        "amaco-pc-20"
+        "amaco-pc-20",
+        "botz-9800"
       ],
       "notes": ""
     },
@@ -1227,7 +1246,8 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260251_back.jpg",
       "glaze_combo": [
-        "amaco-pc-64"
+        "amaco-pc-64",
+        "botz-9800"
       ],
       "notes": ""
     },
@@ -1236,7 +1256,8 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260252_front.jpg",
       "glaze_combo": [
-        "chrysanthos-he144"
+        "chrysanthos-he144",
+        "botz-9800"
       ],
       "notes": ""
     },
@@ -1245,7 +1266,8 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260252_back.jpg",
       "glaze_combo": [
-        "chrysanthos-he405"
+        "chrysanthos-he405",
+        "botz-9800"
       ],
       "notes": ""
     },
@@ -1254,25 +1276,8 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260253_front.jpg",
       "glaze_combo": [
-        "spectrum-1406"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260255-front",
-      "batch": "batch-003",
-      "photo": "2602/260255_front.jpg",
-      "glaze_combo": [
-        "speedball-mf-002132"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260255-back",
-      "batch": "batch-003",
-      "photo": "2602/260255_back.jpg",
-      "glaze_combo": [
-        "speedball-mf-002132"
+        "spectrum-1406",
+        "botz-9800"
       ],
       "notes": ""
     },
@@ -1281,7 +1286,8 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260256_front.jpg",
       "glaze_combo": [
-        "speedball-mf-002136"
+        "speedball-mf-002136",
+        "botz-9800"
       ],
       "notes": ""
     },
@@ -1299,7 +1305,8 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260257_front.jpg",
       "glaze_combo": [
-        "speedball-mf-002108"
+        "speedball-mf-002108",
+        "botz-9800"
       ],
       "notes": ""
     },
@@ -1317,7 +1324,8 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260259_front.jpg",
       "glaze_combo": [
-        "speedball-mf-002135"
+        "speedball-mf-002135",
+        "botz-9800"
       ],
       "notes": ""
     },
@@ -1335,7 +1343,8 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260260_front.jpg",
       "glaze_combo": [
-        "speedball-mf-002133"
+        "speedball-mf-002133",
+        "botz-9800"
       ],
       "notes": ""
     },
@@ -7697,6 +7706,19 @@ window.SITE_DATA = {
       ],
       "finish": "glossy",
       "color": "yellow green"
+    },
+    {
+      "id": "botz-9800",
+      "name": "SPS - Melting Point Reducer",
+      "brand": "Botz",
+      "product_line": "Botz SPS",
+      "sku": "9800",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "transparent"
     },
     {
       "id": "spectrum-1100",

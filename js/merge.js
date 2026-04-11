@@ -23,7 +23,7 @@ function mergeTiles(batches, tiles, glazes = []) {
     const mergedTags = [...new Set([...batchTags, ...tileTags])];
 
     // Resolve glaze IDs → full glaze objects
-    const resolvedGlazes = (tile.glazes ?? tile.glaze_combo ?? [])
+    const resolvedGlazes = (tile.glaze_combo ?? [])
       .map(id => {
         const g = glazeMap[id];
         if (!g) console.warn(`Tile ${tile.id} references unknown glaze "${id}"`);
