@@ -449,7 +449,7 @@ window.SITE_DATA = {
       "batch": "batch-001",
       "photo": "2603/260323_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "speedball-mf-002136"
       ],
       "notes": ""
     },
@@ -458,7 +458,7 @@ window.SITE_DATA = {
       "batch": "batch-001",
       "photo": "2603/260323_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "speedball-mf-002136"
       ],
       "notes": ""
     },
@@ -467,7 +467,7 @@ window.SITE_DATA = {
       "batch": "batch-001",
       "photo": "2603/260324_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "speedball-mf-002132"
       ],
       "notes": ""
     },
@@ -476,7 +476,7 @@ window.SITE_DATA = {
       "batch": "batch-001",
       "photo": "2603/260324_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "speedball-mf-002132"
       ],
       "notes": ""
     },
@@ -485,7 +485,7 @@ window.SITE_DATA = {
       "batch": "batch-001",
       "photo": "2603/260325_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "speedball-mf-002108"
       ],
       "notes": ""
     },
@@ -494,7 +494,7 @@ window.SITE_DATA = {
       "batch": "batch-001",
       "photo": "2603/260325_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "speedball-mf-002108"
       ],
       "notes": ""
     },
@@ -503,7 +503,7 @@ window.SITE_DATA = {
       "batch": "batch-001",
       "photo": "2603/260326_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "speedball-mf-002133"
       ],
       "notes": ""
     },
@@ -512,7 +512,7 @@ window.SITE_DATA = {
       "batch": "batch-001",
       "photo": "2603/260326_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "speedball-mf-002133"
       ],
       "notes": ""
     },
@@ -521,7 +521,7 @@ window.SITE_DATA = {
       "batch": "batch-001",
       "photo": "2603/260327_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "speedball-mf-002135"
       ],
       "notes": ""
     },
@@ -530,7 +530,7 @@ window.SITE_DATA = {
       "batch": "batch-001",
       "photo": "2603/260327_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "speedball-mf-002135"
       ],
       "notes": ""
     },
@@ -557,7 +557,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260329_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-189"
       ],
       "notes": ""
     },
@@ -566,7 +566,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260329_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-189"
       ],
       "notes": ""
     },
@@ -575,7 +575,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260330_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-190"
       ],
       "notes": ""
     },
@@ -584,7 +584,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260330_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-190"
       ],
       "notes": ""
     },
@@ -593,7 +593,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260331_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-191"
       ],
       "notes": ""
     },
@@ -602,7 +602,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260331_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-191"
       ],
       "notes": ""
     },
@@ -611,7 +611,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260332_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-192"
       ],
       "notes": ""
     },
@@ -620,7 +620,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260332_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-192"
       ],
       "notes": ""
     },
@@ -629,7 +629,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260333_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-193"
       ],
       "notes": ""
     },
@@ -638,7 +638,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260333_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-193"
       ],
       "notes": ""
     },
@@ -647,7 +647,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260334_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-194"
       ],
       "notes": ""
     },
@@ -656,7 +656,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260334_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-194"
       ],
       "notes": ""
     },
@@ -665,7 +665,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260335_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-195"
       ],
       "notes": ""
     },
@@ -674,7 +674,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260335_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-195"
       ],
       "notes": ""
     },
@@ -683,7 +683,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260336_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-196"
       ],
       "notes": ""
     },
@@ -692,7 +692,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260336_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-196"
       ],
       "notes": ""
     },
@@ -701,7 +701,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260337_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-197"
       ],
       "notes": ""
     },
@@ -710,7 +710,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260337_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-197"
       ],
       "notes": ""
     },
@@ -719,7 +719,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260338_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-198"
       ],
       "notes": ""
     },
@@ -728,7 +728,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260338_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-198"
       ],
       "notes": ""
     },
@@ -737,7 +737,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260339_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-199"
       ],
       "notes": ""
     },
@@ -746,7 +746,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260339_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-199"
       ],
       "notes": ""
     },
@@ -755,7 +755,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260340_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-214"
       ],
       "notes": ""
     },
@@ -764,7 +764,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260340_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-214"
       ],
       "notes": ""
     },
@@ -773,7 +773,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260341_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-215"
       ],
       "notes": ""
     },
@@ -782,7 +782,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260341_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-215"
       ],
       "notes": ""
     },
@@ -791,7 +791,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260342_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-216"
       ],
       "notes": ""
     },
@@ -800,7 +800,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260342_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-216"
       ],
       "notes": ""
     },
@@ -809,7 +809,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260343_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-217"
       ],
       "notes": ""
     },
@@ -818,7 +818,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260343_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-217"
       ],
       "notes": ""
     },
@@ -827,7 +827,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260344_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-218"
       ],
       "notes": ""
     },
@@ -836,7 +836,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260344_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-218"
       ],
       "notes": ""
     },
@@ -845,7 +845,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260345_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-220"
       ],
       "notes": ""
     },
@@ -854,7 +854,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260345_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-220"
       ],
       "notes": ""
     },
@@ -863,7 +863,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260346_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-221"
       ],
       "notes": ""
     },
@@ -872,7 +872,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260346_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-221"
       ],
       "notes": ""
     },
@@ -881,7 +881,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260347_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-222"
       ],
       "notes": ""
     },
@@ -890,7 +890,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260347_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-222"
       ],
       "notes": ""
     },
@@ -899,7 +899,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260348_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-224"
       ],
       "notes": ""
     },
@@ -908,7 +908,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260348_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "mayco-sw-224"
       ],
       "notes": ""
     },
@@ -917,7 +917,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260349_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "amaco-c-21"
       ],
       "notes": ""
     },
@@ -926,7 +926,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260349_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "amaco-c-21"
       ],
       "notes": ""
     },
@@ -935,7 +935,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260350_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "amaco-pc-20"
       ],
       "notes": ""
     },
@@ -944,7 +944,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260350_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "amaco-pc-20"
       ],
       "notes": ""
     },
@@ -953,7 +953,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260351_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "speedball-mf-002136"
       ],
       "notes": ""
     },
@@ -962,7 +962,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260351_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "speedball-mf-002136"
       ],
       "notes": ""
     },
@@ -971,7 +971,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260352_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "speedball-mf-002132"
       ],
       "notes": ""
     },
@@ -980,7 +980,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260352_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "speedball-mf-002132"
       ],
       "notes": ""
     },
@@ -989,7 +989,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260353_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "speedball-mf-002108"
       ],
       "notes": ""
     },
@@ -998,7 +998,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260353_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "speedball-mf-002108"
       ],
       "notes": ""
     },
@@ -1007,7 +1007,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260354_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "speedball-mf-002133"
       ],
       "notes": ""
     },
@@ -1016,7 +1016,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260354_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "speedball-mf-002133"
       ],
       "notes": ""
     },
@@ -1025,7 +1025,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260355_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "speedball-mf-002135"
       ],
       "notes": ""
     },
@@ -1034,7 +1034,7 @@ window.SITE_DATA = {
       "batch": "batch-002",
       "photo": "2603/260355_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "speedball-mf-002135"
       ],
       "notes": ""
     }
