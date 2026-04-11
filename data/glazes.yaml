@@ -252,10 +252,65 @@
 
 # ── Amaco — Potter's Choice (cone 5–6) ───────────────────────────────────────
 
-- { id: amaco-pc-01,  name: Temmoku,      brand: Amaco, product_line: "Potter's Choice", sku: PC-01, cone: [5, 6], finish: glossy, color: brown-black, notes: "Classic iron saturate, breaks to rust on edges" }
-- { id: amaco-pc-20,  name: Blue Rutile,  brand: Amaco, product_line: "Potter's Choice", sku: PC-20, cone: [5, 6], finish: glossy, color: blue, notes: "Heavy variegation, streaky blues and purples" }
-- { id: amaco-pc-61,  name: Plum,         brand: Amaco, product_line: "Potter's Choice", sku: PC-61, cone: [5, 6], finish: satin, color: purple }
-- { id: amaco-pc-62,  name: Celadon,      brand: Amaco, product_line: "Potter's Choice", sku: PC-62, cone: [5, 6], finish: glossy, color: celadon green }
+- { id: amaco-pc-01, name: Saturation Metallic,   brand: Amaco, product_line: "Potter's Choice", sku: PC-01, cone: [5, 6], finish: metallic, color: silver metallic }
+- { id: amaco-pc-02, name: Saturation Gold,        brand: Amaco, product_line: "Potter's Choice", sku: PC-02, cone: [5, 6], finish: metallic, color: gold }
+- { id: amaco-pc-04, name: Palladium,              brand: Amaco, product_line: "Potter's Choice", sku: PC-04, cone: [5, 6], finish: metallic, color: silver }
+- { id: amaco-pc-09, name: Vintage Gold,           brand: Amaco, product_line: "Potter's Choice", sku: PC-09, cone: [5, 6], finish: metallic, color: gold }
+- { id: amaco-pc-10, name: June Bug,               brand: Amaco, product_line: "Potter's Choice", sku: PC-10, cone: [5, 6], finish: glossy,   color: green iridescent }
+- { id: amaco-pc-11, name: Blue Spark,             brand: Amaco, product_line: "Potter's Choice", sku: PC-11, cone: [5, 6], finish: glossy,   color: blue }
+- { id: amaco-pc-12, name: Blue Midnight,          brand: Amaco, product_line: "Potter's Choice", sku: PC-12, cone: [5, 6], finish: satin,    color: dark blue }
+- { id: amaco-pc-13, name: Serpentine Green,       brand: Amaco, product_line: "Potter's Choice", sku: PC-13, cone: [5, 6], finish: glossy,   color: green }
+- { id: amaco-pc-14, name: Lapis Flow,             brand: Amaco, product_line: "Potter's Choice", sku: PC-14, cone: [5, 6], finish: glossy,   color: dark blue }
+- { id: amaco-pc-15, name: Satin Oribe,            brand: Amaco, product_line: "Potter's Choice", sku: PC-15, cone: [5, 6], finish: satin,    color: green }
+- { id: amaco-pc-16, name: Purple Crystal,         brand: Amaco, product_line: "Potter's Choice", sku: PC-16, cone: [5, 6], finish: satin,    color: purple }
+- { id: amaco-pc-17, name: Honey Flux,             brand: Amaco, product_line: "Potter's Choice", sku: PC-17, cone: [5, 6], finish: glossy,   color: amber }
+- { id: amaco-pc-18, name: Tuscan Blue,            brand: Amaco, product_line: "Potter's Choice", sku: PC-18, cone: [5, 6], finish: satin,    color: blue }
+- { id: amaco-pc-19, name: Moon River,             brand: Amaco, product_line: "Potter's Choice", sku: PC-19, cone: [5, 6], finish: satin,    color: blue grey }
+- { id: amaco-pc-20, name: Blue Rutile,            brand: Amaco, product_line: "Potter's Choice", sku: PC-20, cone: [5, 6], finish: glossy,   color: blue, notes: "Heavy variegation, streaky blues and purples" }
+- { id: amaco-pc-21, name: Arctic Blue,            brand: Amaco, product_line: "Potter's Choice", sku: PC-21, cone: [5, 6], finish: glossy,   color: light blue }
+- { id: amaco-pc-22, name: Blue Stone,             brand: Amaco, product_line: "Potter's Choice", sku: PC-22, cone: [5, 6], finish: satin,    color: blue grey }
+- { id: amaco-pc-23, name: Indigo Float,           brand: Amaco, product_line: "Potter's Choice", sku: PC-23, cone: [5, 6], finish: glossy,   color: dark blue }
+- { id: amaco-pc-24, name: Sapphire Float,         brand: Amaco, product_line: "Potter's Choice", sku: PC-24, cone: [5, 6], finish: glossy,   color: blue }
+- { id: amaco-pc-25, name: Textured Turquoise,     brand: Amaco, product_line: "Potter's Choice", sku: PC-25, cone: [5, 6], finish: textured, color: turquoise }
+- { id: amaco-pc-26, name: Blue Lagoon,            brand: Amaco, product_line: "Potter's Choice", sku: PC-26, cone: [5, 6], finish: glossy,   color: blue }
+- { id: amaco-pc-27, name: Tourmaline,             brand: Amaco, product_line: "Potter's Choice", sku: PC-27, cone: [5, 6], finish: glossy,   color: blue green }
+- { id: amaco-pc-28, name: Frosted Turquoise,      brand: Amaco, product_line: "Potter's Choice", sku: PC-28, cone: [5, 6], finish: satin,    color: turquoise }
+- { id: amaco-pc-29, name: Deep Olive Speckle,     brand: Amaco, product_line: "Potter's Choice", sku: PC-29, cone: [5, 6], finish: textured, color: olive }
+- { id: amaco-pc-30, name: Temmoku,                brand: Amaco, product_line: "Potter's Choice", sku: PC-30, cone: [5, 6], finish: glossy,   color: dark brown black }
+- { id: amaco-pc-31, name: Oatmeal,                brand: Amaco, product_line: "Potter's Choice", sku: PC-31, cone: [5, 6], finish: satin,    color: cream }
+- { id: amaco-pc-32, name: Albany Slip Brown,      brand: Amaco, product_line: "Potter's Choice", sku: PC-32, cone: [5, 6], finish: satin,    color: brown }
+- { id: amaco-pc-33, name: Iron Lustre,            brand: Amaco, product_line: "Potter's Choice", sku: PC-33, cone: [5, 6], finish: glossy,   color: brown }
+- { id: amaco-pc-34, name: Light Sepia,            brand: Amaco, product_line: "Potter's Choice", sku: PC-34, cone: [5, 6], finish: satin,    color: light brown }
+- { id: amaco-pc-36, name: Ironstone,              brand: Amaco, product_line: "Potter's Choice", sku: PC-36, cone: [5, 6], finish: satin,    color: brown grey }
+- { id: amaco-pc-38, name: Iron Yellow,            brand: Amaco, product_line: "Potter's Choice", sku: PC-38, cone: [5, 6], finish: glossy,   color: yellow }
+- { id: amaco-pc-40, name: True Celadon,           brand: Amaco, product_line: "Potter's Choice", sku: PC-40, cone: [5, 6], finish: glossy,   color: celadon green }
+- { id: amaco-pc-41, name: Vert Lustre,            brand: Amaco, product_line: "Potter's Choice", sku: PC-41, cone: [5, 6], finish: glossy,   color: green }
+- { id: amaco-pc-42, name: Seaweed,                brand: Amaco, product_line: "Potter's Choice", sku: PC-42, cone: [5, 6], finish: satin,    color: dark green }
+- { id: amaco-pc-43, name: Toasted Sage,           brand: Amaco, product_line: "Potter's Choice", sku: PC-43, cone: [5, 6], finish: satin,    color: sage green }
+- { id: amaco-pc-44, name: Sage,                   brand: Amaco, product_line: "Potter's Choice", sku: PC-44, cone: [5, 6], finish: satin,    color: sage green }
+- { id: amaco-pc-45, name: Dark Green,             brand: Amaco, product_line: "Potter's Choice", sku: PC-45, cone: [5, 6], finish: satin,    color: dark green }
+- { id: amaco-pc-46, name: Lustrous Jade,          brand: Amaco, product_line: "Potter's Choice", sku: PC-46, cone: [5, 6], finish: glossy,   color: jade green }
+- { id: amaco-pc-47, name: Emerald Falls,          brand: Amaco, product_line: "Potter's Choice", sku: PC-47, cone: [5, 6], finish: glossy,   color: green }
+- { id: amaco-pc-48, name: Art Deco Green,         brand: Amaco, product_line: "Potter's Choice", sku: PC-48, cone: [5, 6], finish: satin,    color: green }
+- { id: amaco-pc-49, name: Frosted Melon,          brand: Amaco, product_line: "Potter's Choice", sku: PC-49, cone: [5, 6], finish: satin,    color: peach }
+- { id: amaco-pc-52, name: Deep Sienna Speckle,    brand: Amaco, product_line: "Potter's Choice", sku: PC-52, cone: [5, 6], finish: textured, color: brown }
+- { id: amaco-pc-53, name: Ancient Jasper,         brand: Amaco, product_line: "Potter's Choice", sku: PC-53, cone: [5, 6], finish: satin,    color: brown }
+- { id: amaco-pc-55, name: Chun Plum,              brand: Amaco, product_line: "Potter's Choice", sku: PC-55, cone: [5, 6], finish: glossy,   color: purple }
+- { id: amaco-pc-56, name: Ancient Copper,         brand: Amaco, product_line: "Potter's Choice", sku: PC-56, cone: [5, 6], finish: satin,    color: copper green }
+- { id: amaco-pc-57, name: Smokey Merlot,          brand: Amaco, product_line: "Potter's Choice", sku: PC-57, cone: [5, 6], finish: satin,    color: dark purple }
+- { id: amaco-pc-59, name: Deep Firebrick,         brand: Amaco, product_line: "Potter's Choice", sku: PC-59, cone: [5, 6], finish: satin,    color: red brown }
+- { id: amaco-pc-61, name: Textured Amber,         brand: Amaco, product_line: "Potter's Choice", sku: PC-61, cone: [5, 6], finish: textured, color: amber }
+- { id: amaco-pc-62, name: Textured Amber Brown,   brand: Amaco, product_line: "Potter's Choice", sku: PC-62, cone: [5, 6], finish: textured, color: amber brown }
+- { id: amaco-pc-63, name: Cosmic Tea Dust,        brand: Amaco, product_line: "Potter's Choice", sku: PC-63, cone: [5, 6], finish: satin,    color: brown }
+- { id: amaco-pc-64, name: Aventurine,             brand: Amaco, product_line: "Potter's Choice", sku: PC-64, cone: [5, 6], finish: glossy,   color: green gold }
+- { id: amaco-pc-65, name: Black Aventurine,       brand: Amaco, product_line: "Potter's Choice", sku: PC-65, cone: [5, 6], finish: glossy,   color: black }
+- { id: amaco-pc-66, name: Cosmic Oilspot,         brand: Amaco, product_line: "Potter's Choice", sku: PC-66, cone: [5, 6], finish: glossy,   color: black }
+- { id: amaco-pc-67, name: River Rock,             brand: Amaco, product_line: "Potter's Choice", sku: PC-67, cone: [5, 6], finish: textured, color: grey brown }
+- { id: amaco-pc-68, name: Golden Honey,           brand: Amaco, product_line: "Potter's Choice", sku: PC-68, cone: [5, 6], finish: glossy,   color: gold amber }
+- { id: amaco-pc-69, name: Cosmic Gold Dust,       brand: Amaco, product_line: "Potter's Choice", sku: PC-69, cone: [5, 6], finish: glossy,   color: gold }
+- { id: amaco-pc-70, name: Copper Red,             brand: Amaco, product_line: "Potter's Choice", sku: PC-70, cone: [5, 6], finish: glossy,   color: red }
+- { id: amaco-pc-71, name: Flambe,                 brand: Amaco, product_line: "Potter's Choice", sku: PC-71, cone: [5, 6], finish: glossy,   color: red orange }
+- { id: amaco-pc-72, name: Fire & Ice,             brand: Amaco, product_line: "Potter's Choice", sku: PC-72, cone: [5, 6], finish: glossy,   color: blue white }
 
 # ── Amaco — Celadon (cone 5–6, transparent glossy) ───────────────────────────
 
@@ -356,6 +411,43 @@
 - { id: chrysanthos-gg-white,       name: White,       brand: Chrysanthos, product_line: "Glaze & Go", cone: [-6, 6], finish: glossy, color: white }
 - { id: chrysanthos-gg-black,       name: Black,       brand: Chrysanthos, product_line: "Glaze & Go", cone: [-6, 6], finish: glossy, color: black }
 - { id: chrysanthos-sig-celadon,    name: Celadon,     brand: Chrysanthos, product_line: Signature,    cone: [6],     finish: satin,  color: celadon green }
+
+# ── Chrysanthos — High Fire Exotic (cone 4–6) ────────────────────────────────
+# Metallic group (HE001–HE013)
+
+- { id: chrysanthos-he001, name: Bronze Metal,    brand: Chrysanthos, product_line: "High Fire Exotic", sku: HE001, cone: [4, 6], finish: metallic, color: bronze,    notes: "Contains lead — not food safe" }
+- { id: chrysanthos-he005, name: Gun Metal,       brand: Chrysanthos, product_line: "High Fire Exotic", sku: HE005, cone: [4, 6], finish: metallic, color: grey,      notes: "Contains lead — not food safe" }
+- { id: chrysanthos-he009, name: Bronze Metal LF, brand: Chrysanthos, product_line: "High Fire Exotic", sku: HE009, cone: [4, 6], finish: metallic, color: bronze }
+- { id: chrysanthos-he013, name: Gun Metal LF,    brand: Chrysanthos, product_line: "High Fire Exotic", sku: HE013, cone: [4, 6], finish: metallic, color: dark grey }
+
+# Variegated group (HE101–HE157)
+
+- { id: chrysanthos-he101, name: Neutral,      brand: Chrysanthos, product_line: "High Fire Exotic", sku: HE101, cone: [4, 6], finish: glossy, color: transparent }
+- { id: chrysanthos-he105, name: Honey Onyx,   brand: Chrysanthos, product_line: "High Fire Exotic", sku: HE105, cone: [4, 6], finish: glossy, color: amber }
+- { id: chrysanthos-he109, name: Orange Onyx,  brand: Chrysanthos, product_line: "High Fire Exotic", sku: HE109, cone: [4, 6], finish: glossy, color: orange }
+- { id: chrysanthos-he120, name: Jasper,       brand: Chrysanthos, product_line: "High Fire Exotic", sku: HE120, cone: [4, 6], finish: glossy, color: red brown }
+- { id: chrysanthos-he125, name: Mildew,       brand: Chrysanthos, product_line: "High Fire Exotic", sku: HE125, cone: [4, 6], finish: satin,  color: grey green }
+- { id: chrysanthos-he133, name: Green Agate,  brand: Chrysanthos, product_line: "High Fire Exotic", sku: HE133, cone: [4, 6], finish: glossy, color: green }
+- { id: chrysanthos-he135, name: Adamite,      brand: Chrysanthos, product_line: "High Fire Exotic", sku: HE135, cone: [4, 6], finish: glossy, color: green }
+- { id: chrysanthos-he143, name: Brownite,     brand: Chrysanthos, product_line: "High Fire Exotic", sku: HE143, cone: [4, 6], finish: glossy, color: brown }
+- { id: chrysanthos-he151, name: Blue Stone,   brand: Chrysanthos, product_line: "High Fire Exotic", sku: HE151, cone: [4, 6], finish: glossy, color: blue }
+- { id: chrysanthos-he152, name: Tanzanite,    brand: Chrysanthos, product_line: "High Fire Exotic", sku: HE152, cone: [4, 6], finish: glossy, color: blue purple }
+- { id: chrysanthos-he157, name: Obsidian,     brand: Chrysanthos, product_line: "High Fire Exotic", sku: HE157, cone: [4, 6], finish: glossy, color: black }
+
+# Variegated — named, codes not confirmed
+
+- { id: chrysanthos-he-yellow-onyx,    name: Yellow Onyx,    brand: Chrysanthos, product_line: "High Fire Exotic", cone: [4, 6], finish: glossy, color: yellow }
+- { id: chrysanthos-he-blue-mottle,    name: Blue Mottle,    brand: Chrysanthos, product_line: "High Fire Exotic", cone: [4, 6], finish: glossy, color: blue }
+- { id: chrysanthos-he-brown-gamite,   name: Brown Gamite,   brand: Chrysanthos, product_line: "High Fire Exotic", cone: [4, 6], finish: satin,  color: brown }
+- { id: chrysanthos-he-marble-brown,   name: Marble Brown,   brand: Chrysanthos, product_line: "High Fire Exotic", cone: [4, 6], finish: glossy, color: brown }
+- { id: chrysanthos-he-forest-rhyolite,name: Forest Rhyolite,brand: Chrysanthos, product_line: "High Fire Exotic", cone: [4, 6], finish: textured,color: green brown }
+- { id: chrysanthos-he-parchment-brown,name: Parchment Brown,brand: Chrysanthos, product_line: "High Fire Exotic", cone: [4, 6], finish: satin,  color: tan }
+- { id: chrysanthos-he-brown-garnet,   name: Brown Garnet,   brand: Chrysanthos, product_line: "High Fire Exotic", cone: [4, 6], finish: glossy, color: dark red brown }
+
+# HE301 Crackle / HE401–HE421 extended range
+
+- { id: chrysanthos-he301, name: Crackle Clear, brand: Chrysanthos, product_line: "High Fire Exotic", sku: HE301, cone: [4, 6], finish: textured, color: transparent }
+- { id: chrysanthos-he421, name: Sodalite,      brand: Chrysanthos, product_line: "High Fire Exotic", sku: HE421, cone: [4, 6], finish: glossy,   color: blue }
 
 # ── Botz — Unidekor (cone 06–9, multi-fire) ──────────────────────────────────
 

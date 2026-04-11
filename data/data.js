@@ -1052,713 +1052,11 @@ window.SITE_DATA = {
       "notes": ""
     },
     {
-      "id": "tile-250801-front",
-      "batch": "batch-003",
-      "photo": "2508/250801_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-112"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250801-back",
-      "batch": "batch-003",
-      "photo": "2508/250801_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-112"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250802-front",
-      "batch": "batch-003",
-      "photo": "2508/250802_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-189"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250802-back",
-      "batch": "batch-003",
-      "photo": "2508/250802_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-189"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250803-front",
-      "batch": "batch-003",
-      "photo": "2508/250803_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-190"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250803-back",
-      "batch": "batch-003",
-      "photo": "2508/250803_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-190"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250804-front",
-      "batch": "batch-003",
-      "photo": "2508/250804_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-191"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250804-back",
-      "batch": "batch-003",
-      "photo": "2508/250804_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-191"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250805-front",
-      "batch": "batch-003",
-      "photo": "2508/250805_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-192"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250805-back",
-      "batch": "batch-003",
-      "photo": "2508/250805_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-192"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250806-front",
-      "batch": "batch-003",
-      "photo": "2508/250806_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-193"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250806-back",
-      "batch": "batch-003",
-      "photo": "2508/250806_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-193"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250807-front",
-      "batch": "batch-003",
-      "photo": "2508/250807_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-194"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250807-back",
-      "batch": "batch-003",
-      "photo": "2508/250807_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-194"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250808-front",
-      "batch": "batch-003",
-      "photo": "2508/250808_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-195"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250808-back",
-      "batch": "batch-003",
-      "photo": "2508/250808_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-195"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250809-front",
-      "batch": "batch-003",
-      "photo": "2508/250809_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-196"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250809-back",
-      "batch": "batch-003",
-      "photo": "2508/250809_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-196"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250810-front",
-      "batch": "batch-003",
-      "photo": "2508/250810_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-197"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250810-back",
-      "batch": "batch-003",
-      "photo": "2508/250810_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-197"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250811-front",
-      "batch": "batch-003",
-      "photo": "2508/250811_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-198"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250811-back",
-      "batch": "batch-003",
-      "photo": "2508/250811_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-198"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250812-front",
-      "batch": "batch-003",
-      "photo": "2508/250812_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-199"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250812-back",
-      "batch": "batch-003",
-      "photo": "2508/250812_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-199"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250813-front",
-      "batch": "batch-003",
-      "photo": "2508/250813_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-214"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250813-back",
-      "batch": "batch-003",
-      "photo": "2508/250813_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-214"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250814-front",
-      "batch": "batch-003",
-      "photo": "2508/250814_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-215"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250814-back",
-      "batch": "batch-003",
-      "photo": "2508/250814_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-215"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250815-front",
-      "batch": "batch-003",
-      "photo": "2508/250815_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-216"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250815-back",
-      "batch": "batch-003",
-      "photo": "2508/250815_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-216"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250816-front",
-      "batch": "batch-003",
-      "photo": "2508/250816_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-217"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250816-back",
-      "batch": "batch-003",
-      "photo": "2508/250816_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-217"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250817-front",
-      "batch": "batch-003",
-      "photo": "2508/250817_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-218"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250817-back",
-      "batch": "batch-003",
-      "photo": "2508/250817_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-218"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250818-front",
-      "batch": "batch-003",
-      "photo": "2508/250818_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-220"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250818-back",
-      "batch": "batch-003",
-      "photo": "2508/250818_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-220"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250819-front",
-      "batch": "batch-003",
-      "photo": "2508/250819_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-221"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250819-back",
-      "batch": "batch-003",
-      "photo": "2508/250819_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-221"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250820-front",
-      "batch": "batch-003",
-      "photo": "2508/250820_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-222"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250820-back",
-      "batch": "batch-003",
-      "photo": "2508/250820_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-222"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250821-front",
-      "batch": "batch-003",
-      "photo": "2508/250821_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-224"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250821-back",
-      "batch": "batch-003",
-      "photo": "2508/250821_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-224"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250822-front",
-      "batch": "batch-003",
-      "photo": "2508/250822_front.jpg",
-      "glaze_combo": [
-        "amaco-c-21"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250822-back",
-      "batch": "batch-003",
-      "photo": "2508/250822_back.jpg",
-      "glaze_combo": [
-        "amaco-c-21"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250823-front",
-      "batch": "batch-003",
-      "photo": "2508/250823_front.jpg",
-      "glaze_combo": [
-        "amaco-pc-20"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250823-back",
-      "batch": "batch-003",
-      "photo": "2508/250823_back.jpg",
-      "glaze_combo": [
-        "amaco-pc-20"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250824-front",
-      "batch": "batch-003",
-      "photo": "2508/250824_front.jpg",
-      "glaze_combo": [
-        "speedball-mf-002136"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250824-back",
-      "batch": "batch-003",
-      "photo": "2508/250824_back.jpg",
-      "glaze_combo": [
-        "speedball-mf-002136"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250825-front",
-      "batch": "batch-003",
-      "photo": "2508/250825_front.jpg",
-      "glaze_combo": [
-        "speedball-mf-002132"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250825-back",
-      "batch": "batch-003",
-      "photo": "2508/250825_back.jpg",
-      "glaze_combo": [
-        "speedball-mf-002132"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250826-front",
-      "batch": "batch-003",
-      "photo": "2508/250826_front.jpg",
-      "glaze_combo": [
-        "speedball-mf-002108"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250826-back",
-      "batch": "batch-003",
-      "photo": "2508/250826_back.jpg",
-      "glaze_combo": [
-        "speedball-mf-002108"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250827-front",
-      "batch": "batch-003",
-      "photo": "2508/250827_front.jpg",
-      "glaze_combo": [
-        "speedball-mf-002133"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250827-back",
-      "batch": "batch-003",
-      "photo": "2508/250827_back.jpg",
-      "glaze_combo": [
-        "speedball-mf-002133"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250828-front",
-      "batch": "batch-003",
-      "photo": "2508/250828_front.jpg",
-      "glaze_combo": [
-        "speedball-mf-002135"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250828-back",
-      "batch": "batch-003",
-      "photo": "2508/250828_back.jpg",
-      "glaze_combo": [
-        "speedball-mf-002135"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250829-front",
-      "batch": "batch-003",
-      "photo": "2508/250829_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-112"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250829-back",
-      "batch": "batch-003",
-      "photo": "2508/250829_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-112"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250830-front",
-      "batch": "batch-003",
-      "photo": "2508/250830_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-189"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250830-back",
-      "batch": "batch-003",
-      "photo": "2508/250830_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-189"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250831-front",
-      "batch": "batch-003",
-      "photo": "2508/250831_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-190"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250831-back",
-      "batch": "batch-003",
-      "photo": "2508/250831_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-190"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250832-front",
-      "batch": "batch-003",
-      "photo": "2508/250832_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-191"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250832-back",
-      "batch": "batch-003",
-      "photo": "2508/250832_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-191"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250833-front",
-      "batch": "batch-003",
-      "photo": "2508/250833_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-192"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250833-back",
-      "batch": "batch-003",
-      "photo": "2508/250833_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-192"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250834-front",
-      "batch": "batch-003",
-      "photo": "2508/250834_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-193"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250834-back",
-      "batch": "batch-003",
-      "photo": "2508/250834_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-193"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250835-front",
-      "batch": "batch-003",
-      "photo": "2508/250835_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-194"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250835-back",
-      "batch": "batch-003",
-      "photo": "2508/250835_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-194"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250836-front",
-      "batch": "batch-003",
-      "photo": "2508/250836_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-195"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250836-back",
-      "batch": "batch-003",
-      "photo": "2508/250836_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-195"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250837-front",
-      "batch": "batch-003",
-      "photo": "2508/250837_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-196"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250837-back",
-      "batch": "batch-003",
-      "photo": "2508/250837_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-196"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250838-front",
-      "batch": "batch-003",
-      "photo": "2508/250838_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-197"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250838-back",
-      "batch": "batch-003",
-      "photo": "2508/250838_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-197"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250839-front",
-      "batch": "batch-003",
-      "photo": "2508/250839_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-198"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-250839-back",
-      "batch": "batch-003",
-      "photo": "2508/250839_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-198"
-      ],
-      "notes": ""
-    },
-    {
       "id": "tile-260240-front",
       "batch": "batch-003",
       "photo": "2602/260240_front.jpg",
       "glaze_combo": [
-        "mayco-sw-199"
+        "mayco-sw-194"
       ],
       "notes": ""
     },
@@ -1767,7 +1065,7 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260240_back.jpg",
       "glaze_combo": [
-        "mayco-sw-199"
+        "mayco-sw-512"
       ],
       "notes": ""
     },
@@ -1776,7 +1074,7 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260241_front.jpg",
       "glaze_combo": [
-        "mayco-sw-214"
+        "mayco-sw-195"
       ],
       "notes": ""
     },
@@ -1785,7 +1083,7 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260241_back.jpg",
       "glaze_combo": [
-        "mayco-sw-214"
+        "mayco-sw-511"
       ],
       "notes": ""
     },
@@ -1794,7 +1092,7 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260242_front.jpg",
       "glaze_combo": [
-        "mayco-sw-215"
+        "mayco-sw-196"
       ],
       "notes": ""
     },
@@ -1803,25 +1101,7 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260242_back.jpg",
       "glaze_combo": [
-        "mayco-sw-215"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260243-front",
-      "batch": "batch-003",
-      "photo": "2602/260243_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-216"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260243-back",
-      "batch": "batch-003",
-      "photo": "2602/260243_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-216"
+        "mayco-sw-224"
       ],
       "notes": ""
     },
@@ -1830,7 +1110,7 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260244_front.jpg",
       "glaze_combo": [
-        "mayco-sw-217"
+        "mayco-sw-197"
       ],
       "notes": ""
     },
@@ -1839,7 +1119,7 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260244_back.jpg",
       "glaze_combo": [
-        "mayco-sw-217"
+        "mayco-sw-222"
       ],
       "notes": ""
     },
@@ -1848,7 +1128,7 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260245_front.jpg",
       "glaze_combo": [
-        "mayco-sw-218"
+        "mayco-sw-198"
       ],
       "notes": ""
     },
@@ -1857,7 +1137,7 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260245_back.jpg",
       "glaze_combo": [
-        "mayco-sw-218"
+        "mayco-sw-221"
       ],
       "notes": ""
     },
@@ -1866,7 +1146,7 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260246_front.jpg",
       "glaze_combo": [
-        "mayco-sw-220"
+        "mayco-sw-199"
       ],
       "notes": ""
     },
@@ -1884,7 +1164,7 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260247_front.jpg",
       "glaze_combo": [
-        "mayco-sw-221"
+        "mayco-sw-214"
       ],
       "notes": ""
     },
@@ -1893,7 +1173,7 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260247_back.jpg",
       "glaze_combo": [
-        "mayco-sw-221"
+        "mayco-sw-219"
       ],
       "notes": ""
     },
@@ -1902,7 +1182,7 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260248_front.jpg",
       "glaze_combo": [
-        "mayco-sw-222"
+        "mayco-sw-215"
       ],
       "notes": ""
     },
@@ -1911,7 +1191,7 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260248_back.jpg",
       "glaze_combo": [
-        "mayco-sw-222"
+        "mayco-sw-218"
       ],
       "notes": ""
     },
@@ -1920,7 +1200,7 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260249_front.jpg",
       "glaze_combo": [
-        "mayco-sw-224"
+        "mayco-sw-216"
       ],
       "notes": ""
     },
@@ -1929,25 +1209,7 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260249_back.jpg",
       "glaze_combo": [
-        "mayco-sw-224"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260250-front",
-      "batch": "batch-003",
-      "photo": "2602/260250_front.jpg",
-      "glaze_combo": [
-        "amaco-c-21"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260250-back",
-      "batch": "batch-003",
-      "photo": "2602/260250_back.jpg",
-      "glaze_combo": [
-        "amaco-c-21"
+        "mayco-sw-217"
       ],
       "notes": ""
     },
@@ -1965,7 +1227,7 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260251_back.jpg",
       "glaze_combo": [
-        "amaco-pc-20"
+        "amaco-pc-64"
       ],
       "notes": ""
     },
@@ -1974,7 +1236,7 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260252_front.jpg",
       "glaze_combo": [
-        "speedball-mf-002136"
+        "chrysanthos-he-144"
       ],
       "notes": ""
     },
@@ -1983,7 +1245,7 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260252_back.jpg",
       "glaze_combo": [
-        "speedball-mf-002136"
+        "chrysanthos-he-405"
       ],
       "notes": ""
     },
@@ -1992,34 +1254,7 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260253_front.jpg",
       "glaze_combo": [
-        "speedball-mf-002132"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260253-back",
-      "batch": "batch-003",
-      "photo": "2602/260253_back.jpg",
-      "glaze_combo": [
-        "speedball-mf-002132"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260254-front",
-      "batch": "batch-003",
-      "photo": "2602/260254_front.jpg",
-      "glaze_combo": [
-        "speedball-mf-002108"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260254-back",
-      "batch": "batch-003",
-      "photo": "2602/260254_back.jpg",
-      "glaze_combo": [
-        "speedball-mf-002108"
+        "spectrum-1406"
       ],
       "notes": ""
     },
@@ -2028,7 +1263,7 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260255_front.jpg",
       "glaze_combo": [
-        "speedball-mf-002133"
+        "speedball-mf-002132"
       ],
       "notes": ""
     },
@@ -2037,7 +1272,7 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260255_back.jpg",
       "glaze_combo": [
-        "speedball-mf-002133"
+        "speedball-mf-002132"
       ],
       "notes": ""
     },
@@ -2046,7 +1281,7 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260256_front.jpg",
       "glaze_combo": [
-        "speedball-mf-002135"
+        "speedball-mf-002136"
       ],
       "notes": ""
     },
@@ -2055,7 +1290,7 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260256_back.jpg",
       "glaze_combo": [
-        "speedball-mf-002135"
+        "speedball-mf-002136"
       ],
       "notes": ""
     },
@@ -2064,7 +1299,7 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260257_front.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
+        "speedball-mf-002108"
       ],
       "notes": ""
     },
@@ -2073,25 +1308,7 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260257_back.jpg",
       "glaze_combo": [
-        "mayco-sw-112"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260258-front",
-      "batch": "batch-003",
-      "photo": "2602/260258_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-189"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260258-back",
-      "batch": "batch-003",
-      "photo": "2602/260258_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-189"
+        "speedball-mf-002108"
       ],
       "notes": ""
     },
@@ -2100,7 +1317,7 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260259_front.jpg",
       "glaze_combo": [
-        "mayco-sw-190"
+        "speedball-mf-002135"
       ],
       "notes": ""
     },
@@ -2109,7 +1326,7 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260259_back.jpg",
       "glaze_combo": [
-        "mayco-sw-190"
+        "speedball-mf-002135"
       ],
       "notes": ""
     },
@@ -2118,7 +1335,7 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260260_front.jpg",
       "glaze_combo": [
-        "mayco-sw-191"
+        "speedball-mf-002133"
       ],
       "notes": ""
     },
@@ -2127,241 +1344,7 @@ window.SITE_DATA = {
       "batch": "batch-003",
       "photo": "2602/260260_back.jpg",
       "glaze_combo": [
-        "mayco-sw-191"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260261-front",
-      "batch": "batch-003",
-      "photo": "2602/260261_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-192"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260261-back",
-      "batch": "batch-003",
-      "photo": "2602/260261_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-192"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260262-front",
-      "batch": "batch-003",
-      "photo": "2602/260262_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-193"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260262-back",
-      "batch": "batch-003",
-      "photo": "2602/260262_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-193"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260263-front",
-      "batch": "batch-003",
-      "photo": "2602/260263_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-194"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260263-back",
-      "batch": "batch-003",
-      "photo": "2602/260263_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-194"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260264-front",
-      "batch": "batch-003",
-      "photo": "2602/260264_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-195"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260264-back",
-      "batch": "batch-003",
-      "photo": "2602/260264_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-195"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260265-front",
-      "batch": "batch-003",
-      "photo": "2602/260265_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-196"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260265-back",
-      "batch": "batch-003",
-      "photo": "2602/260265_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-196"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260266-front",
-      "batch": "batch-003",
-      "photo": "2602/260266_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-197"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260266-back",
-      "batch": "batch-003",
-      "photo": "2602/260266_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-197"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260267-front",
-      "batch": "batch-003",
-      "photo": "2602/260267_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-198"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260267-back",
-      "batch": "batch-003",
-      "photo": "2602/260267_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-198"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260268-front",
-      "batch": "batch-003",
-      "photo": "2602/260268_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-199"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260268-back",
-      "batch": "batch-003",
-      "photo": "2602/260268_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-199"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260269-front",
-      "batch": "batch-003",
-      "photo": "2602/260269_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-214"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260269-back",
-      "batch": "batch-003",
-      "photo": "2602/260269_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-214"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260270-front",
-      "batch": "batch-003",
-      "photo": "2602/260270_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-215"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260270-back",
-      "batch": "batch-003",
-      "photo": "2602/260270_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-215"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260271-front",
-      "batch": "batch-003",
-      "photo": "2602/260271_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-216"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260271-back",
-      "batch": "batch-003",
-      "photo": "2602/260271_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-216"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260272-front",
-      "batch": "batch-003",
-      "photo": "2602/260272_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-217"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260272-back",
-      "batch": "batch-003",
-      "photo": "2602/260272_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-217"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260273-front",
-      "batch": "batch-003",
-      "photo": "2602/260273_front.jpg",
-      "glaze_combo": [
-        "mayco-sw-218"
-      ],
-      "notes": ""
-    },
-    {
-      "id": "tile-260273-back",
-      "batch": "batch-003",
-      "photo": "2602/260273_back.jpg",
-      "glaze_combo": [
-        "mayco-sw-218"
+        "speedball-mf-002133"
       ],
       "notes": ""
     }
@@ -5388,7 +4371,7 @@ window.SITE_DATA = {
     },
     {
       "id": "amaco-pc-01",
-      "name": "Temmoku",
+      "name": "Saturation Metallic",
       "brand": "Amaco",
       "product_line": "Potter's Choice",
       "sku": "PC-01",
@@ -5396,9 +4379,177 @@ window.SITE_DATA = {
         5,
         6
       ],
+      "finish": "metallic",
+      "color": "silver metallic"
+    },
+    {
+      "id": "amaco-pc-02",
+      "name": "Saturation Gold",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-02",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "metallic",
+      "color": "gold"
+    },
+    {
+      "id": "amaco-pc-04",
+      "name": "Palladium",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-04",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "metallic",
+      "color": "silver"
+    },
+    {
+      "id": "amaco-pc-09",
+      "name": "Vintage Gold",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-09",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "metallic",
+      "color": "gold"
+    },
+    {
+      "id": "amaco-pc-10",
+      "name": "June Bug",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-10",
+      "cone": [
+        5,
+        6
+      ],
       "finish": "glossy",
-      "color": "brown-black",
-      "notes": "Classic iron saturate, breaks to rust on edges"
+      "color": "green iridescent"
+    },
+    {
+      "id": "amaco-pc-11",
+      "name": "Blue Spark",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-11",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "amaco-pc-12",
+      "name": "Blue Midnight",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-12",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "dark blue"
+    },
+    {
+      "id": "amaco-pc-13",
+      "name": "Serpentine Green",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-13",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "amaco-pc-14",
+      "name": "Lapis Flow",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-14",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "dark blue"
+    },
+    {
+      "id": "amaco-pc-15",
+      "name": "Satin Oribe",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-15",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "green"
+    },
+    {
+      "id": "amaco-pc-16",
+      "name": "Purple Crystal",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-16",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "purple"
+    },
+    {
+      "id": "amaco-pc-17",
+      "name": "Honey Flux",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-17",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "amber"
+    },
+    {
+      "id": "amaco-pc-18",
+      "name": "Tuscan Blue",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-18",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "blue"
+    },
+    {
+      "id": "amaco-pc-19",
+      "name": "Moon River",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-19",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "blue grey"
     },
     {
       "id": "amaco-pc-20",
@@ -5415,8 +4566,424 @@ window.SITE_DATA = {
       "notes": "Heavy variegation, streaky blues and purples"
     },
     {
+      "id": "amaco-pc-21",
+      "name": "Arctic Blue",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-21",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "light blue"
+    },
+    {
+      "id": "amaco-pc-22",
+      "name": "Blue Stone",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-22",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "blue grey"
+    },
+    {
+      "id": "amaco-pc-23",
+      "name": "Indigo Float",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-23",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "dark blue"
+    },
+    {
+      "id": "amaco-pc-24",
+      "name": "Sapphire Float",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-24",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "amaco-pc-25",
+      "name": "Textured Turquoise",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-25",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "textured",
+      "color": "turquoise"
+    },
+    {
+      "id": "amaco-pc-26",
+      "name": "Blue Lagoon",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-26",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "amaco-pc-27",
+      "name": "Tourmaline",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-27",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue green"
+    },
+    {
+      "id": "amaco-pc-28",
+      "name": "Frosted Turquoise",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-28",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "turquoise"
+    },
+    {
+      "id": "amaco-pc-29",
+      "name": "Deep Olive Speckle",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-29",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "textured",
+      "color": "olive"
+    },
+    {
+      "id": "amaco-pc-30",
+      "name": "Temmoku",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-30",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "dark brown black"
+    },
+    {
+      "id": "amaco-pc-31",
+      "name": "Oatmeal",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-31",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "cream"
+    },
+    {
+      "id": "amaco-pc-32",
+      "name": "Albany Slip Brown",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-32",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "brown"
+    },
+    {
+      "id": "amaco-pc-33",
+      "name": "Iron Lustre",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-33",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "brown"
+    },
+    {
+      "id": "amaco-pc-34",
+      "name": "Light Sepia",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-34",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "light brown"
+    },
+    {
+      "id": "amaco-pc-36",
+      "name": "Ironstone",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-36",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "brown grey"
+    },
+    {
+      "id": "amaco-pc-38",
+      "name": "Iron Yellow",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-38",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "yellow"
+    },
+    {
+      "id": "amaco-pc-40",
+      "name": "True Celadon",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-40",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "celadon green"
+    },
+    {
+      "id": "amaco-pc-41",
+      "name": "Vert Lustre",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-41",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "amaco-pc-42",
+      "name": "Seaweed",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-42",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "dark green"
+    },
+    {
+      "id": "amaco-pc-43",
+      "name": "Toasted Sage",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-43",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "sage green"
+    },
+    {
+      "id": "amaco-pc-44",
+      "name": "Sage",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-44",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "sage green"
+    },
+    {
+      "id": "amaco-pc-45",
+      "name": "Dark Green",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-45",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "dark green"
+    },
+    {
+      "id": "amaco-pc-46",
+      "name": "Lustrous Jade",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-46",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "jade green"
+    },
+    {
+      "id": "amaco-pc-47",
+      "name": "Emerald Falls",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-47",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "amaco-pc-48",
+      "name": "Art Deco Green",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-48",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "green"
+    },
+    {
+      "id": "amaco-pc-49",
+      "name": "Frosted Melon",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-49",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "peach"
+    },
+    {
+      "id": "amaco-pc-52",
+      "name": "Deep Sienna Speckle",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-52",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "textured",
+      "color": "brown"
+    },
+    {
+      "id": "amaco-pc-53",
+      "name": "Ancient Jasper",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-53",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "brown"
+    },
+    {
+      "id": "amaco-pc-55",
+      "name": "Chun Plum",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-55",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "purple"
+    },
+    {
+      "id": "amaco-pc-56",
+      "name": "Ancient Copper",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-56",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "copper green"
+    },
+    {
+      "id": "amaco-pc-57",
+      "name": "Smokey Merlot",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-57",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "dark purple"
+    },
+    {
+      "id": "amaco-pc-59",
+      "name": "Deep Firebrick",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-59",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "red brown"
+    },
+    {
       "id": "amaco-pc-61",
-      "name": "Plum",
+      "name": "Textured Amber",
       "brand": "Amaco",
       "product_line": "Potter's Choice",
       "sku": "PC-61",
@@ -5424,12 +4991,12 @@ window.SITE_DATA = {
         5,
         6
       ],
-      "finish": "satin",
-      "color": "purple"
+      "finish": "textured",
+      "color": "amber"
     },
     {
       "id": "amaco-pc-62",
-      "name": "Celadon",
+      "name": "Textured Amber Brown",
       "brand": "Amaco",
       "product_line": "Potter's Choice",
       "sku": "PC-62",
@@ -5437,8 +5004,138 @@ window.SITE_DATA = {
         5,
         6
       ],
+      "finish": "textured",
+      "color": "amber brown"
+    },
+    {
+      "id": "amaco-pc-63",
+      "name": "Cosmic Tea Dust",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-63",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "brown"
+    },
+    {
+      "id": "amaco-pc-64",
+      "name": "Aventurine",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-64",
+      "cone": [
+        5,
+        6
+      ],
       "finish": "glossy",
-      "color": "celadon green"
+      "color": "green gold"
+    },
+    {
+      "id": "amaco-pc-65",
+      "name": "Black Aventurine",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-65",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "black"
+    },
+    {
+      "id": "amaco-pc-66",
+      "name": "Cosmic Oilspot",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-66",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "black"
+    },
+    {
+      "id": "amaco-pc-67",
+      "name": "River Rock",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-67",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "textured",
+      "color": "grey brown"
+    },
+    {
+      "id": "amaco-pc-68",
+      "name": "Golden Honey",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-68",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "gold amber"
+    },
+    {
+      "id": "amaco-pc-69",
+      "name": "Cosmic Gold Dust",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-69",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "gold"
+    },
+    {
+      "id": "amaco-pc-70",
+      "name": "Copper Red",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-70",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "red"
+    },
+    {
+      "id": "amaco-pc-71",
+      "name": "Flambe",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-71",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "red orange"
+    },
+    {
+      "id": "amaco-pc-72",
+      "name": "Fire & Ice",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-72",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue white"
     },
     {
       "id": "amaco-c-01",
@@ -6495,6 +6192,313 @@ window.SITE_DATA = {
       ],
       "finish": "satin",
       "color": "celadon green"
+    },
+    {
+      "id": "chrysanthos-he001",
+      "name": "Bronze Metal",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE001",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "metallic",
+      "color": "bronze",
+      "notes": "Contains lead — not food safe"
+    },
+    {
+      "id": "chrysanthos-he005",
+      "name": "Gun Metal",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE005",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "metallic",
+      "color": "grey",
+      "notes": "Contains lead — not food safe"
+    },
+    {
+      "id": "chrysanthos-he009",
+      "name": "Bronze Metal LF",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE009",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "metallic",
+      "color": "bronze"
+    },
+    {
+      "id": "chrysanthos-he013",
+      "name": "Gun Metal LF",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE013",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "metallic",
+      "color": "dark grey"
+    },
+    {
+      "id": "chrysanthos-he101",
+      "name": "Neutral",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE101",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "transparent"
+    },
+    {
+      "id": "chrysanthos-he105",
+      "name": "Honey Onyx",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE105",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "amber"
+    },
+    {
+      "id": "chrysanthos-he109",
+      "name": "Orange Onyx",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE109",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "orange"
+    },
+    {
+      "id": "chrysanthos-he120",
+      "name": "Jasper",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE120",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "red brown"
+    },
+    {
+      "id": "chrysanthos-he125",
+      "name": "Mildew",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE125",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "grey green"
+    },
+    {
+      "id": "chrysanthos-he133",
+      "name": "Green Agate",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE133",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "chrysanthos-he135",
+      "name": "Adamite",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE135",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "chrysanthos-he143",
+      "name": "Brownite",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE143",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "brown"
+    },
+    {
+      "id": "chrysanthos-he151",
+      "name": "Blue Stone",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE151",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "chrysanthos-he152",
+      "name": "Tanzanite",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE152",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue purple"
+    },
+    {
+      "id": "chrysanthos-he157",
+      "name": "Obsidian",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE157",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "black"
+    },
+    {
+      "id": "chrysanthos-he-yellow-onyx",
+      "name": "Yellow Onyx",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "yellow"
+    },
+    {
+      "id": "chrysanthos-he-blue-mottle",
+      "name": "Blue Mottle",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "chrysanthos-he-brown-gamite",
+      "name": "Brown Gamite",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "brown"
+    },
+    {
+      "id": "chrysanthos-he-marble-brown",
+      "name": "Marble Brown",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "brown"
+    },
+    {
+      "id": "chrysanthos-he-forest-rhyolite",
+      "name": "Forest Rhyolite",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "green brown"
+    },
+    {
+      "id": "chrysanthos-he-parchment-brown",
+      "name": "Parchment Brown",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "tan"
+    },
+    {
+      "id": "chrysanthos-he-brown-garnet",
+      "name": "Brown Garnet",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "dark red brown"
+    },
+    {
+      "id": "chrysanthos-he301",
+      "name": "Crackle Clear",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE301",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "transparent"
+    },
+    {
+      "id": "chrysanthos-he421",
+      "name": "Sodalite",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE421",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue"
     },
     {
       "id": "botz-4001",
