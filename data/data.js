@@ -34,784 +34,1008 @@ window.SITE_DATA = {
       "id": "tile-260300-front",
       "batch": "batch-001",
       "photo": "2603/260300_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260300-back",
       "batch": "batch-001",
       "photo": "2603/260300_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260301-front",
       "batch": "batch-001",
       "photo": "2603/260301_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-189"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260301-back",
       "batch": "batch-001",
       "photo": "2603/260301_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-189"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260302-front",
       "batch": "batch-001",
       "photo": "2603/260302_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-190"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260302-back",
       "batch": "batch-001",
       "photo": "2603/260302_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-190"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260303-front",
       "batch": "batch-001",
       "photo": "2603/260303_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-191"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260303-back",
       "batch": "batch-001",
       "photo": "2603/260303_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-191"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260304-front",
       "batch": "batch-001",
       "photo": "2603/260304_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-192"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260304-back",
       "batch": "batch-001",
       "photo": "2603/260304_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-192"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260305-front",
       "batch": "batch-001",
       "photo": "2603/260305_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-193"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260305-back",
       "batch": "batch-001",
       "photo": "2603/260305_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-193"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260306-front",
       "batch": "batch-001",
       "photo": "2603/260306_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-194"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260306-back",
       "batch": "batch-001",
       "photo": "2603/260306_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-194"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260307-front",
       "batch": "batch-001",
       "photo": "2603/260307_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-195"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260307-back",
       "batch": "batch-001",
       "photo": "2603/260307_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-195"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260308-front",
       "batch": "batch-001",
       "photo": "2603/260308_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-196"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260308-back",
       "batch": "batch-001",
       "photo": "2603/260308_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-196"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260309-front",
       "batch": "batch-001",
       "photo": "2603/260309_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-197"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260309-back",
       "batch": "batch-001",
       "photo": "2603/260309_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-197"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260310-front",
       "batch": "batch-001",
       "photo": "2603/260310_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-198"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260310-back",
       "batch": "batch-001",
       "photo": "2603/260310_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-198"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260311-front",
       "batch": "batch-001",
       "photo": "2603/260311_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-199"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260311-back",
       "batch": "batch-001",
       "photo": "2603/260311_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-199"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260312-front",
       "batch": "batch-001",
       "photo": "2603/260312_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-214"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260312-back",
       "batch": "batch-001",
       "photo": "2603/260312_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-214"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260313-front",
       "batch": "batch-001",
       "photo": "2603/260313_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-215"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260313-back",
       "batch": "batch-001",
       "photo": "2603/260313_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-215"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260314-front",
       "batch": "batch-001",
       "photo": "2603/260314_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-216"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260314-back",
       "batch": "batch-001",
       "photo": "2603/260314_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-216"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260315-front",
       "batch": "batch-001",
       "photo": "2603/260315_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-217"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260315-back",
       "batch": "batch-001",
       "photo": "2603/260315_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-217"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260316-front",
       "batch": "batch-001",
       "photo": "2603/260316_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-218"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260316-back",
       "batch": "batch-001",
       "photo": "2603/260316_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-218"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260317-front",
       "batch": "batch-001",
       "photo": "2603/260317_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-220"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260317-back",
       "batch": "batch-001",
       "photo": "2603/260317_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-220"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260318-front",
       "batch": "batch-001",
       "photo": "2603/260318_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-221"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260318-back",
       "batch": "batch-001",
       "photo": "2603/260318_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-221"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260319-front",
       "batch": "batch-001",
       "photo": "2603/260319_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-222"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260319-back",
       "batch": "batch-001",
       "photo": "2603/260319_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-222"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260320-front",
       "batch": "batch-001",
       "photo": "2603/260320_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-224"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260320-back",
       "batch": "batch-001",
       "photo": "2603/260320_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-224"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260321-front",
       "batch": "batch-001",
       "photo": "2603/260321_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260321-back",
       "batch": "batch-001",
       "photo": "2603/260321_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260322-front",
       "batch": "batch-001",
       "photo": "2603/260322_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260322-back",
       "batch": "batch-001",
       "photo": "2603/260322_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260323-front",
       "batch": "batch-001",
       "photo": "2603/260323_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260323-back",
       "batch": "batch-001",
       "photo": "2603/260323_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260324-front",
       "batch": "batch-001",
       "photo": "2603/260324_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260324-back",
       "batch": "batch-001",
       "photo": "2603/260324_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260325-front",
       "batch": "batch-001",
       "photo": "2603/260325_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260325-back",
       "batch": "batch-001",
       "photo": "2603/260325_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260326-front",
       "batch": "batch-001",
       "photo": "2603/260326_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260326-back",
       "batch": "batch-001",
       "photo": "2603/260326_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260327-front",
       "batch": "batch-001",
       "photo": "2603/260327_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260327-back",
       "batch": "batch-001",
       "photo": "2603/260327_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260328-front",
       "batch": "batch-002",
       "photo": "2603/260328_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260328-back",
       "batch": "batch-002",
       "photo": "2603/260328_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260329-front",
       "batch": "batch-002",
       "photo": "2603/260329_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260329-back",
       "batch": "batch-002",
       "photo": "2603/260329_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260330-front",
       "batch": "batch-002",
       "photo": "2603/260330_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260330-back",
       "batch": "batch-002",
       "photo": "2603/260330_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260331-front",
       "batch": "batch-002",
       "photo": "2603/260331_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260331-back",
       "batch": "batch-002",
       "photo": "2603/260331_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260332-front",
       "batch": "batch-002",
       "photo": "2603/260332_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260332-back",
       "batch": "batch-002",
       "photo": "2603/260332_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260333-front",
       "batch": "batch-002",
       "photo": "2603/260333_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260333-back",
       "batch": "batch-002",
       "photo": "2603/260333_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260334-front",
       "batch": "batch-002",
       "photo": "2603/260334_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260334-back",
       "batch": "batch-002",
       "photo": "2603/260334_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260335-front",
       "batch": "batch-002",
       "photo": "2603/260335_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260335-back",
       "batch": "batch-002",
       "photo": "2603/260335_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260336-front",
       "batch": "batch-002",
       "photo": "2603/260336_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260336-back",
       "batch": "batch-002",
       "photo": "2603/260336_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260337-front",
       "batch": "batch-002",
       "photo": "2603/260337_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260337-back",
       "batch": "batch-002",
       "photo": "2603/260337_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260338-front",
       "batch": "batch-002",
       "photo": "2603/260338_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260338-back",
       "batch": "batch-002",
       "photo": "2603/260338_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260339-front",
       "batch": "batch-002",
       "photo": "2603/260339_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260339-back",
       "batch": "batch-002",
       "photo": "2603/260339_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260340-front",
       "batch": "batch-002",
       "photo": "2603/260340_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260340-back",
       "batch": "batch-002",
       "photo": "2603/260340_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260341-front",
       "batch": "batch-002",
       "photo": "2603/260341_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260341-back",
       "batch": "batch-002",
       "photo": "2603/260341_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260342-front",
       "batch": "batch-002",
       "photo": "2603/260342_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260342-back",
       "batch": "batch-002",
       "photo": "2603/260342_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260343-front",
       "batch": "batch-002",
       "photo": "2603/260343_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260343-back",
       "batch": "batch-002",
       "photo": "2603/260343_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260344-front",
       "batch": "batch-002",
       "photo": "2603/260344_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260344-back",
       "batch": "batch-002",
       "photo": "2603/260344_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260345-front",
       "batch": "batch-002",
       "photo": "2603/260345_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260345-back",
       "batch": "batch-002",
       "photo": "2603/260345_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260346-front",
       "batch": "batch-002",
       "photo": "2603/260346_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260346-back",
       "batch": "batch-002",
       "photo": "2603/260346_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260347-front",
       "batch": "batch-002",
       "photo": "2603/260347_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260347-back",
       "batch": "batch-002",
       "photo": "2603/260347_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260348-front",
       "batch": "batch-002",
       "photo": "2603/260348_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260348-back",
       "batch": "batch-002",
       "photo": "2603/260348_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260349-front",
       "batch": "batch-002",
       "photo": "2603/260349_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260349-back",
       "batch": "batch-002",
       "photo": "2603/260349_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260350-front",
       "batch": "batch-002",
       "photo": "2603/260350_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260350-back",
       "batch": "batch-002",
       "photo": "2603/260350_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260351-front",
       "batch": "batch-002",
       "photo": "2603/260351_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260351-back",
       "batch": "batch-002",
       "photo": "2603/260351_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260352-front",
       "batch": "batch-002",
       "photo": "2603/260352_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260352-back",
       "batch": "batch-002",
       "photo": "2603/260352_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260353-front",
       "batch": "batch-002",
       "photo": "2603/260353_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260353-back",
       "batch": "batch-002",
       "photo": "2603/260353_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260354-front",
       "batch": "batch-002",
       "photo": "2603/260354_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260354-back",
       "batch": "batch-002",
       "photo": "2603/260354_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260355-front",
       "batch": "batch-002",
       "photo": "2603/260355_front.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     },
     {
       "id": "tile-260355-back",
       "batch": "batch-002",
       "photo": "2603/260355_back.jpg",
-      "glaze_combo": null,
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
       "notes": ""
     }
   ],
@@ -3888,6 +4112,435 @@ window.SITE_DATA = {
       ],
       "finish": "glossy",
       "color": "celadon green"
+    },
+    {
+      "id": "amaco-c-01",
+      "name": "Obsidian",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-01",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "black"
+    },
+    {
+      "id": "amaco-c-03",
+      "name": "Smoke",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-03",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "grey"
+    },
+    {
+      "id": "amaco-c-05",
+      "name": "Charcoal",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-05",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "dark grey"
+    },
+    {
+      "id": "amaco-c-10",
+      "name": "Snow",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-10",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "white"
+    },
+    {
+      "id": "amaco-c-11",
+      "name": "Mixing Clear",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-11",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "transparent"
+    },
+    {
+      "id": "amaco-c-19",
+      "name": "Glacier",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-19",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "pale blue"
+    },
+    {
+      "id": "amaco-c-20",
+      "name": "Cobalt",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-20",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "cobalt blue"
+    },
+    {
+      "id": "amaco-c-21",
+      "name": "Sky",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-21",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "sky blue"
+    },
+    {
+      "id": "amaco-c-22",
+      "name": "Fog",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-22",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "grey"
+    },
+    {
+      "id": "amaco-c-23",
+      "name": "Ice",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-23",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "pale blue"
+    },
+    {
+      "id": "amaco-c-24",
+      "name": "Succulent",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-24",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "amaco-c-25",
+      "name": "Downpour",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-25",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "amaco-c-26",
+      "name": "Lagoon",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-26",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "teal"
+    },
+    {
+      "id": "amaco-c-27",
+      "name": "Storm",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-27",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue grey"
+    },
+    {
+      "id": "amaco-c-29",
+      "name": "Deep Sea",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-29",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "dark teal"
+    },
+    {
+      "id": "amaco-c-32",
+      "name": "Ochre",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-32",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "ochre"
+    },
+    {
+      "id": "amaco-c-33",
+      "name": "Sandalwood",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-33",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "tan"
+    },
+    {
+      "id": "amaco-c-36",
+      "name": "Iron",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-36",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "dark brown"
+    },
+    {
+      "id": "amaco-c-40",
+      "name": "Aqua",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-40",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "aqua"
+    },
+    {
+      "id": "amaco-c-41",
+      "name": "Pear",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-41",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "yellow green"
+    },
+    {
+      "id": "amaco-c-42",
+      "name": "Saguaro",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-42",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "sage green"
+    },
+    {
+      "id": "amaco-c-43",
+      "name": "Wasabi",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-43",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "yellow green"
+    },
+    {
+      "id": "amaco-c-47",
+      "name": "Jade",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-47",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "jade green"
+    },
+    {
+      "id": "amaco-c-49",
+      "name": "Rainforest",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-49",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "dark green"
+    },
+    {
+      "id": "amaco-c-50",
+      "name": "Cherry Blossom",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-50",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "pink"
+    },
+    {
+      "id": "amaco-c-52",
+      "name": "Red Rock",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-52",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "red brown"
+    },
+    {
+      "id": "amaco-c-53",
+      "name": "Weeping Plum",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-53",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "purple"
+    },
+    {
+      "id": "amaco-c-54",
+      "name": "Snapdragon",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-54",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "orange"
+    },
+    {
+      "id": "amaco-c-55",
+      "name": "Poppy",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-55",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "red"
+    },
+    {
+      "id": "amaco-c-56",
+      "name": "Lavender",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-56",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "lavender"
+    },
+    {
+      "id": "amaco-c-57",
+      "name": "Mulberry",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-57",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "dark purple"
+    },
+    {
+      "id": "amaco-c-60",
+      "name": "Marigold",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-60",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "yellow orange"
+    },
+    {
+      "id": "amaco-c-65",
+      "name": "Tangelo",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-65",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "orange"
     },
     {
       "id": "amaco-v-361",
