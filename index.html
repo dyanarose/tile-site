@@ -7,7 +7,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
   <script src="./js/merge.js"></script>
-  <script src="./data/data.js?v=20260411112432"></script>
+  <script src="./data/data.js?v=20260411113023"></script>
 
   <style>
     [x-cloak] { display: none !important; }
@@ -146,7 +146,7 @@
           <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-3">
             <span class="text-white text-sm font-medium" x-text="tile.id"></span>
             <span class="text-stone-300 text-xs mt-0.5" x-text="tile.clay_body || '—'"></span>
-            <span class="text-stone-300 text-xs mt-0.5" x-text="tile.resolvedGlazes?.length ? tile.resolvedGlazes.map(g => g.name).join(' / ') : (tile.glaze_combo || '—')"></span>
+            <span class="text-stone-300 text-xs mt-0.5" x-text="tile.resolvedGlazes?.length ? tile.resolvedGlazes.map(g => g.brand ? `${g.brand} ${g.name}` : g.name).join(' / ') : (tile.glaze_combo || '—')"></span>
           </div>
         </div>
       </template>
