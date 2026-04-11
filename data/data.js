@@ -4008,6 +4008,1202 @@ window.SITE_DATA = {
       ],
       "finish": "satin",
       "color": "celadon green"
+    },
+    {
+      "id": "botz-4001",
+      "name": "Egg Yellow",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4001",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "yellow"
+    },
+    {
+      "id": "botz-4002",
+      "name": "Cobalt Blue",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4002",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "botz-4003",
+      "name": "Wine",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4003",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "burgundy"
+    },
+    {
+      "id": "botz-4004",
+      "name": "Black",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4004",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "black"
+    },
+    {
+      "id": "botz-4005",
+      "name": "Chrome Green",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4005",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "botz-4006",
+      "name": "Turquoise",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4006",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "turquoise"
+    },
+    {
+      "id": "botz-4007",
+      "name": "Rosewood",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4007",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "rose"
+    },
+    {
+      "id": "botz-4008",
+      "name": "Soft Grey",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4008",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "grey"
+    },
+    {
+      "id": "botz-4009",
+      "name": "White",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4009",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "white"
+    },
+    {
+      "id": "botz-4010",
+      "name": "Chestnut",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4010",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "brown"
+    },
+    {
+      "id": "botz-4011",
+      "name": "Grey",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4011",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "grey"
+    },
+    {
+      "id": "botz-4012",
+      "name": "Capri Blue",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4012",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "botz-4013",
+      "name": "Lilac",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4013",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "lilac"
+    },
+    {
+      "id": "botz-4014",
+      "name": "Plum",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4014",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "purple"
+    },
+    {
+      "id": "botz-4015",
+      "name": "Fern Green",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4015",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "botz-4016",
+      "name": "Lime Green",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4016",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "lime green"
+    },
+    {
+      "id": "botz-4017",
+      "name": "Sun Yellow",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4017",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "yellow"
+    },
+    {
+      "id": "botz-4018",
+      "name": "Salmon",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4018",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "salmon"
+    },
+    {
+      "id": "botz-4019",
+      "name": "Whiskey",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4019",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "amber"
+    },
+    {
+      "id": "botz-4020",
+      "name": "Mocha",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4020",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "brown"
+    },
+    {
+      "id": "botz-4021",
+      "name": "Blue Green",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4021",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "teal"
+    },
+    {
+      "id": "botz-4042",
+      "name": "Orange",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4042",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "orange"
+    },
+    {
+      "id": "botz-4043",
+      "name": "Sunset Red",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4043",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "red"
+    },
+    {
+      "id": "botz-4044",
+      "name": "Strong Red",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4044",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "dark red"
+    },
+    {
+      "id": "botz-9101",
+      "name": "Glossy White",
+      "brand": "Botz",
+      "product_line": "Earthenware",
+      "sku": "9101",
+      "cone": [
+        -6,
+        -3
+      ],
+      "finish": "glossy",
+      "color": "white"
+    },
+    {
+      "id": "botz-9102",
+      "name": "Glossy Transparent",
+      "brand": "Botz",
+      "product_line": "Earthenware",
+      "sku": "9102",
+      "cone": [
+        -6,
+        -3
+      ],
+      "finish": "glossy",
+      "color": "transparent"
+    },
+    {
+      "id": "botz-9103",
+      "name": "Linden Green",
+      "brand": "Botz",
+      "product_line": "Earthenware",
+      "sku": "9103",
+      "cone": [
+        -6,
+        -3
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "botz-9104",
+      "name": "Cognac",
+      "brand": "Botz",
+      "product_line": "Earthenware",
+      "sku": "9104",
+      "cone": [
+        -6,
+        -3
+      ],
+      "finish": "glossy",
+      "color": "amber"
+    },
+    {
+      "id": "botz-9105",
+      "name": "Dark Brown",
+      "brand": "Botz",
+      "product_line": "Earthenware",
+      "sku": "9105",
+      "cone": [
+        -6,
+        -3
+      ],
+      "finish": "glossy",
+      "color": "dark brown"
+    },
+    {
+      "id": "botz-9106",
+      "name": "High Gloss Transparent",
+      "brand": "Botz",
+      "product_line": "Earthenware",
+      "sku": "9106",
+      "cone": [
+        -6,
+        -3
+      ],
+      "finish": "glossy",
+      "color": "transparent"
+    },
+    {
+      "id": "botz-9107",
+      "name": "White Matt",
+      "brand": "Botz",
+      "product_line": "Earthenware",
+      "sku": "9107",
+      "cone": [
+        -6,
+        -3
+      ],
+      "finish": "matte",
+      "color": "white"
+    },
+    {
+      "id": "botz-9108",
+      "name": "Transparent Matt",
+      "brand": "Botz",
+      "product_line": "Earthenware",
+      "sku": "9108",
+      "cone": [
+        -6,
+        -3
+      ],
+      "finish": "matte",
+      "color": "transparent"
+    },
+    {
+      "id": "botz-9131",
+      "name": "White Glimmer",
+      "brand": "Botz",
+      "product_line": "Earthenware",
+      "sku": "9131",
+      "cone": [
+        -6,
+        -3
+      ],
+      "finish": "glossy",
+      "color": "white"
+    },
+    {
+      "id": "botz-9861",
+      "name": "Concrete Grey",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9861",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "matte",
+      "color": "grey"
+    },
+    {
+      "id": "botz-9862",
+      "name": "Desert Yellow",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9862",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "matte",
+      "color": "yellow"
+    },
+    {
+      "id": "botz-9863",
+      "name": "Forget-Me-Not",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9863",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "blue"
+    },
+    {
+      "id": "botz-9864",
+      "name": "Rose Rock",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9864",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "pink"
+    },
+    {
+      "id": "botz-9865",
+      "name": "Eucalyptus",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9865",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "matte",
+      "color": "green"
+    },
+    {
+      "id": "botz-9866",
+      "name": "Driftwood",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9866",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "matte",
+      "color": "brown"
+    },
+    {
+      "id": "botz-9867",
+      "name": "Patina",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9867",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "matte",
+      "color": "green"
+    },
+    {
+      "id": "botz-9868",
+      "name": "Glacier",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9868",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "white"
+    },
+    {
+      "id": "botz-9869",
+      "name": "Mountain Lake",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9869",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "blue"
+    },
+    {
+      "id": "botz-9870",
+      "name": "Transparent",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9870",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "transparent"
+    },
+    {
+      "id": "botz-9871",
+      "name": "Bright Yellow",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9871",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "yellow"
+    },
+    {
+      "id": "botz-9872",
+      "name": "Orange",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9872",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "orange"
+    },
+    {
+      "id": "botz-9873",
+      "name": "Vermilion",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9873",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "red"
+    },
+    {
+      "id": "botz-9874",
+      "name": "Ultra Marine",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9874",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "botz-9875",
+      "name": "Cactus",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9875",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "botz-9876",
+      "name": "White",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9876",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "white"
+    },
+    {
+      "id": "botz-9877",
+      "name": "Black",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9877",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "black"
+    },
+    {
+      "id": "botz-9878",
+      "name": "Clear Crackle",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9878",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "textured",
+      "color": "transparent"
+    },
+    {
+      "id": "botz-9879",
+      "name": "Bright Blue Effect",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9879",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "botz-9880",
+      "name": "Pacific",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9880",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "blue"
+    },
+    {
+      "id": "botz-9881",
+      "name": "Deep Blue",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9881",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "dark blue"
+    },
+    {
+      "id": "botz-9882",
+      "name": "Blue Grey Speckle",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9882",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "textured",
+      "color": "blue grey"
+    },
+    {
+      "id": "botz-9883",
+      "name": "Black Blue Speckle",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9883",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "textured",
+      "color": "black blue"
+    },
+    {
+      "id": "botz-9884",
+      "name": "Weasel Brown",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9884",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "brown"
+    },
+    {
+      "id": "botz-9885",
+      "name": "Tenmoku",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9885",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "dark brown"
+    },
+    {
+      "id": "botz-9886",
+      "name": "Speckle Cream",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9886",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "textured",
+      "color": "cream"
+    },
+    {
+      "id": "botz-9887",
+      "name": "Cream White",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9887",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "cream"
+    },
+    {
+      "id": "botz-9888",
+      "name": "Black Granite",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9888",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "textured",
+      "color": "black"
+    },
+    {
+      "id": "botz-9889",
+      "name": "Indigo",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9889",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "dark blue"
+    },
+    {
+      "id": "botz-9890",
+      "name": "Turquoise Granite",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9890",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "textured",
+      "color": "turquoise"
+    },
+    {
+      "id": "botz-9891",
+      "name": "Green Granite",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9891",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "textured",
+      "color": "green"
+    },
+    {
+      "id": "botz-9892",
+      "name": "Salamander",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9892",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "brown green"
+    },
+    {
+      "id": "botz-9893",
+      "name": "Basalt Grey",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9893",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "grey"
+    },
+    {
+      "id": "botz-9894",
+      "name": "Beige Granite",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9894",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "textured",
+      "color": "beige"
+    },
+    {
+      "id": "botz-9895",
+      "name": "Sand Granite",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9895",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "textured",
+      "color": "beige"
+    },
+    {
+      "id": "botz-9896",
+      "name": "Ochre Granite",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9896",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "textured",
+      "color": "ochre"
+    },
+    {
+      "id": "botz-9897",
+      "name": "Lilac Speckle",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9897",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "textured",
+      "color": "lilac"
+    },
+    {
+      "id": "botz-9898",
+      "name": "Ice Crystal",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9898",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "textured",
+      "color": "white"
+    },
+    {
+      "id": "botz-9899",
+      "name": "Travertin",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9899",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "textured",
+      "color": "beige"
+    },
+    {
+      "id": "botz-9300",
+      "name": "Transparent",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9300",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "transparent"
+    },
+    {
+      "id": "botz-9301",
+      "name": "Opal White",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9301",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "white"
+    },
+    {
+      "id": "botz-9302",
+      "name": "Agate Grey",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9302",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "grey"
+    },
+    {
+      "id": "botz-9303",
+      "name": "Citrine Yellow",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9303",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "yellow"
+    },
+    {
+      "id": "botz-9304",
+      "name": "Celadon Green",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9304",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "celadon green"
+    },
+    {
+      "id": "botz-9305",
+      "name": "Aquamarine",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9305",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "aquamarine"
+    },
+    {
+      "id": "botz-9306",
+      "name": "Sapphire Blue",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9306",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "botz-9307",
+      "name": "Pearl Pink",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9307",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "pink"
+    },
+    {
+      "id": "botz-9308",
+      "name": "Carnelian",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9308",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "orange red"
+    },
+    {
+      "id": "botz-9309",
+      "name": "Heliodor",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9309",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "golden yellow"
+    },
+    {
+      "id": "botz-9310",
+      "name": "Malachite",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9310",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "botz-9311",
+      "name": "Topaz Blue",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9311",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "botz-9312",
+      "name": "Onyx Black",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9312",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "black"
+    },
+    {
+      "id": "botz-9313",
+      "name": "Pyrit White",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9313",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "white"
+    },
+    {
+      "id": "botz-9314",
+      "name": "Smoky Quartz",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9314",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "brown grey"
+    },
+    {
+      "id": "botz-9315",
+      "name": "Larimar",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9315",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "light blue"
+    },
+    {
+      "id": "botz-9316",
+      "name": "Morganite",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9316",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "peach pink"
+    },
+    {
+      "id": "botz-9317",
+      "name": "Raw Diamond",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9317",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "clear"
+    },
+    {
+      "id": "botz-9318",
+      "name": "Calcite Yellow",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9318",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "pale yellow"
+    },
+    {
+      "id": "botz-9319",
+      "name": "Peridot",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9319",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "yellow green"
     }
   ]
 };
