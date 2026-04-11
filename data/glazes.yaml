@@ -430,19 +430,19 @@
 - { id: chrysanthos-he133, name: Green Agate,  brand: Chrysanthos, product_line: "High Fire Exotic", sku: HE133, cone: [4, 6], finish: glossy, color: green }
 - { id: chrysanthos-he135, name: Adamite,      brand: Chrysanthos, product_line: "High Fire Exotic", sku: HE135, cone: [4, 6], finish: glossy, color: green }
 - { id: chrysanthos-he143, name: Brownite,     brand: Chrysanthos, product_line: "High Fire Exotic", sku: HE143, cone: [4, 6], finish: glossy, color: brown }
+- { id: chrysanthos-he144, name: Brown Garnet, brand: Chrysanthos, product_line: "High Fire Exotic", sku: HE144, cone: [4, 6], finish: glossy, color: dark red brown }
 - { id: chrysanthos-he151, name: Blue Stone,   brand: Chrysanthos, product_line: "High Fire Exotic", sku: HE151, cone: [4, 6], finish: glossy, color: blue }
 - { id: chrysanthos-he152, name: Tanzanite,    brand: Chrysanthos, product_line: "High Fire Exotic", sku: HE152, cone: [4, 6], finish: glossy, color: blue purple }
 - { id: chrysanthos-he157, name: Obsidian,     brand: Chrysanthos, product_line: "High Fire Exotic", sku: HE157, cone: [4, 6], finish: glossy, color: black }
+- { id: chrysanthos-he405, name: Blue Mottle,  brand: Chrysanthos, product_line: "High Fire Exotic", sku: HE405, cone: [4, 6], finish: glossy, color: blue }
 
 # Variegated — named, codes not confirmed
 
 - { id: chrysanthos-he-yellow-onyx,    name: Yellow Onyx,    brand: Chrysanthos, product_line: "High Fire Exotic", cone: [4, 6], finish: glossy, color: yellow }
-- { id: chrysanthos-he-blue-mottle,    name: Blue Mottle,    brand: Chrysanthos, product_line: "High Fire Exotic", cone: [4, 6], finish: glossy, color: blue }
 - { id: chrysanthos-he-brown-gamite,   name: Brown Gamite,   brand: Chrysanthos, product_line: "High Fire Exotic", cone: [4, 6], finish: satin,  color: brown }
 - { id: chrysanthos-he-marble-brown,   name: Marble Brown,   brand: Chrysanthos, product_line: "High Fire Exotic", cone: [4, 6], finish: glossy, color: brown }
 - { id: chrysanthos-he-forest-rhyolite,name: Forest Rhyolite,brand: Chrysanthos, product_line: "High Fire Exotic", cone: [4, 6], finish: textured,color: green brown }
 - { id: chrysanthos-he-parchment-brown,name: Parchment Brown,brand: Chrysanthos, product_line: "High Fire Exotic", cone: [4, 6], finish: satin,  color: tan }
-- { id: chrysanthos-he-brown-garnet,   name: Brown Garnet,   brand: Chrysanthos, product_line: "High Fire Exotic", cone: [4, 6], finish: glossy, color: dark red brown }
 
 # HE301 Crackle / HE401–HE421 extended range
 
@@ -552,3 +552,148 @@
 - { id: botz-9317, name: Raw Diamond,    brand: Botz, product_line: "Botz PRO", sku: "9317", cone: [-6, 10], finish: glossy, color: clear }
 - { id: botz-9318, name: Calcite Yellow, brand: Botz, product_line: "Botz PRO", sku: "9318", cone: [-6, 10], finish: glossy, color: pale yellow }
 - { id: botz-9319, name: Peridot,        brand: Botz, product_line: "Botz PRO", sku: "9319", cone: [-6, 10], finish: glossy, color: yellow green }
+
+# ── Spectrum — 1100 Series Opaque Gloss (cone 4-6) ───────────────────────────
+
+- { id: spectrum-1100, name: Transparent,            brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1100", cone: [4, 6], finish: glossy,   color: transparent }
+- { id: spectrum-1102, name: Wedgwood,               brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1102", cone: [4, 6], finish: glossy,   color: blue }
+- { id: spectrum-1103, name: Dusty Rose,             brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1103", cone: [4, 6], finish: glossy,   color: pink }
+- { id: spectrum-1104, name: Grass Green,            brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1104", cone: [4, 6], finish: glossy,   color: green }
+- { id: spectrum-1106, name: Crimson,                brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1106", cone: [4, 6], finish: glossy,   color: red }
+- { id: spectrum-1107, name: Black,                  brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1107", cone: [4, 6], finish: glossy,   color: black }
+- { id: spectrum-1108, name: Butter Yellow,          brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1108", cone: [4, 6], finish: glossy,   color: yellow }
+- { id: spectrum-1109, name: Coral,                  brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1109", cone: [4, 6], finish: glossy,   color: coral }
+- { id: spectrum-1110, name: Turquoise,              brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1110", cone: [4, 6], finish: glossy,   color: turquoise }
+- { id: spectrum-1111, name: Holly Green,            brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1111", cone: [4, 6], finish: glossy,   color: green }
+- { id: spectrum-1112, name: Gold,                   brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1112", cone: [4, 6], finish: glossy,   color: gold }
+- { id: spectrum-1113, name: Milk & Honey,           brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1113", cone: [4, 6], finish: glossy,   color: cream }
+- { id: spectrum-1114, name: Gold Rain,              brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1114", cone: [4, 6], finish: glossy,   color: gold }
+- { id: spectrum-1115, name: Moonscape,              brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1115", cone: [4, 6], finish: textured, color: grey }
+- { id: spectrum-1116, name: Mirror,                 brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1116", cone: [4, 6], finish: glossy,   color: metallic }
+- { id: spectrum-1117, name: Texture Chocolate,      brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1117", cone: [4, 6], finish: textured, color: brown }
+- { id: spectrum-1118, name: White,                  brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1118", cone: [4, 6], finish: glossy,   color: white }
+- { id: spectrum-1120, name: Satin Clear,            brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1120", cone: [4, 6], finish: satin,    color: transparent }
+- { id: spectrum-1121, name: Satin White,            brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1121", cone: [4, 6], finish: satin,    color: white }
+- { id: spectrum-1122, name: Satin Mottle,           brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1122", cone: [4, 6], finish: satin,    color: mottled }
+- { id: spectrum-1123, name: Satin Speckle,          brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1123", cone: [4, 6], finish: satin,    color: speckled }
+- { id: spectrum-1124, name: Satin Wedgewood,        brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1124", cone: [4, 6], finish: satin,    color: blue }
+- { id: spectrum-1126, name: Satin Black,            brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1126", cone: [4, 6], finish: satin,    color: black }
+- { id: spectrum-1127, name: Satin Turquoise,        brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1127", cone: [4, 6], finish: satin,    color: turquoise }
+- { id: spectrum-1129, name: Texture Oasis,          brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1129", cone: [4, 6], finish: textured, color: green }
+- { id: spectrum-1131, name: Charcoal,               brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1131", cone: [4, 6], finish: glossy,   color: dark grey }
+- { id: spectrum-1132, name: Purple,                 brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1132", cone: [4, 6], finish: glossy,   color: purple }
+- { id: spectrum-1134, name: Chocolate Brown,        brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1134", cone: [4, 6], finish: glossy,   color: brown }
+- { id: spectrum-1135, name: Navy Blue,              brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1135", cone: [4, 6], finish: glossy,   color: dark blue }
+- { id: spectrum-1136, name: Royal Blue,             brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1136", cone: [4, 6], finish: glossy,   color: blue }
+- { id: spectrum-1137, name: Teal Blue,              brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1137", cone: [4, 6], finish: glossy,   color: teal }
+- { id: spectrum-1138, name: Lime Green,             brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1138", cone: [4, 6], finish: glossy,   color: lime }
+- { id: spectrum-1139, name: Chrome Green,           brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1139", cone: [4, 6], finish: glossy,   color: green }
+- { id: spectrum-1140, name: Texture Kiwi,           brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1140", cone: [4, 6], finish: textured, color: green }
+- { id: spectrum-1141, name: Texture Cascade,        brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1141", cone: [4, 6], finish: textured, color: blue }
+- { id: spectrum-1142, name: Texture Wheat,          brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1142", cone: [4, 6], finish: textured, color: tan }
+- { id: spectrum-1143, name: Texture Navy,           brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1143", cone: [4, 6], finish: textured, color: dark blue }
+- { id: spectrum-1144, name: Texture Mottle,         brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1144", cone: [4, 6], finish: textured, color: mottled }
+- { id: spectrum-1145, name: Texture Autumn,         brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1145", cone: [4, 6], finish: textured, color: orange brown }
+- { id: spectrum-1146, name: Texture Swampy,         brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1146", cone: [4, 6], finish: textured, color: green brown }
+- { id: spectrum-1148, name: Texture Chowder,        brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1148", cone: [4, 6], finish: textured, color: cream }
+- { id: spectrum-1149, name: Oceanic Blue,           brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1149", cone: [4, 6], finish: glossy,   color: blue }
+- { id: spectrum-1151, name: Fuschia,                brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1151", cone: [4, 6], finish: glossy,   color: pink }
+- { id: spectrum-1152, name: Texture Chrome,         brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1152", cone: [4, 6], finish: textured, color: silver }
+- { id: spectrum-1153, name: Texture Cobalt,         brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1153", cone: [4, 6], finish: textured, color: dark blue }
+- { id: spectrum-1154, name: Texture Iron,           brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1154", cone: [4, 6], finish: textured, color: dark brown }
+- { id: spectrum-1155, name: Pebble Stone,           brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1155", cone: [4, 6], finish: textured, color: grey }
+- { id: spectrum-1156, name: Olive Stone,            brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1156", cone: [4, 6], finish: textured, color: olive }
+- { id: spectrum-1157, name: Texture Honey,          brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1157", cone: [4, 6], finish: textured, color: amber }
+- { id: spectrum-1158, name: Texture Bronze,         brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1158", cone: [4, 6], finish: textured, color: bronze }
+- { id: spectrum-1159, name: Green Stone,            brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1159", cone: [4, 6], finish: textured, color: green }
+- { id: spectrum-1161, name: Texture Topaz,          brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1161", cone: [4, 6], finish: textured, color: amber blue }
+- { id: spectrum-1162, name: Texture Burgundy,       brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1162", cone: [4, 6], finish: textured, color: dark red }
+- { id: spectrum-1164, name: Dark Red,               brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1164", cone: [4, 6], finish: glossy,   color: dark red }
+- { id: spectrum-1165, name: Bright Red,             brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1165", cone: [4, 6], finish: glossy,   color: red }
+- { id: spectrum-1166, name: Bright Orange,          brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1166", cone: [4, 6], finish: glossy,   color: orange }
+- { id: spectrum-1167, name: Bright Green,           brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1167", cone: [4, 6], finish: glossy,   color: green }
+- { id: spectrum-1168, name: Bright Purple,          brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1168", cone: [4, 6], finish: glossy,   color: purple }
+- { id: spectrum-1169, name: Dark Purple,            brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1169", cone: [4, 6], finish: glossy,   color: dark purple }
+- { id: spectrum-1170, name: Texture Mulberry,       brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1170", cone: [4, 6], finish: textured, color: purple red }
+- { id: spectrum-1171, name: Texture Plum,           brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1171", cone: [4, 6], finish: textured, color: plum }
+- { id: spectrum-1172, name: Texture Leopard,        brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1172", cone: [4, 6], finish: textured, color: brown spotted }
+- { id: spectrum-1173, name: Running Hot Chowder,    brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1173", cone: [4, 6], finish: textured, color: cream }
+- { id: spectrum-1174, name: Texture Rusty Scales,   brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1174", cone: [4, 6], finish: textured, color: rust }
+- { id: spectrum-1175, name: Texture Dark Ripple,    brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1175", cone: [4, 6], finish: textured, color: dark }
+- { id: spectrum-1176, name: Texture Cinnamon Ripple, brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1176", cone: [4, 6], finish: textured, color: cinnamon }
+- { id: spectrum-1177, name: Antique Mottle,         brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1177", cone: [4, 6], finish: textured, color: mottled }
+- { id: spectrum-1180, name: Lagoon,                 brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1180", cone: [4, 6], finish: glossy,   color: teal }
+- { id: spectrum-1181, name: Texture Cloud Burst,    brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1181", cone: [4, 6], finish: textured, color: blue white }
+- { id: spectrum-1182, name: Texture Jungle,         brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1182", cone: [4, 6], finish: textured, color: green }
+- { id: spectrum-1183, name: Texture Dark Cloud,     brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1183", cone: [4, 6], finish: textured, color: dark grey }
+- { id: spectrum-1184, name: Hunter Green,           brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1184", cone: [4, 6], finish: glossy,   color: dark green }
+- { id: spectrum-1185, name: Forest Green,           brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1185", cone: [4, 6], finish: glossy,   color: green }
+- { id: spectrum-1186, name: Soft Pink,              brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1186", cone: [4, 6], finish: glossy,   color: pink }
+- { id: spectrum-1187, name: Clear Crackle,          brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1187", cone: [4, 6], finish: textured, color: transparent }
+- { id: spectrum-1188, name: Pewter,                 brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1188", cone: [4, 6], finish: glossy,   color: grey }
+- { id: spectrum-1191, name: Muddy Waters,           brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1191", cone: [4, 6], finish: glossy,   color: brown }
+- { id: spectrum-1192, name: Reactive Purple,        brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1192", cone: [4, 6], finish: glossy,   color: purple }
+- { id: spectrum-1193, name: Fire Engine Red,        brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1193", cone: [4, 6], finish: glossy,   color: red }
+- { id: spectrum-1194, name: Christmas Red,          brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1194", cone: [4, 6], finish: glossy,   color: red }
+- { id: spectrum-1195, name: Neon Orange,            brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1195", cone: [4, 6], finish: glossy,   color: orange }
+- { id: spectrum-1196, name: Hot Pink,               brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1196", cone: [4, 6], finish: glossy,   color: pink }
+- { id: spectrum-1197, name: Reactive Red,           brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1197", cone: [4, 6], finish: glossy,   color: red }
+- { id: spectrum-1198, name: Oil Spot,               brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1198", cone: [4, 6], finish: glossy,   color: iridescent }
+- { id: spectrum-1199, name: Texture Mossy,          brand: Spectrum, product_line: "1100 Opaque Gloss", sku: "1199", cone: [4, 6], finish: textured, color: green }
+
+# ── Spectrum — 1400 Series Shino (cone 4-6) ──────────────────────────────────
+
+- { id: spectrum-1401, name: Cherry Salmon,  brand: Spectrum, product_line: "1400 Shino", sku: "1401", cone: [4, 6], finish: satin, color: salmon pink }
+- { id: spectrum-1402, name: Saffron,        brand: Spectrum, product_line: "1400 Shino", sku: "1402", cone: [4, 6], finish: satin, color: yellow orange }
+- { id: spectrum-1403, name: Citron,         brand: Spectrum, product_line: "1400 Shino", sku: "1403", cone: [4, 6], finish: satin, color: yellow green }
+- { id: spectrum-1404, name: Wasabi,         brand: Spectrum, product_line: "1400 Shino", sku: "1404", cone: [4, 6], finish: satin, color: green }
+- { id: spectrum-1405, name: Blue Oyster,    brand: Spectrum, product_line: "1400 Shino", sku: "1405", cone: [4, 6], finish: satin, color: blue grey }
+- { id: spectrum-1406, name: Ahi,            brand: Spectrum, product_line: "1400 Shino", sku: "1406", cone: [4, 6], finish: satin, color: blue }
+- { id: spectrum-1407, name: Aubergine,      brand: Spectrum, product_line: "1400 Shino", sku: "1407", cone: [4, 6], finish: satin, color: purple }
+- { id: spectrum-1408, name: Jalapeno,       brand: Spectrum, product_line: "1400 Shino", sku: "1408", cone: [4, 6], finish: satin, color: green }
+- { id: spectrum-1409, name: Guacamole,      brand: Spectrum, product_line: "1400 Shino", sku: "1409", cone: [4, 6], finish: satin, color: olive green }
+- { id: spectrum-1410, name: Miso,           brand: Spectrum, product_line: "1400 Shino", sku: "1410", cone: [4, 6], finish: satin, color: tan }
+- { id: spectrum-1411, name: Nutmeg,         brand: Spectrum, product_line: "1400 Shino", sku: "1411", cone: [4, 6], finish: satin, color: brown }
+- { id: spectrum-1412, name: Charcoal,       brand: Spectrum, product_line: "1400 Shino", sku: "1412", cone: [4, 6], finish: satin, color: dark grey }
+
+# ── Spectrum — 1430 Series Floating (cone 4-6) ───────────────────────────────
+
+- { id: spectrum-1431, name: Pearl White,         brand: Spectrum, product_line: "1430 Floating", sku: "1431", cone: [4, 6], finish: satin, color: white }
+- { id: spectrum-1432, name: Curry,               brand: Spectrum, product_line: "1430 Floating", sku: "1432", cone: [4, 6], finish: satin, color: yellow }
+- { id: spectrum-1433, name: Twilight,            brand: Spectrum, product_line: "1430 Floating", sku: "1433", cone: [4, 6], finish: satin, color: purple blue }
+- { id: spectrum-1434, name: Autumn Purple,       brand: Spectrum, product_line: "1430 Floating", sku: "1434", cone: [4, 6], finish: satin, color: purple }
+- { id: spectrum-1435, name: Sangria,             brand: Spectrum, product_line: "1430 Floating", sku: "1435", cone: [4, 6], finish: satin, color: dark red }
+- { id: spectrum-1436, name: Kim Chi,             brand: Spectrum, product_line: "1430 Floating", sku: "1436", cone: [4, 6], finish: satin, color: orange red }
+- { id: spectrum-1437, name: Floating Celadon,    brand: Spectrum, product_line: "1430 Floating", sku: "1437", cone: [4, 6], finish: satin, color: celadon }
+- { id: spectrum-1438, name: Cactus,              brand: Spectrum, product_line: "1430 Floating", sku: "1438", cone: [4, 6], finish: satin, color: green }
+- { id: spectrum-1439, name: Nori Green,          brand: Spectrum, product_line: "1430 Floating", sku: "1439", cone: [4, 6], finish: satin, color: dark green }
+- { id: spectrum-1440, name: Floating Blue,       brand: Spectrum, product_line: "1430 Floating", sku: "1440", cone: [4, 6], finish: satin, color: blue }
+- { id: spectrum-1441, name: Scandinavian Blue,   brand: Spectrum, product_line: "1430 Floating", sku: "1441", cone: [4, 6], finish: satin, color: blue }
+- { id: spectrum-1442, name: Glacier,             brand: Spectrum, product_line: "1430 Floating", sku: "1442", cone: [4, 6], finish: satin, color: light blue }
+- { id: spectrum-1443, name: Fuzzy Peach,         brand: Spectrum, product_line: "1430 Floating", sku: "1443", cone: [4, 6], finish: satin, color: peach }
+- { id: spectrum-1444, name: Tiger's Eye,         brand: Spectrum, product_line: "1430 Floating", sku: "1444", cone: [4, 6], finish: satin, color: amber brown }
+- { id: spectrum-1445, name: Papaya,              brand: Spectrum, product_line: "1430 Floating", sku: "1445", cone: [4, 6], finish: satin, color: orange }
+- { id: spectrum-1446, name: Sunrise,             brand: Spectrum, product_line: "1430 Floating", sku: "1446", cone: [4, 6], finish: satin, color: orange yellow }
+- { id: spectrum-1447, name: Bougainvillea,       brand: Spectrum, product_line: "1430 Floating", sku: "1447", cone: [4, 6], finish: satin, color: magenta }
+- { id: spectrum-1448, name: Shallot,             brand: Spectrum, product_line: "1430 Floating", sku: "1448", cone: [4, 6], finish: satin, color: purple pink }
+- { id: spectrum-1449, name: Floating Turquoise,  brand: Spectrum, product_line: "1430 Floating", sku: "1449", cone: [4, 6], finish: satin, color: turquoise }
+- { id: spectrum-1450, name: Morning Glory,       brand: Spectrum, product_line: "1430 Floating", sku: "1450", cone: [4, 6], finish: satin, color: blue purple }
+- { id: spectrum-1451, name: Louisiana Bayou,     brand: Spectrum, product_line: "1430 Floating", sku: "1451", cone: [4, 6], finish: satin, color: murky green }
+- { id: spectrum-1452, name: Spanish Moss,        brand: Spectrum, product_line: "1430 Floating", sku: "1452", cone: [4, 6], finish: satin, color: grey green }
+- { id: spectrum-1453, name: Ginger,              brand: Spectrum, product_line: "1430 Floating", sku: "1453", cone: [4, 6], finish: satin, color: amber }
+- { id: spectrum-1454, name: Tapenade,            brand: Spectrum, product_line: "1430 Floating", sku: "1454", cone: [4, 6], finish: satin, color: olive brown }
+
+# ── Spectrum — 1460 Series Celadon (cone 4-6) ────────────────────────────────
+
+- { id: spectrum-1461, name: Onyx,          brand: Spectrum, product_line: "1460 Celadon", sku: "1461", cone: [4, 6], finish: satin, color: black }
+- { id: spectrum-1462, name: Rainy Day,     brand: Spectrum, product_line: "1460 Celadon", sku: "1462", cone: [4, 6], finish: satin, color: grey }
+- { id: spectrum-1463, name: Cerulean,      brand: Spectrum, product_line: "1460 Celadon", sku: "1463", cone: [4, 6], finish: satin, color: blue }
+- { id: spectrum-1464, name: Moroccan Blue, brand: Spectrum, product_line: "1460 Celadon", sku: "1464", cone: [4, 6], finish: satin, color: dark blue }
+- { id: spectrum-1465, name: Light Celadon, brand: Spectrum, product_line: "1460 Celadon", sku: "1465", cone: [4, 6], finish: satin, color: light celadon }
+- { id: spectrum-1466, name: Celadon,       brand: Spectrum, product_line: "1460 Celadon", sku: "1466", cone: [4, 6], finish: satin, color: celadon }
+- { id: spectrum-1467, name: Spring Green,  brand: Spectrum, product_line: "1460 Celadon", sku: "1467", cone: [4, 6], finish: satin, color: light green }
+- { id: spectrum-1468, name: Bottle Green,  brand: Spectrum, product_line: "1460 Celadon", sku: "1468", cone: [4, 6], finish: satin, color: dark green }
+- { id: spectrum-1469, name: Mimosa,        brand: Spectrum, product_line: "1460 Celadon", sku: "1469", cone: [4, 6], finish: satin, color: yellow }
+- { id: spectrum-1470, name: Cranberry,     brand: Spectrum, product_line: "1460 Celadon", sku: "1470", cone: [4, 6], finish: satin, color: dark red }
+- { id: spectrum-1471, name: Orchid,        brand: Spectrum, product_line: "1460 Celadon", sku: "1471", cone: [4, 6], finish: satin, color: purple pink }
+- { id: spectrum-1472, name: Watermelon,    brand: Spectrum, product_line: "1460 Celadon", sku: "1472", cone: [4, 6], finish: satin, color: pink red }
