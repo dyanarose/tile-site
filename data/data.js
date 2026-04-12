@@ -40,6 +40,19 @@ window.SITE_DATA = {
         "oxidation",
         "stoneware"
       ]
+    },
+    {
+      "id": "batch-004",
+      "date": "2026-03-14",
+      "clay_body": "Valentine Earthstone ES-10",
+      "cone": 6,
+      "atmosphere": "oxidation",
+      "notes": "",
+      "tags": [
+        "mid-fire",
+        "oxidation",
+        "stoneware"
+      ]
     }
   ],
   "tiles": [
@@ -1354,6 +1367,981 @@ window.SITE_DATA = {
       "photo": "2602/260260_back.jpg",
       "glaze_combo": [
         "speedball-mf-002133"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250801-front",
+      "batch": "batch-004",
+      "photo": "2508/250801_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-190",
+        "mayco-sw-198"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250801-back",
+      "batch": "batch-004",
+      "photo": "2508/250801_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-190"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250802-front",
+      "batch": "batch-004",
+      "photo": "2508/250802_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-191",
+        "mayco-sw-194"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250802-back",
+      "batch": "batch-004",
+      "photo": "2508/250802_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-190",
+        "mayco-sw-191"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250803-front",
+      "batch": "batch-004",
+      "photo": "2508/250803_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-192",
+        "mayco-sw-194"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250803-back",
+      "batch": "batch-004",
+      "photo": "2508/250803_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-190",
+        "mayco-sw-192"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250804-front",
+      "batch": "batch-004",
+      "photo": "2508/250804_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-193",
+        "mayco-sw-194"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250804-back",
+      "batch": "batch-004",
+      "photo": "2508/250804_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-190",
+        "mayco-sw-193"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250805-front",
+      "batch": "batch-004",
+      "photo": "2508/250805_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-194"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250805-back",
+      "batch": "batch-004",
+      "photo": "2508/250805_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-190",
+        "mayco-sw-194"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250806-front",
+      "batch": "batch-004",
+      "photo": "2508/250806_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-195",
+        "mayco-sw-194"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250806-back",
+      "batch": "batch-004",
+      "photo": "2508/250806_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-190",
+        "mayco-sw-195"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250807-front",
+      "batch": "batch-004",
+      "photo": "2508/250807_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-196",
+        "mayco-sw-194"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250807-back",
+      "batch": "batch-004",
+      "photo": "2508/250807_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-190",
+        "mayco-sw-196"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250808-front",
+      "batch": "batch-004",
+      "photo": "2508/250808_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-197",
+        "mayco-sw-194"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250808-back",
+      "batch": "batch-004",
+      "photo": "2508/250808_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-190",
+        "mayco-sw-197"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250809-front",
+      "batch": "batch-004",
+      "photo": "2508/250809_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-198",
+        "mayco-sw-194"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250809-back",
+      "batch": "batch-004",
+      "photo": "2508/250809_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-190",
+        "mayco-sw-198"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250810-front",
+      "batch": "batch-004",
+      "photo": "2508/250810_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-190",
+        "mayco-sw-195"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250810-back",
+      "batch": "batch-004",
+      "photo": "2508/250810_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-191",
+        "mayco-sw-190"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250811-front",
+      "batch": "batch-004",
+      "photo": "2508/250811_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-512"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250811-back",
+      "batch": "batch-004",
+      "photo": "2508/250811_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-191"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250812-front",
+      "batch": "batch-004",
+      "photo": "2508/250812_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-192",
+        "mayco-sw-195"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250812-back",
+      "batch": "batch-004",
+      "photo": "2508/250812_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-191",
+        "mayco-sw-192"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250814-front",
+      "batch": "batch-004",
+      "photo": "2508/250814_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-194",
+        "mayco-sw-195"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250814-back",
+      "batch": "batch-004",
+      "photo": "2508/250814_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-191",
+        "mayco-sw-194"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250815-front",
+      "batch": "batch-004",
+      "photo": "2508/250815_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-195"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250815-back",
+      "batch": "batch-004",
+      "photo": "2508/250815_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-191",
+        "mayco-sw-195"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250816-front",
+      "batch": "batch-004",
+      "photo": "2508/250816_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-196",
+        "mayco-sw-195"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250816-back",
+      "batch": "batch-004",
+      "photo": "2508/250816_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-191",
+        "mayco-sw-196"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250817-front",
+      "batch": "batch-004",
+      "photo": "2508/250817_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-197",
+        "mayco-sw-195"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250817-back",
+      "batch": "batch-004",
+      "photo": "2508/250817_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-191",
+        "mayco-sw-197"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250818-front",
+      "batch": "batch-004",
+      "photo": "2508/250818_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-198",
+        "mayco-sw-195"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250818-back",
+      "batch": "batch-004",
+      "photo": "2508/250818_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-191",
+        "mayco-sw-198"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250819-front",
+      "batch": "batch-004",
+      "photo": "2508/250819_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-190",
+        "mayco-sw-196"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250819-back",
+      "batch": "batch-004",
+      "photo": "2508/250819_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-192",
+        "mayco-sw-190"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250820-front",
+      "batch": "batch-004",
+      "photo": "2508/250820_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-191",
+        "mayco-sw-196"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250820-back",
+      "batch": "batch-004",
+      "photo": "2508/250820_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-192",
+        "mayco-sw-191"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250821-front",
+      "batch": "batch-004",
+      "photo": "2508/250821_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-513"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250821-back",
+      "batch": "batch-004",
+      "photo": "2508/250821_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-192"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250822-front",
+      "batch": "batch-004",
+      "photo": "2508/250822_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-193",
+        "mayco-sw-196"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250822-back",
+      "batch": "batch-004",
+      "photo": "2508/250822_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-192",
+        "mayco-sw-193"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250823-front",
+      "batch": "batch-004",
+      "photo": "2508/250823_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-194",
+        "mayco-sw-196"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250823-back",
+      "batch": "batch-004",
+      "photo": "2508/250823_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-192",
+        "mayco-sw-194"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250824-front",
+      "batch": "batch-004",
+      "photo": "2508/250824_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-195",
+        "mayco-sw-196"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250824-back",
+      "batch": "batch-004",
+      "photo": "2508/250824_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-192",
+        "mayco-sw-195"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250825-front",
+      "batch": "batch-004",
+      "photo": "2508/250825_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-196"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250825-back",
+      "batch": "batch-004",
+      "photo": "2508/250825_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-192",
+        "mayco-sw-196"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250826-front",
+      "batch": "batch-004",
+      "photo": "2508/250826_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-197",
+        "mayco-sw-196"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250826-back",
+      "batch": "batch-004",
+      "photo": "2508/250826_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-192",
+        "mayco-sw-197"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250827-front",
+      "batch": "batch-004",
+      "photo": "2508/250827_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-198",
+        "mayco-sw-196"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250827-back",
+      "batch": "batch-004",
+      "photo": "2508/250827_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-192",
+        "mayco-sw-198"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250828-front",
+      "batch": "batch-004",
+      "photo": "2508/250828_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-190",
+        "mayco-sw-197"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250828-back",
+      "batch": "batch-004",
+      "photo": "2508/250828_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-193",
+        "mayco-sw-190"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250829-front",
+      "batch": "batch-004",
+      "photo": "2508/250829_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-191",
+        "mayco-sw-197"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250829-back",
+      "batch": "batch-004",
+      "photo": "2508/250829_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-193",
+        "mayco-sw-191"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250830-front",
+      "batch": "batch-004",
+      "photo": "2508/250830_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-192",
+        "mayco-sw-197"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250830-back",
+      "batch": "batch-004",
+      "photo": "2508/250830_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-193",
+        "mayco-sw-192"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250831-front",
+      "batch": "batch-004",
+      "photo": "2508/250831_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-193",
+        "mayco-sw-197"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250831-back",
+      "batch": "batch-004",
+      "photo": "2508/250831_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-193"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250832-front",
+      "batch": "batch-004",
+      "photo": "2508/250832_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-194",
+        "mayco-sw-197"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250832-back",
+      "batch": "batch-004",
+      "photo": "2508/250832_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-193",
+        "mayco-sw-194"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250833-front",
+      "batch": "batch-004",
+      "photo": "2508/250833_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-195",
+        "mayco-sw-197"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250833-back",
+      "batch": "batch-004",
+      "photo": "2508/250833_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-193",
+        "mayco-sw-195"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250834-front",
+      "batch": "batch-004",
+      "photo": "2508/250834_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-196",
+        "mayco-sw-197"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250834-back",
+      "batch": "batch-004",
+      "photo": "2508/250834_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-193",
+        "mayco-sw-196"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250835-front",
+      "batch": "batch-004",
+      "photo": "2508/250835_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-197"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250835-back",
+      "batch": "batch-004",
+      "photo": "2508/250835_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-193",
+        "mayco-sw-197"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250836-front",
+      "batch": "batch-004",
+      "photo": "2508/250836_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-198",
+        "mayco-sw-197"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250836-back",
+      "batch": "batch-004",
+      "photo": "2508/250836_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-193",
+        "mayco-sw-198"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250837-front",
+      "batch": "batch-004",
+      "photo": "2508/250837_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-194",
+        "mayco-sw-191"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250837-back",
+      "batch": "batch-004",
+      "photo": "2508/250837_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-194",
+        "mayco-sw-190"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250838-front",
+      "batch": "batch-004",
+      "photo": "2508/250838_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-195",
+        "mayco-sw-191"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250838-back",
+      "batch": "batch-004",
+      "photo": "2508/250838_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-195",
+        "mayco-sw-190"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250839-front",
+      "batch": "batch-004",
+      "photo": "2508/250839_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-196",
+        "mayco-sw-191"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250839-back",
+      "batch": "batch-004",
+      "photo": "2508/250839_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-196",
+        "mayco-sw-190"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260261-front",
+      "batch": "batch-004",
+      "photo": "2602/260261_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002136"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260261-back",
+      "batch": "batch-004",
+      "photo": "2602/260261_back.jpg",
+      "glaze_combo": [
+        "speedball-mf-002136"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260262-front",
+      "batch": "batch-004",
+      "photo": "2602/260262_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002136",
+        "speedball-mf-002133"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260262-back",
+      "batch": "batch-004",
+      "photo": "2602/260262_back.jpg",
+      "glaze_combo": [
+        "speedball-mf-002133",
+        "speedball-mf-002136"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260263-front",
+      "batch": "batch-004",
+      "photo": "2602/260263_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002136",
+        "speedball-mf-002108"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260263-back",
+      "batch": "batch-004",
+      "photo": "2602/260263_back.jpg",
+      "glaze_combo": [
+        "speedball-mf-002108",
+        "speedball-mf-002136"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260264-front",
+      "batch": "batch-004",
+      "photo": "2602/260264_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002136",
+        "speedball-mf-002135"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260264-back",
+      "batch": "batch-004",
+      "photo": "2602/260264_back.jpg",
+      "glaze_combo": [
+        "speedball-mf-002135",
+        "speedball-mf-002136"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260265-front",
+      "batch": "batch-004",
+      "photo": "2602/260265_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002136",
+        "speedball-mf-002132"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260265-back",
+      "batch": "batch-004",
+      "photo": "2602/260265_back.jpg",
+      "glaze_combo": [
+        "speedball-mf-002132",
+        "speedball-mf-002136"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260266-front",
+      "batch": "batch-004",
+      "photo": "2602/260266_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002133",
+        "speedball-mf-002108"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260266-back",
+      "batch": "batch-004",
+      "photo": "2602/260266_back.jpg",
+      "glaze_combo": [
+        "speedball-mf-002108",
+        "speedball-mf-002133"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260267-front",
+      "batch": "batch-004",
+      "photo": "2602/260267_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002133",
+        "speedball-mf-002135"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260267-back",
+      "batch": "batch-004",
+      "photo": "2602/260267_back.jpg",
+      "glaze_combo": [
+        "speedball-mf-002135",
+        "speedball-mf-002133"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260268-front",
+      "batch": "batch-004",
+      "photo": "2602/260268_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002133",
+        "speedball-mf-002132"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260268-back",
+      "batch": "batch-004",
+      "photo": "2602/260268_back.jpg",
+      "glaze_combo": [
+        "speedball-mf-002132",
+        "speedball-mf-002133"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260270-front",
+      "batch": "batch-004",
+      "photo": "2602/260270_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002132",
+        "speedball-mf-002108"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260270-back",
+      "batch": "batch-004",
+      "photo": "2602/260270_back.jpg",
+      "glaze_combo": [
+        "speedball-mf-002108",
+        "speedball-mf-002132"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260271-front",
+      "batch": "batch-004",
+      "photo": "2602/260271_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002132",
+        "speedball-mf-002135"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260271-back",
+      "batch": "batch-004",
+      "photo": "2602/260271_back.jpg",
+      "glaze_combo": [
+        "speedball-mf-002135",
+        "speedball-mf-002132"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260272-front",
+      "batch": "batch-004",
+      "photo": "2602/260272_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002132"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260272-back",
+      "batch": "batch-004",
+      "photo": "2602/260272_back.jpg",
+      "glaze_combo": [
+        "speedball-mf-002108"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260273-front",
+      "batch": "batch-004",
+      "photo": "2602/260273_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002135"
       ],
       "notes": ""
     }
