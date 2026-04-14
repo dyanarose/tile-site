@@ -53,6 +53,19 @@ window.SITE_DATA = {
         "oxidation",
         "stoneware"
       ]
+    },
+    {
+      "id": "batch-005",
+      "date": "2026-02-17",
+      "clay_body": "Valentine LoStone Sea-Mist",
+      "cone": 5,
+      "atmosphere": "oxidation",
+      "notes": "",
+      "tags": [
+        "mid-fire",
+        "oxidation",
+        "stoneware"
+      ]
     }
   ],
   "tiles": [
@@ -2342,6 +2355,578 @@ window.SITE_DATA = {
       "photo": "2602/260273_front.jpg",
       "glaze_combo": [
         "speedball-mf-002135"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260200-front",
+      "batch": "batch-005",
+      "photo": "2602/260200_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-199",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260200-back",
+      "batch": "batch-005",
+      "photo": "2602/260200_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-199"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260201-front",
+      "batch": "batch-005",
+      "photo": "2602/260201_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-214",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260201-back",
+      "batch": "batch-005",
+      "photo": "2602/260201_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-214"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260202-front",
+      "batch": "batch-005",
+      "photo": "2602/260202_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-215",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260203-front",
+      "batch": "batch-005",
+      "photo": "2602/260203_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-216",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260204-front",
+      "batch": "batch-005",
+      "photo": "2602/260204_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-217",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260204-back",
+      "batch": "batch-005",
+      "photo": "2602/260204_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-217"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260205-front",
+      "batch": "batch-005",
+      "photo": "2602/260205_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-218",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260205-back",
+      "batch": "batch-005",
+      "photo": "2602/260205_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-218"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260206-front",
+      "batch": "batch-005",
+      "photo": "2602/260207_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-220",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260206-back",
+      "batch": "batch-005",
+      "photo": "2602/260207_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-220"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260207-front",
+      "batch": "batch-005",
+      "photo": "2602/260208_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-221",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260207-back",
+      "batch": "batch-005",
+      "photo": "2602/260208_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-221"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260208-front",
+      "batch": "batch-005",
+      "photo": "2602/260209_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-222",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260208-back",
+      "batch": "batch-005",
+      "photo": "2602/260209_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-222"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260209-front",
+      "batch": "batch-005",
+      "photo": "2602/260206_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-219",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260209-back",
+      "batch": "batch-005",
+      "photo": "2602/260206_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-219"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260210-front",
+      "batch": "batch-005",
+      "photo": "2602/260210_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-224",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260210-back",
+      "batch": "batch-005",
+      "photo": "2602/260210_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-224"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260211-front",
+      "batch": "batch-005",
+      "photo": "2602/260211_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-514",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260211-back",
+      "batch": "batch-005",
+      "photo": "2602/260211_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-514"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260212-front",
+      "batch": "batch-005",
+      "photo": "2602/260212_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-515",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260212-back",
+      "batch": "batch-005",
+      "photo": "2602/260212_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-515"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260213-front",
+      "batch": "batch-005",
+      "photo": "2602/260213_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-112",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260213-back",
+      "batch": "batch-005",
+      "photo": "2602/260213_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260214-front",
+      "batch": "batch-005",
+      "photo": "2602/260214_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-189",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260214-back",
+      "batch": "batch-005",
+      "photo": "2602/260214_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-189"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260215-front",
+      "batch": "batch-005",
+      "photo": "2602/260215_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-190",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260215-back",
+      "batch": "batch-005",
+      "photo": "2602/260215_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-190"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260217-front",
+      "batch": "batch-005",
+      "photo": "2602/260217_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-191",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260217-back",
+      "batch": "batch-005",
+      "photo": "2602/260217_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-191"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260218-front",
+      "batch": "batch-005",
+      "photo": "2602/260218_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-192",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260218-back",
+      "batch": "batch-005",
+      "photo": "2602/260218_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-192"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260219-front",
+      "batch": "batch-005",
+      "photo": "2602/260219_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-193",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260219-back",
+      "batch": "batch-005",
+      "photo": "2602/260219_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-193"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260220-front",
+      "batch": "batch-005",
+      "photo": "2602/260220_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-194",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260220-back",
+      "batch": "batch-005",
+      "photo": "2602/260220_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-194"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260221-front",
+      "batch": "batch-005",
+      "photo": "2602/260221_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-195",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260221-back",
+      "batch": "batch-005",
+      "photo": "2602/260221_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-195"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260222-front",
+      "batch": "batch-005",
+      "photo": "2602/260222_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-196",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260222-back",
+      "batch": "batch-005",
+      "photo": "2602/260222_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-196"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260223-front",
+      "batch": "batch-005",
+      "photo": "2602/260223_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-197",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260223-back",
+      "batch": "batch-005",
+      "photo": "2602/260223_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-197"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260224-front",
+      "batch": "batch-005",
+      "photo": "2602/260224_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-198",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260224-back",
+      "batch": "batch-005",
+      "photo": "2602/260224_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-198"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260225-front",
+      "batch": "batch-005",
+      "photo": "2602/260225_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-511",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260225-back",
+      "batch": "batch-005",
+      "photo": "2602/260225_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-511"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260226-front",
+      "batch": "batch-005",
+      "photo": "2602/260226_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-512",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260226-back",
+      "batch": "batch-005",
+      "photo": "2602/260226_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-512"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260227-front",
+      "batch": "batch-005",
+      "photo": "2602/260227_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-513",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260227-back",
+      "batch": "batch-005",
+      "photo": "2602/260227_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-513"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260228-front",
+      "batch": "batch-005",
+      "photo": "2602/260228_front.jpg",
+      "glaze_combo": [
+        "amaco-pc-64",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260228-back",
+      "batch": "batch-005",
+      "photo": "2602/260228_back.jpg",
+      "glaze_combo": [
+        "amaco-pc-64"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260229-front",
+      "batch": "batch-005",
+      "photo": "2602/260229_front.jpg",
+      "glaze_combo": [
+        "amaco-pc-20",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260229-back",
+      "batch": "batch-005",
+      "photo": "2602/260229_back.jpg",
+      "glaze_combo": [
+        "amaco-pc-20"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260230-front",
+      "batch": "batch-005",
+      "photo": "2602/260230_front.jpg",
+      "glaze_combo": [
+        "spectrum-1406",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260230-back",
+      "batch": "batch-005",
+      "photo": "2602/260230_back.jpg",
+      "glaze_combo": [
+        "spectrum-1406"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260232-front",
+      "batch": "batch-005",
+      "photo": "2602/260232_front.jpg",
+      "glaze_combo": [
+        "chrysanthos-he144",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260250-front",
+      "batch": "batch-005",
+      "photo": "2602/260250_front.jpg",
+      "glaze_combo": [
+        "botz-9899",
+        "botz-9800"
       ],
       "notes": ""
     }
