@@ -108,7 +108,7 @@ for glaze in glazes:
 
 # ── HTML page template ────────────────────────────────────────────────────────
 
-def page_html(title, description, canonical, breadcrumbs, body):
+def page_html(title, description, canonical, breadcrumbs, body, modal_tiles=None):
     bc_items = [
         f'{{"@type":"ListItem","position":{i+1},"name":{json.dumps(name)},"item":{json.dumps(SITE_URL + url)}}}'
         for i, (name, url) in enumerate(breadcrumbs)
@@ -124,6 +124,133 @@ def page_html(title, description, canonical, breadcrumbs, body):
             bc_nav_parts.append(f'<span class="text-stone-700">{h(name)}</span>')
     bc_nav = ' <span class="mx-1">›</span> '.join(bc_nav_parts)
 
+    # Build modal block if tile data is provided
+    if modal_tiles:
+        tiles_data = [
+            {
+                "id":             mt.get("id"),
+                "photo":          mt.get("photo"),
+                "clay_body":      mt.get("clay_body"),
+                "cone":           mt.get("cone"),
+                "atmosphere":     mt.get("atmosphere"),
+                "date":           str(mt.get("date", "")) if mt.get("date") else "",
+                "notes":          mt.get("notes", ""),
+                "batch":          mt.get("batch"),
+                "tags":           mt.get("tags", []),
+                "resolvedGlazes": [
+                    {"id": g["id"], "name": g.get("name", g["id"]), "brand": g.get("brand", "")}
+                    for g in mt.get("resolvedGlazes", [])
+                ],
+            }
+            for mt in modal_tiles
+        ]
+        tiles_json = json.dumps(tiles_data)
+        alpine_script = f'<script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>'
+        modal_data_script = f"""<script>
+const PAGE_TILES = Object.fromEntries(
+  {tiles_json}.map(t => [t.id, t])
+);
+function tileModal() {{
+  return {{
+    activeTile: null,
+    openTile(id) {{ this.activeTile = PAGE_TILES[id] ?? null; }},
+    closeTile() {{ this.activeTile = null; }},
+    photoUrl(f) {{ return '{PHOTO_BASE}' + f; }},
+  }};
+}}
+</script>"""
+        body_attrs = 'x-data="tileModal()"'
+        modal_html = """
+  <!-- Tile detail modal -->
+  <div
+    x-show="activeTile !== null"
+    style="display:none"
+    class="fixed inset-0 z-50 flex items-start justify-center bg-black/60 p-4 overflow-y-auto"
+    @click.self="closeTile()"
+    @keydown.escape.window="closeTile()"
+  >
+    <div
+      x-show="activeTile !== null"
+      x-transition
+      class="bg-white rounded-xl shadow-2xl w-full max-w-2xl mt-8 mb-8 overflow-hidden"
+    >
+      <template x-if="activeTile">
+        <div>
+          <div class="bg-stone-200 w-full aspect-square max-h-[60vh] overflow-hidden">
+            <img :src="photoUrl(activeTile.photo)" :alt="activeTile.id" class="w-full h-full object-contain" />
+          </div>
+          <div class="p-6 flex flex-col gap-4">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <h2 class="text-xl font-semibold" x-text="activeTile.id"></h2>
+                <p class="text-stone-500 text-sm" x-text="activeTile.batch"></p>
+              </div>
+              <button @click="closeTile()" class="text-stone-400 hover:text-stone-700 text-2xl leading-none">&times;</button>
+            </div>
+            <dl class="grid grid-cols-2 gap-x-6 gap-y-2 text-sm">
+              <template x-if="activeTile.clay_body">
+                <div class="contents">
+                  <dt class="text-stone-500 font-medium">Clay body</dt>
+                  <dd x-text="activeTile.clay_body"></dd>
+                </div>
+              </template>
+              <template x-if="activeTile.cone">
+                <div class="contents">
+                  <dt class="text-stone-500 font-medium">Cone</dt>
+                  <dd x-text="activeTile.cone"></dd>
+                </div>
+              </template>
+              <template x-if="activeTile.atmosphere">
+                <div class="contents">
+                  <dt class="text-stone-500 font-medium">Atmosphere</dt>
+                  <dd class="capitalize" x-text="activeTile.atmosphere"></dd>
+                </div>
+              </template>
+              <template x-if="activeTile.date">
+                <div class="contents">
+                  <dt class="text-stone-500 font-medium">Date</dt>
+                  <dd x-text="activeTile.date"></dd>
+                </div>
+              </template>
+              <template x-if="activeTile.resolvedGlazes?.length">
+                <div class="contents">
+                  <dt class="text-stone-500 font-medium">Glazes</dt>
+                  <dd class="flex flex-col gap-0.5">
+                    <template x-for="(g, i) in activeTile.resolvedGlazes" :key="g.id">
+                      <span>
+                        <a :href="`/glazes/${g.id}/`" class="font-medium hover:underline" x-text="g.name"></a>
+                        <span x-text="g.brand ? ` (${g.brand})` : ''" class="text-stone-400 text-xs"></span>
+                        <span x-show="activeTile.resolvedGlazes.length > 1" x-text="i === 0 ? ' — base' : ' — over'" class="text-stone-400 text-xs"></span>
+                      </span>
+                    </template>
+                  </dd>
+                </div>
+              </template>
+            </dl>
+            <template x-if="activeTile.notes">
+              <div class="text-sm">
+                <p class="text-stone-500 font-medium mb-1">Notes</p>
+                <p x-text="activeTile.notes" class="text-stone-800"></p>
+              </div>
+            </template>
+            <template x-if="activeTile.tags?.length">
+              <div class="flex flex-wrap gap-1.5">
+                <template x-for="tag in activeTile.tags" :key="tag">
+                  <span class="bg-stone-100 text-stone-600 text-xs px-2 py-0.5 rounded-full" x-text="tag"></span>
+                </template>
+              </div>
+            </template>
+          </div>
+        </div>
+      </template>
+    </div>
+  </div>"""
+    else:
+        alpine_script = ""
+        modal_data_script = ""
+        body_attrs = ""
+        modal_html = ""
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -133,9 +260,10 @@ def page_html(title, description, canonical, breadcrumbs, body):
   <meta name="description" content="{h(description)}" />
   <link rel="canonical" href="{SITE_URL}{h(canonical)}" />
   <script src="https://cdn.tailwindcss.com"></script>
+  {alpine_script}
   <script type="application/ld+json">{bc_ld}</script>
 </head>
-<body class="bg-stone-100 text-stone-800 min-h-screen">
+<body class="bg-stone-100 text-stone-800 min-h-screen" {body_attrs}>
 
   <header class="bg-stone-800 text-stone-100 px-6 py-4">
     <a href="/" class="text-2xl font-semibold tracking-wide hover:text-stone-300">{h(SITE_NAME)}</a>
@@ -155,7 +283,8 @@ def page_html(title, description, canonical, breadcrumbs, body):
   <footer class="max-w-7xl mx-auto px-4 py-6 border-t border-stone-200 text-sm text-stone-400">
     <a href="/" class="hover:text-stone-600">← All tiles</a>
   </footer>
-
+{modal_html}
+  {modal_data_script}
 </body>
 </html>"""
 
@@ -179,12 +308,13 @@ def tile_card(mt, highlight_id=None):
         + f" on {mt.get('clay_body','')} cone {mt.get('cone','')} {mt.get('atmosphere','')}"
     )
 
-    return f"""<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    tile_id = h(mt.get("id", ""))
+    return f"""<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('{tile_id}')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="{h(photo_url)}" alt="{h(alt)}" loading="lazy" class="w-full h-full object-cover" />
   </div>
   <div class="p-3 flex flex-col gap-1 text-sm">
-    <p class="text-xs font-mono text-stone-400">{h(mt.get('id',''))}</p>
+    <p class="text-xs font-mono text-stone-400">{tile_id}</p>
     <p class="leading-snug">{glaze_html}</p>
     <p class="text-stone-500 text-xs">{h(mt.get('clay_body',''))}</p>
     <p class="text-stone-400 text-xs">Cone {h(str(mt.get('cone','')))} · {h(mt.get('atmosphere',''))} · {h(str(mt.get('date','')[:7] if mt.get('date') else ''))}</p>
@@ -257,6 +387,7 @@ for glaze in glazes:
                 (f"{sku} {name}", f"/glazes/{gid}/"),
             ],
             body=body,
+            modal_tiles=tile_list,
         ),
         encoding="utf-8",
     )
