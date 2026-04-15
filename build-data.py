@@ -142,6 +142,11 @@ def page_html(title, description, canonical, breadcrumbs, body):
     <p class="text-stone-400 text-sm mt-1">A personal reference and public resource for glaze testing</p>
   </header>
 
+  <nav class="bg-stone-700 text-stone-300 px-6 py-2 flex flex-wrap gap-x-4 gap-y-1 text-sm">
+    <span class="text-stone-500 text-xs uppercase tracking-wide self-center mr-1">Browse by brand:</span>
+    {"".join(f'<a href="/brand/{slugify(brand)}/" class="hover:text-white">{h(brand)}</a>' for brand in sorted(brands_index.keys()))}
+  </nav>
+
   <main class="max-w-7xl mx-auto px-4 py-8 flex flex-col gap-6">
     <nav class="text-sm text-stone-400">{bc_nav}</nav>
     {body}
