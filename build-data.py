@@ -1,11 +1,8 @@
 """
-Converts data/batches.yaml + data/tiles/*.yaml + data/glazes.yaml → data/data.js
-Also bumps the ?v= cache-bust query string in index.html.
-Also generates static SEO pages under /glazes/{id}/ and /brand/{slug}/.
-Also generates sitemap.xml.
+Reads source from data/ and src/, writes built site to _site/.
 Run: python build-data.py
 """
-import json, re, yaml, pathlib, html as html_lib
+import json, re, shutil, yaml, pathlib, html as html_lib
 from collections import defaultdict
 from datetime import datetime, timezone
 
@@ -14,6 +11,10 @@ SITE_NAME  = "Pottery Test Tile Archive"
 PHOTO_BASE = "https://pub-fadb8321999f444193651a63bba5967e.r2.dev/"
 
 root    = pathlib.Path(__file__).parent
+src_dir = root / "src"
+out_dir = root / "_site"
+
+# ── Load source data ──────────────────────────────────────────────────────────
 batches = yaml.safe_load((root / "data/batches.yaml").read_text(encoding="utf-8"))
 glazes  = yaml.safe_load((root / "data/glazes.yaml").read_text(encoding="utf-8"))
 
@@ -25,26 +26,38 @@ for b in batches:
     if hasattr(b.get("date"), "isoformat"):
         b["date"] = b["date"].isoformat()
 
+# ── Set up output directory ───────────────────────────────────────────────────
+if out_dir.exists():
+    shutil.rmtree(out_dir)
+out_dir.mkdir()
+
+# Copy static source assets
+shutil.copytree(src_dir / "js", out_dir / "js")
+print("js/ copied.")
+
 # ── data.js ───────────────────────────────────────────────────────────────────
-out = (
+data_js = (
     "// Auto-generated from batches.yaml + tiles.yaml + glazes.yaml\n"
     "// Edit the YAML files, then run: python build-data.py\n"
     f"window.SITE_DATA = {json.dumps({'batches': batches, 'tiles': tiles, 'glazes': glazes}, indent=2, ensure_ascii=False)};\n"
 )
-(root / "data/data.js").write_text(out, encoding="utf-8")
-print("data/data.js updated.")
+(out_dir / "data").mkdir()
+(out_dir / "data" / "data.js").write_text(data_js, encoding="utf-8")
+print("data/data.js written.")
 
-# Bump cache-bust version in index.html
-version   = datetime.now(timezone.utc).strftime("%Y%m%d%H%M%S")
-html_path = root / "index.html"
-html_src  = html_path.read_text(encoding="utf-8")
-html_src  = re.sub(
+# ── index.html (with cache-bust version) ─────────────────────────────────────
+version  = datetime.now(timezone.utc).strftime("%Y%m%d%H%M%S")
+html_src = (src_dir / "index.html").read_text(encoding="utf-8")
+html_src = re.sub(
     r'(<script src="./data/data\.js)(?:\?v=[^"]*)?(")',
     rf'\1?v={version}\2',
     html_src,
 )
-html_path.write_text(html_src, encoding="utf-8")
-print(f"index.html cache version bumped to {version}.")
+(out_dir / "index.html").write_text(html_src, encoding="utf-8")
+print(f"index.html written (v={version}).")
+
+# ── CNAME ─────────────────────────────────────────────────────────────────────
+shutil.copy(root / "CNAME", out_dir / "CNAME")
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -85,7 +98,7 @@ for mt in merged_tiles:
 
 # Index: brand → product_line → [glaze]  (only glazes with fired tiles)
 glaze_tile_count = {g["id"]: len(tiles_by_glaze[g["id"]]) for g in glazes}
-brands_index = {}  # brand → { pl → [glaze, ...] }
+brands_index = {}
 for glaze in glazes:
     if glaze_tile_count.get(glaze["id"], 0) == 0:
         continue
@@ -141,7 +154,7 @@ def page_html(title, description, canonical, breadcrumbs, body):
 </body>
 </html>"""
 
-# ── Tile card (for glaze pages) ───────────────────────────────────────────────
+# ── Tile card ─────────────────────────────────────────────────────────────────
 
 def tile_card(mt, highlight_id=None):
     glaze_parts = []
@@ -152,9 +165,7 @@ def tile_card(mt, highlight_id=None):
         if len(mt["resolvedGlazes"]) > 1:
             label = f' <span class="text-stone-400 text-xs">{"base" if i == 0 else "over"}</span>'
         weight = 'class="font-semibold"' if gid == highlight_id else ""
-        glaze_parts.append(
-            f'<a href="/glazes/{h(gid)}/" {weight}>{h(gname)}</a>{label}'
-        )
+        glaze_parts.append(f'<a href="/glazes/{h(gid)}/" {weight}>{h(gname)}</a>{label}')
     glaze_html = " / ".join(glaze_parts)
 
     photo_url = PHOTO_BASE + mt.get("photo", "")
@@ -179,8 +190,8 @@ def tile_card(mt, highlight_id=None):
 pages_written = 0
 
 for glaze in glazes:
-    gid        = glaze["id"]
-    tile_list  = tiles_by_glaze.get(gid, [])
+    gid       = glaze["id"]
+    tile_list = tiles_by_glaze.get(gid, [])
     if not tile_list:
         continue
 
@@ -193,7 +204,6 @@ for glaze in glazes:
     bslug  = slugify(brand)
     plslug = slugify(pl)
 
-    # Glaze info table
     rows = []
     if sku:    rows.append(f"<dt class='text-stone-500'>SKU</dt><dd>{h(sku)}</dd>")
     if pl:     rows.append(f"<dt class='text-stone-500'>Line</dt><dd>{h(pl)}</dd>")
@@ -204,13 +214,11 @@ for glaze in glazes:
         rows.append(f"<dt class='text-stone-500'>Cone range</dt><dd>{h(cone_str(cone_range))}</dd>")
     dl = f'<dl class="grid grid-cols-2 gap-x-8 gap-y-1 text-sm mt-3">{"".join(rows)}</dl>' if rows else ""
 
-    # Firing context summary from actual tiles
-    cones   = sorted({str(mt.get("cone","")) for mt in tile_list if mt.get("cone") is not None})
-    atmos   = sorted({mt.get("atmosphere","") for mt in tile_list if mt.get("atmosphere")})
-    clays   = sorted({mt.get("clay_body","") for mt in tile_list if mt.get("clay_body")})
-    n       = len(tile_list)
-
-    cards   = "\n".join(tile_card(mt, highlight_id=gid) for mt in tile_list)
+    cones = sorted({str(mt.get("cone","")) for mt in tile_list if mt.get("cone") is not None})
+    atmos = sorted({mt.get("atmosphere","") for mt in tile_list if mt.get("atmosphere")})
+    clays = sorted({mt.get("clay_body","") for mt in tile_list if mt.get("clay_body")})
+    n     = len(tile_list)
+    cards = "\n".join(tile_card(mt, highlight_id=gid) for mt in tile_list)
 
     body = f"""<div>
   <h1 class="text-2xl font-semibold">{h(brand)} {h(name)}</h1>
@@ -230,7 +238,7 @@ for glaze in glazes:
         f"on {', '.join(clays)}. Real pottery photos."
     )
 
-    out_path = root / "glazes" / gid
+    out_path = out_dir / "glazes" / gid
     out_path.mkdir(parents=True, exist_ok=True)
     (out_path / "index.html").write_text(
         page_html(
@@ -254,8 +262,8 @@ for brand, pls in brands_index.items():
     bslug = slugify(brand)
 
     for pl, pl_glazes in pls.items():
-        plslug    = slugify(pl)
-        total     = sum(glaze_tile_count[g["id"]] for g in pl_glazes)
+        plslug = slugify(pl)
+        total  = sum(glaze_tile_count[g["id"]] for g in pl_glazes)
 
         glaze_cards = []
         for g in sorted(pl_glazes, key=lambda g: g.get("sku", "")):
@@ -278,7 +286,7 @@ for brand, pls in brands_index.items():
 {"".join(glaze_cards)}
 </div>"""
 
-        out_path = root / "brand" / bslug / plslug
+        out_path = out_dir / "brand" / bslug / plslug
         out_path.mkdir(parents=True, exist_ok=True)
         (out_path / "index.html").write_text(
             page_html(
@@ -298,8 +306,8 @@ for brand, pls in brands_index.items():
 
 # ── Per-brand pages ───────────────────────────────────────────────────────────
 for brand, pls in brands_index.items():
-    bslug       = slugify(brand)
-    total_tiles = sum(glaze_tile_count[g["id"]] for pl_glazes in pls.values() for g in pl_glazes)
+    bslug        = slugify(brand)
+    total_tiles  = sum(glaze_tile_count[g["id"]] for pl_glazes in pls.values() for g in pl_glazes)
     total_glazes = sum(len(v) for v in pls.values())
 
     pl_cards = []
@@ -321,7 +329,7 @@ for brand, pls in brands_index.items():
 {"".join(pl_cards)}
 </div>"""
 
-    out_path = root / "brand" / bslug
+    out_path = out_dir / "brand" / bslug
     out_path.mkdir(parents=True, exist_ok=True)
     (out_path / "index.html").write_text(
         page_html(
@@ -349,7 +357,8 @@ sitemap_lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http:
 for url in urls:
     sitemap_lines.append(f"  <url><loc>{url}</loc></url>")
 sitemap_lines.append("</urlset>")
-(root / "sitemap.xml").write_text("\n".join(sitemap_lines) + "\n", encoding="utf-8")
+(out_dir / "sitemap.xml").write_text("\n".join(sitemap_lines) + "\n", encoding="utf-8")
 print(f"sitemap.xml written ({len(urls)} URLs).")
 
 print(f"Static pages written: {pages_written}")
+print(f"Output: {out_dir}")
