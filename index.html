@@ -3,11 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pottery Test Tile Archive</title>
+  <title>Pottery Test Tile Archive — Fired glaze results for Mayco, Amaco, Botz, Spectrum &amp; more</title>
+  <meta name="description" content="Real fired test tile photos for 600+ glazes from Mayco, Amaco, Botz, Spectrum, Speedball, and Chrysanthos. Browse by brand, cone, clay body, and atmosphere." />
+  <link rel="canonical" href="https://tiletest.com/" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
   <script src="./js/merge.js"></script>
-  <script src="./data/data.js?v=20260415192950"></script>
+  <script src="./data/data.js?v=20260415194457"></script>
 
   <style>
     [x-cloak] { display: none !important; }
@@ -20,6 +22,17 @@
     <h1 class="text-2xl font-semibold tracking-wide">Pottery Test Tile Archive</h1>
     <p class="text-stone-400 text-sm mt-1">A personal reference and public resource for glaze testing</p>
   </header>
+
+  <!-- Brand nav -->
+  <nav class="bg-stone-700 text-stone-300 px-6 py-2 flex flex-wrap gap-x-4 gap-y-1 text-sm">
+    <span class="text-stone-500 text-xs uppercase tracking-wide self-center mr-1">Browse by brand:</span>
+    <a href="/brand/mayco/"       class="hover:text-white">Mayco</a>
+    <a href="/brand/amaco/"       class="hover:text-white">Amaco</a>
+    <a href="/brand/botz/"        class="hover:text-white">Botz</a>
+    <a href="/brand/spectrum/"    class="hover:text-white">Spectrum</a>
+    <a href="/brand/speedball/"   class="hover:text-white">Speedball</a>
+    <a href="/brand/chrysanthos/" class="hover:text-white">Chrysanthos</a>
+  </nav>
 
   <!-- Loading state -->
   <div x-show="loading" class="flex items-center justify-center h-64 text-stone-400 text-lg">
@@ -242,7 +255,7 @@
                   <dd class="flex flex-col gap-0.5">
                     <template x-for="(g, i) in activeTile.resolvedGlazes" :key="g.id">
                       <span>
-                        <span x-text="g.name" class="font-medium"></span>
+                        <a :href="`/glazes/${g.id}/`" class="font-medium hover:underline" x-text="g.name"></a>
                         <span x-text="g.brand ? ` (${g.brand})` : ''" class="text-stone-400 text-xs"></span>
                         <span x-show="activeTile.resolvedGlazes.length > 1" x-text="i === 0 ? ' — base' : ' — over'" class="text-stone-400 text-xs"></span>
                       </span>
