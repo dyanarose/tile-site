@@ -7,9 +7,10 @@
   <meta name="description" content="Fired test tile results for Mayco Stoneware SW-195 (Riptide). 23 tiles at cone 4, 5, 6, oxidation, on SIO2 Barcino Grey, SIO2 Zumaia Grey (Rokk Grey), Valentine Earthstone ES-10, Valentine LoStone Sea-Mist. Real pottery photos." />
   <link rel="canonical" href="https://tiletest.com/glazes/mayco-sw-195/" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://tiletest.com/"},{"@type":"ListItem","position":2,"name":"Mayco","item":"https://tiletest.com/brand/mayco/"},{"@type":"ListItem","position":3,"name":"Stoneware","item":"https://tiletest.com/brand/mayco/stoneware/"},{"@type":"ListItem","position":4,"name":"SW-195 Riptide","item":"https://tiletest.com/glazes/mayco-sw-195/"}]}</script>
 </head>
-<body class="bg-stone-100 text-stone-800 min-h-screen">
+<body class="bg-stone-100 text-stone-800 min-h-screen" x-data="tileModal()">
 
   <header class="bg-stone-800 text-stone-100 px-6 py-4">
     <a href="/" class="text-2xl font-semibold tracking-wide hover:text-stone-300">Pottery Test Tile Archive</a>
@@ -32,7 +33,7 @@
 <p class="text-stone-500 text-sm">23 fired tiles in this archive — cone 4, 5, 6, oxidation, on SIO2 Barcino Grey, SIO2 Zumaia Grey (Rokk Grey), Valentine Earthstone ES-10, Valentine LoStone Sea-Mist</p>
 
 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260307-front')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260307_front.jpg" alt="Riptide on SIO2 Barcino Grey cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -43,7 +44,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260307-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260307_back.jpg" alt="White Engobe + Black Engobe + Riptide on SIO2 Barcino Grey cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -54,7 +55,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260335-front')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260335_front.jpg" alt="Riptide on SIO2 Zumaia Grey (Rokk Grey) cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -65,7 +66,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260335-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260335_back.jpg" alt="White Engobe + Black Engobe + Riptide on SIO2 Zumaia Grey (Rokk Grey) cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -76,7 +77,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260241-front')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2602/260241_front.jpg" alt="Riptide + SPS - Melting Point Reducer on Valentine LoStone Sea-Mist cone 4 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -87,7 +88,7 @@
     <p class="text-stone-400 text-xs">Cone 4 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-250806-front')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2508/250806_front.jpg" alt="Riptide + Nimbus on Valentine Earthstone ES-10 cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -98,7 +99,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-250806-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2508/250806_back.jpg" alt="Passion Flower + Riptide on Valentine Earthstone ES-10 cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -109,7 +110,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-250810-front')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2508/250810_front.jpg" alt="Passion Flower + Riptide on Valentine Earthstone ES-10 cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -120,7 +121,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-250812-front')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2508/250812_front.jpg" alt="Amaryllis + Riptide on Valentine Earthstone ES-10 cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -131,7 +132,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-250814-front')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2508/250814_front.jpg" alt="Nimbus + Riptide on Valentine Earthstone ES-10 cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -142,7 +143,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-250815-front')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2508/250815_front.jpg" alt="Riptide on Valentine Earthstone ES-10 cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -153,7 +154,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-250815-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2508/250815_back.jpg" alt="Peppered Plum + Riptide on Valentine Earthstone ES-10 cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -164,7 +165,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-250816-front')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2508/250816_front.jpg" alt="Sand Dollar + Riptide on Valentine Earthstone ES-10 cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -175,7 +176,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-250817-front')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2508/250817_front.jpg" alt="Fossil Rock + Riptide on Valentine Earthstone ES-10 cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -186,7 +187,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-250818-front')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2508/250818_front.jpg" alt="Rose Quartz + Riptide on Valentine Earthstone ES-10 cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -197,7 +198,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-250824-front')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2508/250824_front.jpg" alt="Riptide + Sand Dollar on Valentine Earthstone ES-10 cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -208,7 +209,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-250824-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2508/250824_back.jpg" alt="Amaryllis + Riptide on Valentine Earthstone ES-10 cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -219,7 +220,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-250833-front')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2508/250833_front.jpg" alt="Riptide + Fossil Rock on Valentine Earthstone ES-10 cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -230,7 +231,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-250833-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2508/250833_back.jpg" alt="Ivy + Riptide on Valentine Earthstone ES-10 cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -241,7 +242,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-250838-front')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2508/250838_front.jpg" alt="Riptide + Peppered Plum on Valentine Earthstone ES-10 cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -252,7 +253,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-250838-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2508/250838_back.jpg" alt="Riptide + Passion Flower on Valentine Earthstone ES-10 cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -263,7 +264,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260221-front')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2602/260221_front.jpg" alt="Riptide + SPS - Melting Point Reducer on Valentine LoStone Sea-Mist cone 5 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -274,7 +275,7 @@
     <p class="text-stone-400 text-xs">Cone 5 · oxidation · 2026-02</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260221-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2602/260221_back.jpg" alt="Riptide on Valentine LoStone Sea-Mist cone 5 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -292,5 +293,102 @@
     <a href="/" class="hover:text-stone-600">← All tiles</a>
   </footer>
 
+  <!-- Tile detail modal -->
+  <div
+    x-show="activeTile !== null"
+    style="display:none"
+    class="fixed inset-0 z-50 flex items-start justify-center bg-black/60 p-4 overflow-y-auto"
+    @click.self="closeTile()"
+    @keydown.escape.window="closeTile()"
+  >
+    <div
+      x-show="activeTile !== null"
+      x-transition
+      class="bg-white rounded-xl shadow-2xl w-full max-w-2xl mt-8 mb-8 overflow-hidden"
+    >
+      <template x-if="activeTile">
+        <div>
+          <div class="bg-stone-200 w-full aspect-square max-h-[60vh] overflow-hidden">
+            <img :src="photoUrl(activeTile.photo)" :alt="activeTile.id" class="w-full h-full object-contain" />
+          </div>
+          <div class="p-6 flex flex-col gap-4">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <h2 class="text-xl font-semibold" x-text="activeTile.id"></h2>
+                <p class="text-stone-500 text-sm" x-text="activeTile.batch"></p>
+              </div>
+              <button @click="closeTile()" class="text-stone-400 hover:text-stone-700 text-2xl leading-none">&times;</button>
+            </div>
+            <dl class="grid grid-cols-2 gap-x-6 gap-y-2 text-sm">
+              <template x-if="activeTile.clay_body">
+                <div class="contents">
+                  <dt class="text-stone-500 font-medium">Clay body</dt>
+                  <dd x-text="activeTile.clay_body"></dd>
+                </div>
+              </template>
+              <template x-if="activeTile.cone">
+                <div class="contents">
+                  <dt class="text-stone-500 font-medium">Cone</dt>
+                  <dd x-text="activeTile.cone"></dd>
+                </div>
+              </template>
+              <template x-if="activeTile.atmosphere">
+                <div class="contents">
+                  <dt class="text-stone-500 font-medium">Atmosphere</dt>
+                  <dd class="capitalize" x-text="activeTile.atmosphere"></dd>
+                </div>
+              </template>
+              <template x-if="activeTile.date">
+                <div class="contents">
+                  <dt class="text-stone-500 font-medium">Date</dt>
+                  <dd x-text="activeTile.date"></dd>
+                </div>
+              </template>
+              <template x-if="activeTile.resolvedGlazes?.length">
+                <div class="contents">
+                  <dt class="text-stone-500 font-medium">Glazes</dt>
+                  <dd class="flex flex-col gap-0.5">
+                    <template x-for="(g, i) in activeTile.resolvedGlazes" :key="g.id">
+                      <span>
+                        <a :href="`/glazes/${g.id}/`" class="font-medium hover:underline" x-text="g.name"></a>
+                        <span x-text="g.brand ? ` (${g.brand})` : ''" class="text-stone-400 text-xs"></span>
+                        <span x-show="activeTile.resolvedGlazes.length > 1" x-text="i === 0 ? ' — base' : ' — over'" class="text-stone-400 text-xs"></span>
+                      </span>
+                    </template>
+                  </dd>
+                </div>
+              </template>
+            </dl>
+            <template x-if="activeTile.notes">
+              <div class="text-sm">
+                <p class="text-stone-500 font-medium mb-1">Notes</p>
+                <p x-text="activeTile.notes" class="text-stone-800"></p>
+              </div>
+            </template>
+            <template x-if="activeTile.tags?.length">
+              <div class="flex flex-wrap gap-1.5">
+                <template x-for="tag in activeTile.tags" :key="tag">
+                  <span class="bg-stone-100 text-stone-600 text-xs px-2 py-0.5 rounded-full" x-text="tag"></span>
+                </template>
+              </div>
+            </template>
+          </div>
+        </div>
+      </template>
+    </div>
+  </div>
+  <script>
+const PAGE_TILES = Object.fromEntries(
+  [{"id": "tile-260307-front", "photo": "2603/260307_front.jpg", "clay_body": "SIO2 Barcino Grey", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-001", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-sw-195", "name": "Riptide", "brand": "Mayco"}]}, {"id": "tile-260307-back", "photo": "2603/260307_back.jpg", "clay_body": "SIO2 Barcino Grey", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-001", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-195", "name": "Riptide", "brand": "Mayco"}]}, {"id": "tile-260335-front", "photo": "2603/260335_front.jpg", "clay_body": "SIO2 Zumaia Grey (Rokk Grey)", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-002", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-sw-195", "name": "Riptide", "brand": "Mayco"}]}, {"id": "tile-260335-back", "photo": "2603/260335_back.jpg", "clay_body": "SIO2 Zumaia Grey (Rokk Grey)", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-002", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-195", "name": "Riptide", "brand": "Mayco"}]}, {"id": "tile-260241-front", "photo": "2602/260241_front.jpg", "clay_body": "Valentine LoStone Sea-Mist", "cone": 4, "atmosphere": "oxidation", "date": "2026-03-14", "notes": "", "batch": "batch-003", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-sw-195", "name": "Riptide", "brand": "Mayco"}, {"id": "botz-9800", "name": "SPS - Melting Point Reducer", "brand": "Botz"}]}, {"id": "tile-250806-front", "photo": "2508/250806_front.jpg", "clay_body": "Valentine Earthstone ES-10", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-14", "notes": "", "batch": "batch-004", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-sw-195", "name": "Riptide", "brand": "Mayco"}, {"id": "mayco-sw-194", "name": "Nimbus", "brand": "Mayco"}]}, {"id": "tile-250806-back", "photo": "2508/250806_back.jpg", "clay_body": "Valentine Earthstone ES-10", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-14", "notes": "", "batch": "batch-004", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-sw-190", "name": "Passion Flower", "brand": "Mayco"}, {"id": "mayco-sw-195", "name": "Riptide", "brand": "Mayco"}]}, {"id": "tile-250810-front", "photo": "2508/250810_front.jpg", "clay_body": "Valentine Earthstone ES-10", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-14", "notes": "", "batch": "batch-004", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-sw-190", "name": "Passion Flower", "brand": "Mayco"}, {"id": "mayco-sw-195", "name": "Riptide", "brand": "Mayco"}]}, {"id": "tile-250812-front", "photo": "2508/250812_front.jpg", "clay_body": "Valentine Earthstone ES-10", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-14", "notes": "", "batch": "batch-004", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-sw-192", "name": "Amaryllis", "brand": "Mayco"}, {"id": "mayco-sw-195", "name": "Riptide", "brand": "Mayco"}]}, {"id": "tile-250814-front", "photo": "2508/250814_front.jpg", "clay_body": "Valentine Earthstone ES-10", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-14", "notes": "", "batch": "batch-004", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-sw-194", "name": "Nimbus", "brand": "Mayco"}, {"id": "mayco-sw-195", "name": "Riptide", "brand": "Mayco"}]}, {"id": "tile-250815-front", "photo": "2508/250815_front.jpg", "clay_body": "Valentine Earthstone ES-10", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-14", "notes": "", "batch": "batch-004", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-sw-195", "name": "Riptide", "brand": "Mayco"}]}, {"id": "tile-250815-back", "photo": "2508/250815_back.jpg", "clay_body": "Valentine Earthstone ES-10", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-14", "notes": "", "batch": "batch-004", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-sw-191", "name": "Peppered Plum", "brand": "Mayco"}, {"id": "mayco-sw-195", "name": "Riptide", "brand": "Mayco"}]}, {"id": "tile-250816-front", "photo": "2508/250816_front.jpg", "clay_body": "Valentine Earthstone ES-10", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-14", "notes": "", "batch": "batch-004", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-sw-196", "name": "Sand Dollar", "brand": "Mayco"}, {"id": "mayco-sw-195", "name": "Riptide", "brand": "Mayco"}]}, {"id": "tile-250817-front", "photo": "2508/250817_front.jpg", "clay_body": "Valentine Earthstone ES-10", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-14", "notes": "", "batch": "batch-004", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-sw-197", "name": "Fossil Rock", "brand": "Mayco"}, {"id": "mayco-sw-195", "name": "Riptide", "brand": "Mayco"}]}, {"id": "tile-250818-front", "photo": "2508/250818_front.jpg", "clay_body": "Valentine Earthstone ES-10", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-14", "notes": "", "batch": "batch-004", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-sw-198", "name": "Rose Quartz", "brand": "Mayco"}, {"id": "mayco-sw-195", "name": "Riptide", "brand": "Mayco"}]}, {"id": "tile-250824-front", "photo": "2508/250824_front.jpg", "clay_body": "Valentine Earthstone ES-10", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-14", "notes": "", "batch": "batch-004", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-sw-195", "name": "Riptide", "brand": "Mayco"}, {"id": "mayco-sw-196", "name": "Sand Dollar", "brand": "Mayco"}]}, {"id": "tile-250824-back", "photo": "2508/250824_back.jpg", "clay_body": "Valentine Earthstone ES-10", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-14", "notes": "", "batch": "batch-004", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-sw-192", "name": "Amaryllis", "brand": "Mayco"}, {"id": "mayco-sw-195", "name": "Riptide", "brand": "Mayco"}]}, {"id": "tile-250833-front", "photo": "2508/250833_front.jpg", "clay_body": "Valentine Earthstone ES-10", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-14", "notes": "", "batch": "batch-004", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-sw-195", "name": "Riptide", "brand": "Mayco"}, {"id": "mayco-sw-197", "name": "Fossil Rock", "brand": "Mayco"}]}, {"id": "tile-250833-back", "photo": "2508/250833_back.jpg", "clay_body": "Valentine Earthstone ES-10", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-14", "notes": "", "batch": "batch-004", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-sw-193", "name": "Ivy", "brand": "Mayco"}, {"id": "mayco-sw-195", "name": "Riptide", "brand": "Mayco"}]}, {"id": "tile-250838-front", "photo": "2508/250838_front.jpg", "clay_body": "Valentine Earthstone ES-10", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-14", "notes": "", "batch": "batch-004", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-sw-195", "name": "Riptide", "brand": "Mayco"}, {"id": "mayco-sw-191", "name": "Peppered Plum", "brand": "Mayco"}]}, {"id": "tile-250838-back", "photo": "2508/250838_back.jpg", "clay_body": "Valentine Earthstone ES-10", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-14", "notes": "", "batch": "batch-004", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-sw-195", "name": "Riptide", "brand": "Mayco"}, {"id": "mayco-sw-190", "name": "Passion Flower", "brand": "Mayco"}]}, {"id": "tile-260221-front", "photo": "2602/260221_front.jpg", "clay_body": "Valentine LoStone Sea-Mist", "cone": 5, "atmosphere": "oxidation", "date": "2026-02-17", "notes": "", "batch": "batch-005", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-sw-195", "name": "Riptide", "brand": "Mayco"}, {"id": "botz-9800", "name": "SPS - Melting Point Reducer", "brand": "Botz"}]}, {"id": "tile-260221-back", "photo": "2602/260221_back.jpg", "clay_body": "Valentine LoStone Sea-Mist", "cone": 5, "atmosphere": "oxidation", "date": "2026-02-17", "notes": "", "batch": "batch-005", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-sw-195", "name": "Riptide", "brand": "Mayco"}]}].map(t => [t.id, t])
+);
+function tileModal() {
+  return {
+    activeTile: null,
+    openTile(id) { this.activeTile = PAGE_TILES[id] ?? null; },
+    closeTile() { this.activeTile = null; },
+    photoUrl(f) { return 'https://pub-fadb8321999f444193651a63bba5967e.r2.dev/' + f; },
+  };
+}
+</script>
 </body>
 </html>

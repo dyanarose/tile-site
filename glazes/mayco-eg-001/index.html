@@ -7,9 +7,10 @@
   <meta name="description" content="Fired test tile results for Mayco Engobe EG-001 (White Engobe). 56 tiles at cone 6, oxidation, on SIO2 Barcino Grey, SIO2 Zumaia Grey (Rokk Grey). Real pottery photos." />
   <link rel="canonical" href="https://tiletest.com/glazes/mayco-eg-001/" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://tiletest.com/"},{"@type":"ListItem","position":2,"name":"Mayco","item":"https://tiletest.com/brand/mayco/"},{"@type":"ListItem","position":3,"name":"Engobe","item":"https://tiletest.com/brand/mayco/engobe/"},{"@type":"ListItem","position":4,"name":"EG-001 White Engobe","item":"https://tiletest.com/glazes/mayco-eg-001/"}]}</script>
 </head>
-<body class="bg-stone-100 text-stone-800 min-h-screen">
+<body class="bg-stone-100 text-stone-800 min-h-screen" x-data="tileModal()">
 
   <header class="bg-stone-800 text-stone-100 px-6 py-4">
     <a href="/" class="text-2xl font-semibold tracking-wide hover:text-stone-300">Pottery Test Tile Archive</a>
@@ -32,7 +33,7 @@
 <p class="text-stone-500 text-sm">56 fired tiles in this archive — cone 6, oxidation, on SIO2 Barcino Grey, SIO2 Zumaia Grey (Rokk Grey)</p>
 
 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260300-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260300_back.jpg" alt="White Engobe + Black Engobe + Tiger&#x27;s Eye on SIO2 Barcino Grey cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -43,7 +44,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260301-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260301_back.jpg" alt="White Engobe + Black Engobe + Cenote on SIO2 Barcino Grey cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -54,7 +55,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260302-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260302_back.jpg" alt="White Engobe + Black Engobe + Passion Flower on SIO2 Barcino Grey cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -65,7 +66,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260303-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260303_back.jpg" alt="White Engobe + Black Engobe + Peppered Plum on SIO2 Barcino Grey cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -76,7 +77,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260304-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260304_back.jpg" alt="White Engobe + Black Engobe + Amaryllis on SIO2 Barcino Grey cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -87,7 +88,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260305-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260305_back.jpg" alt="White Engobe + Black Engobe + Ivy on SIO2 Barcino Grey cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -98,7 +99,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260306-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260306_back.jpg" alt="White Engobe + Black Engobe + Nimbus on SIO2 Barcino Grey cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -109,7 +110,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260307-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260307_back.jpg" alt="White Engobe + Black Engobe + Riptide on SIO2 Barcino Grey cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -120,7 +121,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260308-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260308_back.jpg" alt="White Engobe + Black Engobe + Sand Dollar on SIO2 Barcino Grey cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -131,7 +132,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260309-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260309_back.jpg" alt="White Engobe + Black Engobe + Fossil Rock on SIO2 Barcino Grey cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -142,7 +143,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260310-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260310_back.jpg" alt="White Engobe + Black Engobe + Rose Quartz on SIO2 Barcino Grey cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -153,7 +154,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260311-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260311_back.jpg" alt="White Engobe + Black Engobe + Purple Aster on SIO2 Barcino Grey cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -164,7 +165,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260312-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260312_back.jpg" alt="White Engobe + Black Engobe + Micro Pearl on SIO2 Barcino Grey cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -175,7 +176,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260313-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260313_back.jpg" alt="White Engobe + Black Engobe + Micro Champagne on SIO2 Barcino Grey cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -186,7 +187,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260314-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260314_back.jpg" alt="White Engobe + Black Engobe + Micro Jade on SIO2 Barcino Grey cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -197,7 +198,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260315-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260315_back.jpg" alt="White Engobe + Black Engobe + Micro Cerulean on SIO2 Barcino Grey cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -208,7 +209,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260316-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260316_back.jpg" alt="White Engobe + Black Engobe + Micro Ash on SIO2 Barcino Grey cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -219,7 +220,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260317-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260317_back.jpg" alt="White Engobe + Black Engobe + Black Timber on SIO2 Barcino Grey cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -230,7 +231,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260318-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260318_back.jpg" alt="White Engobe + Black Engobe + Mint Speck on SIO2 Barcino Grey cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -241,7 +242,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260319-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260319_back.jpg" alt="White Engobe + Black Engobe + Green Jasper on SIO2 Barcino Grey cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -252,7 +253,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260320-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260320_back.jpg" alt="White Engobe + Black Engobe + Tropical Teal on SIO2 Barcino Grey cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -263,7 +264,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260321-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260321_back.jpg" alt="White Engobe + Black Engobe + Sky on SIO2 Barcino Grey cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -274,7 +275,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260322-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260322_back.jpg" alt="White Engobe + Black Engobe + Blue Rutile on SIO2 Barcino Grey cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -285,7 +286,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260323-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260323_back.jpg" alt="White Engobe + Black Engobe + Blue Flame on SIO2 Barcino Grey cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -296,7 +297,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260324-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260324_back.jpg" alt="White Engobe + Black Engobe + Lemon Drop on SIO2 Barcino Grey cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -307,7 +308,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260325-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260325_back.jpg" alt="White Engobe + Black Engobe + Natural Opal on SIO2 Barcino Grey cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -318,7 +319,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260326-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260326_back.jpg" alt="White Engobe + Black Engobe + Dragon&#x27;s Eye on SIO2 Barcino Grey cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -329,7 +330,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260327-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260327_back.jpg" alt="White Engobe + Black Engobe + Prisma Green on SIO2 Barcino Grey cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -340,7 +341,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260328-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260328_back.jpg" alt="White Engobe + Black Engobe + Tiger&#x27;s Eye on SIO2 Zumaia Grey (Rokk Grey) cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -351,7 +352,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260329-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260329_back.jpg" alt="White Engobe + Black Engobe + Cenote on SIO2 Zumaia Grey (Rokk Grey) cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -362,7 +363,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260330-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260330_back.jpg" alt="White Engobe + Black Engobe + Passion Flower on SIO2 Zumaia Grey (Rokk Grey) cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -373,7 +374,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260331-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260331_back.jpg" alt="White Engobe + Black Engobe + Peppered Plum on SIO2 Zumaia Grey (Rokk Grey) cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -384,7 +385,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260332-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260332_back.jpg" alt="White Engobe + Black Engobe + Amaryllis on SIO2 Zumaia Grey (Rokk Grey) cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -395,7 +396,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260333-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260333_back.jpg" alt="White Engobe + Black Engobe + Ivy on SIO2 Zumaia Grey (Rokk Grey) cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -406,7 +407,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260334-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260334_back.jpg" alt="White Engobe + Black Engobe + Nimbus on SIO2 Zumaia Grey (Rokk Grey) cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -417,7 +418,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260335-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260335_back.jpg" alt="White Engobe + Black Engobe + Riptide on SIO2 Zumaia Grey (Rokk Grey) cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -428,7 +429,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260336-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260336_back.jpg" alt="White Engobe + Black Engobe + Sand Dollar on SIO2 Zumaia Grey (Rokk Grey) cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -439,7 +440,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260337-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260337_back.jpg" alt="White Engobe + Black Engobe + Fossil Rock on SIO2 Zumaia Grey (Rokk Grey) cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -450,7 +451,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260338-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260338_back.jpg" alt="White Engobe + Black Engobe + Rose Quartz on SIO2 Zumaia Grey (Rokk Grey) cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -461,7 +462,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260339-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260339_back.jpg" alt="White Engobe + Black Engobe + Purple Aster on SIO2 Zumaia Grey (Rokk Grey) cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -472,7 +473,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260340-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260340_back.jpg" alt="White Engobe + Black Engobe + Micro Pearl on SIO2 Zumaia Grey (Rokk Grey) cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -483,7 +484,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260341-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260341_back.jpg" alt="White Engobe + Black Engobe + Micro Champagne on SIO2 Zumaia Grey (Rokk Grey) cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -494,7 +495,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260342-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260342_back.jpg" alt="White Engobe + Black Engobe + Micro Jade on SIO2 Zumaia Grey (Rokk Grey) cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -505,7 +506,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260343-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260343_back.jpg" alt="White Engobe + Black Engobe + Micro Cerulean on SIO2 Zumaia Grey (Rokk Grey) cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -516,7 +517,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260344-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260344_back.jpg" alt="White Engobe + Black Engobe + Micro Ash on SIO2 Zumaia Grey (Rokk Grey) cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -527,7 +528,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260345-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260345_back.jpg" alt="White Engobe + Black Engobe + Black Timber on SIO2 Zumaia Grey (Rokk Grey) cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -538,7 +539,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260346-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260346_back.jpg" alt="White Engobe + Black Engobe + Mint Speck on SIO2 Zumaia Grey (Rokk Grey) cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -549,7 +550,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260347-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260347_back.jpg" alt="White Engobe + Black Engobe + Green Jasper on SIO2 Zumaia Grey (Rokk Grey) cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -560,7 +561,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260348-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260348_back.jpg" alt="White Engobe + Black Engobe + Tropical Teal on SIO2 Zumaia Grey (Rokk Grey) cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -571,7 +572,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260349-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260349_back.jpg" alt="White Engobe + Black Engobe + Sky on SIO2 Zumaia Grey (Rokk Grey) cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -582,7 +583,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260350-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260350_back.jpg" alt="White Engobe + Black Engobe + Blue Rutile on SIO2 Zumaia Grey (Rokk Grey) cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -593,7 +594,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260351-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260351_back.jpg" alt="White Engobe + Black Engobe + Blue Flame on SIO2 Zumaia Grey (Rokk Grey) cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -604,7 +605,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260352-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260352_back.jpg" alt="White Engobe + Black Engobe + Lemon Drop on SIO2 Zumaia Grey (Rokk Grey) cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -615,7 +616,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260353-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260353_back.jpg" alt="White Engobe + Black Engobe + Natural Opal on SIO2 Zumaia Grey (Rokk Grey) cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -626,7 +627,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260354-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260354_back.jpg" alt="White Engobe + Black Engobe + Dragon&#x27;s Eye on SIO2 Zumaia Grey (Rokk Grey) cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -637,7 +638,7 @@
     <p class="text-stone-400 text-xs">Cone 6 · oxidation · 2026-03</p>
   </div>
 </div>
-<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer" @click="openTile('tile-260355-back')">
   <div class="aspect-square bg-stone-200 overflow-hidden">
     <img src="https://pub-fadb8321999f444193651a63bba5967e.r2.dev/2603/260355_back.jpg" alt="White Engobe + Black Engobe + Prisma Green on SIO2 Zumaia Grey (Rokk Grey) cone 6 oxidation" loading="lazy" class="w-full h-full object-cover" />
   </div>
@@ -655,5 +656,102 @@
     <a href="/" class="hover:text-stone-600">← All tiles</a>
   </footer>
 
+  <!-- Tile detail modal -->
+  <div
+    x-show="activeTile !== null"
+    style="display:none"
+    class="fixed inset-0 z-50 flex items-start justify-center bg-black/60 p-4 overflow-y-auto"
+    @click.self="closeTile()"
+    @keydown.escape.window="closeTile()"
+  >
+    <div
+      x-show="activeTile !== null"
+      x-transition
+      class="bg-white rounded-xl shadow-2xl w-full max-w-2xl mt-8 mb-8 overflow-hidden"
+    >
+      <template x-if="activeTile">
+        <div>
+          <div class="bg-stone-200 w-full aspect-square max-h-[60vh] overflow-hidden">
+            <img :src="photoUrl(activeTile.photo)" :alt="activeTile.id" class="w-full h-full object-contain" />
+          </div>
+          <div class="p-6 flex flex-col gap-4">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <h2 class="text-xl font-semibold" x-text="activeTile.id"></h2>
+                <p class="text-stone-500 text-sm" x-text="activeTile.batch"></p>
+              </div>
+              <button @click="closeTile()" class="text-stone-400 hover:text-stone-700 text-2xl leading-none">&times;</button>
+            </div>
+            <dl class="grid grid-cols-2 gap-x-6 gap-y-2 text-sm">
+              <template x-if="activeTile.clay_body">
+                <div class="contents">
+                  <dt class="text-stone-500 font-medium">Clay body</dt>
+                  <dd x-text="activeTile.clay_body"></dd>
+                </div>
+              </template>
+              <template x-if="activeTile.cone">
+                <div class="contents">
+                  <dt class="text-stone-500 font-medium">Cone</dt>
+                  <dd x-text="activeTile.cone"></dd>
+                </div>
+              </template>
+              <template x-if="activeTile.atmosphere">
+                <div class="contents">
+                  <dt class="text-stone-500 font-medium">Atmosphere</dt>
+                  <dd class="capitalize" x-text="activeTile.atmosphere"></dd>
+                </div>
+              </template>
+              <template x-if="activeTile.date">
+                <div class="contents">
+                  <dt class="text-stone-500 font-medium">Date</dt>
+                  <dd x-text="activeTile.date"></dd>
+                </div>
+              </template>
+              <template x-if="activeTile.resolvedGlazes?.length">
+                <div class="contents">
+                  <dt class="text-stone-500 font-medium">Glazes</dt>
+                  <dd class="flex flex-col gap-0.5">
+                    <template x-for="(g, i) in activeTile.resolvedGlazes" :key="g.id">
+                      <span>
+                        <a :href="`/glazes/${g.id}/`" class="font-medium hover:underline" x-text="g.name"></a>
+                        <span x-text="g.brand ? ` (${g.brand})` : ''" class="text-stone-400 text-xs"></span>
+                        <span x-show="activeTile.resolvedGlazes.length > 1" x-text="i === 0 ? ' — base' : ' — over'" class="text-stone-400 text-xs"></span>
+                      </span>
+                    </template>
+                  </dd>
+                </div>
+              </template>
+            </dl>
+            <template x-if="activeTile.notes">
+              <div class="text-sm">
+                <p class="text-stone-500 font-medium mb-1">Notes</p>
+                <p x-text="activeTile.notes" class="text-stone-800"></p>
+              </div>
+            </template>
+            <template x-if="activeTile.tags?.length">
+              <div class="flex flex-wrap gap-1.5">
+                <template x-for="tag in activeTile.tags" :key="tag">
+                  <span class="bg-stone-100 text-stone-600 text-xs px-2 py-0.5 rounded-full" x-text="tag"></span>
+                </template>
+              </div>
+            </template>
+          </div>
+        </div>
+      </template>
+    </div>
+  </div>
+  <script>
+const PAGE_TILES = Object.fromEntries(
+  [{"id": "tile-260300-back", "photo": "2603/260300_back.jpg", "clay_body": "SIO2 Barcino Grey", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-001", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-112", "name": "Tiger's Eye", "brand": "Mayco"}]}, {"id": "tile-260301-back", "photo": "2603/260301_back.jpg", "clay_body": "SIO2 Barcino Grey", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-001", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-189", "name": "Cenote", "brand": "Mayco"}]}, {"id": "tile-260302-back", "photo": "2603/260302_back.jpg", "clay_body": "SIO2 Barcino Grey", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-001", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-190", "name": "Passion Flower", "brand": "Mayco"}]}, {"id": "tile-260303-back", "photo": "2603/260303_back.jpg", "clay_body": "SIO2 Barcino Grey", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-001", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-191", "name": "Peppered Plum", "brand": "Mayco"}]}, {"id": "tile-260304-back", "photo": "2603/260304_back.jpg", "clay_body": "SIO2 Barcino Grey", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-001", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-192", "name": "Amaryllis", "brand": "Mayco"}]}, {"id": "tile-260305-back", "photo": "2603/260305_back.jpg", "clay_body": "SIO2 Barcino Grey", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-001", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-193", "name": "Ivy", "brand": "Mayco"}]}, {"id": "tile-260306-back", "photo": "2603/260306_back.jpg", "clay_body": "SIO2 Barcino Grey", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-001", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-194", "name": "Nimbus", "brand": "Mayco"}]}, {"id": "tile-260307-back", "photo": "2603/260307_back.jpg", "clay_body": "SIO2 Barcino Grey", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-001", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-195", "name": "Riptide", "brand": "Mayco"}]}, {"id": "tile-260308-back", "photo": "2603/260308_back.jpg", "clay_body": "SIO2 Barcino Grey", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-001", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-196", "name": "Sand Dollar", "brand": "Mayco"}]}, {"id": "tile-260309-back", "photo": "2603/260309_back.jpg", "clay_body": "SIO2 Barcino Grey", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-001", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-197", "name": "Fossil Rock", "brand": "Mayco"}]}, {"id": "tile-260310-back", "photo": "2603/260310_back.jpg", "clay_body": "SIO2 Barcino Grey", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-001", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-198", "name": "Rose Quartz", "brand": "Mayco"}]}, {"id": "tile-260311-back", "photo": "2603/260311_back.jpg", "clay_body": "SIO2 Barcino Grey", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-001", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-199", "name": "Purple Aster", "brand": "Mayco"}]}, {"id": "tile-260312-back", "photo": "2603/260312_back.jpg", "clay_body": "SIO2 Barcino Grey", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-001", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-214", "name": "Micro Pearl", "brand": "Mayco"}]}, {"id": "tile-260313-back", "photo": "2603/260313_back.jpg", "clay_body": "SIO2 Barcino Grey", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-001", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-215", "name": "Micro Champagne", "brand": "Mayco"}]}, {"id": "tile-260314-back", "photo": "2603/260314_back.jpg", "clay_body": "SIO2 Barcino Grey", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-001", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-216", "name": "Micro Jade", "brand": "Mayco"}]}, {"id": "tile-260315-back", "photo": "2603/260315_back.jpg", "clay_body": "SIO2 Barcino Grey", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-001", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-217", "name": "Micro Cerulean", "brand": "Mayco"}]}, {"id": "tile-260316-back", "photo": "2603/260316_back.jpg", "clay_body": "SIO2 Barcino Grey", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-001", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-218", "name": "Micro Ash", "brand": "Mayco"}]}, {"id": "tile-260317-back", "photo": "2603/260317_back.jpg", "clay_body": "SIO2 Barcino Grey", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-001", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-220", "name": "Black Timber", "brand": "Mayco"}]}, {"id": "tile-260318-back", "photo": "2603/260318_back.jpg", "clay_body": "SIO2 Barcino Grey", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-001", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-221", "name": "Mint Speck", "brand": "Mayco"}]}, {"id": "tile-260319-back", "photo": "2603/260319_back.jpg", "clay_body": "SIO2 Barcino Grey", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-001", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-222", "name": "Green Jasper", "brand": "Mayco"}]}, {"id": "tile-260320-back", "photo": "2603/260320_back.jpg", "clay_body": "SIO2 Barcino Grey", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-001", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-224", "name": "Tropical Teal", "brand": "Mayco"}]}, {"id": "tile-260321-back", "photo": "2603/260321_back.jpg", "clay_body": "SIO2 Barcino Grey", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-001", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "amaco-c-21", "name": "Sky", "brand": "Amaco"}]}, {"id": "tile-260322-back", "photo": "2603/260322_back.jpg", "clay_body": "SIO2 Barcino Grey", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-001", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "amaco-pc-20", "name": "Blue Rutile", "brand": "Amaco"}]}, {"id": "tile-260323-back", "photo": "2603/260323_back.jpg", "clay_body": "SIO2 Barcino Grey", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-001", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "speedball-mf-002136", "name": "Blue Flame", "brand": "Speedball"}]}, {"id": "tile-260324-back", "photo": "2603/260324_back.jpg", "clay_body": "SIO2 Barcino Grey", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-001", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "speedball-mf-002132", "name": "Lemon Drop", "brand": "Speedball"}]}, {"id": "tile-260325-back", "photo": "2603/260325_back.jpg", "clay_body": "SIO2 Barcino Grey", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-001", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "speedball-mf-002108", "name": "Natural Opal", "brand": "Speedball"}]}, {"id": "tile-260326-back", "photo": "2603/260326_back.jpg", "clay_body": "SIO2 Barcino Grey", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-001", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "speedball-mf-002133", "name": "Dragon's Eye", "brand": "Speedball"}]}, {"id": "tile-260327-back", "photo": "2603/260327_back.jpg", "clay_body": "SIO2 Barcino Grey", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-001", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "speedball-mf-002135", "name": "Prisma Green", "brand": "Speedball"}]}, {"id": "tile-260328-back", "photo": "2603/260328_back.jpg", "clay_body": "SIO2 Zumaia Grey (Rokk Grey)", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-002", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-112", "name": "Tiger's Eye", "brand": "Mayco"}]}, {"id": "tile-260329-back", "photo": "2603/260329_back.jpg", "clay_body": "SIO2 Zumaia Grey (Rokk Grey)", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-002", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-189", "name": "Cenote", "brand": "Mayco"}]}, {"id": "tile-260330-back", "photo": "2603/260330_back.jpg", "clay_body": "SIO2 Zumaia Grey (Rokk Grey)", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-002", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-190", "name": "Passion Flower", "brand": "Mayco"}]}, {"id": "tile-260331-back", "photo": "2603/260331_back.jpg", "clay_body": "SIO2 Zumaia Grey (Rokk Grey)", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-002", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-191", "name": "Peppered Plum", "brand": "Mayco"}]}, {"id": "tile-260332-back", "photo": "2603/260332_back.jpg", "clay_body": "SIO2 Zumaia Grey (Rokk Grey)", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-002", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-192", "name": "Amaryllis", "brand": "Mayco"}]}, {"id": "tile-260333-back", "photo": "2603/260333_back.jpg", "clay_body": "SIO2 Zumaia Grey (Rokk Grey)", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-002", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-193", "name": "Ivy", "brand": "Mayco"}]}, {"id": "tile-260334-back", "photo": "2603/260334_back.jpg", "clay_body": "SIO2 Zumaia Grey (Rokk Grey)", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-002", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-194", "name": "Nimbus", "brand": "Mayco"}]}, {"id": "tile-260335-back", "photo": "2603/260335_back.jpg", "clay_body": "SIO2 Zumaia Grey (Rokk Grey)", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-002", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-195", "name": "Riptide", "brand": "Mayco"}]}, {"id": "tile-260336-back", "photo": "2603/260336_back.jpg", "clay_body": "SIO2 Zumaia Grey (Rokk Grey)", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-002", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-196", "name": "Sand Dollar", "brand": "Mayco"}]}, {"id": "tile-260337-back", "photo": "2603/260337_back.jpg", "clay_body": "SIO2 Zumaia Grey (Rokk Grey)", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-002", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-197", "name": "Fossil Rock", "brand": "Mayco"}]}, {"id": "tile-260338-back", "photo": "2603/260338_back.jpg", "clay_body": "SIO2 Zumaia Grey (Rokk Grey)", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-002", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-198", "name": "Rose Quartz", "brand": "Mayco"}]}, {"id": "tile-260339-back", "photo": "2603/260339_back.jpg", "clay_body": "SIO2 Zumaia Grey (Rokk Grey)", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-002", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-199", "name": "Purple Aster", "brand": "Mayco"}]}, {"id": "tile-260340-back", "photo": "2603/260340_back.jpg", "clay_body": "SIO2 Zumaia Grey (Rokk Grey)", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-002", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-214", "name": "Micro Pearl", "brand": "Mayco"}]}, {"id": "tile-260341-back", "photo": "2603/260341_back.jpg", "clay_body": "SIO2 Zumaia Grey (Rokk Grey)", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-002", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-215", "name": "Micro Champagne", "brand": "Mayco"}]}, {"id": "tile-260342-back", "photo": "2603/260342_back.jpg", "clay_body": "SIO2 Zumaia Grey (Rokk Grey)", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-002", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-216", "name": "Micro Jade", "brand": "Mayco"}]}, {"id": "tile-260343-back", "photo": "2603/260343_back.jpg", "clay_body": "SIO2 Zumaia Grey (Rokk Grey)", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-002", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-217", "name": "Micro Cerulean", "brand": "Mayco"}]}, {"id": "tile-260344-back", "photo": "2603/260344_back.jpg", "clay_body": "SIO2 Zumaia Grey (Rokk Grey)", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-002", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-218", "name": "Micro Ash", "brand": "Mayco"}]}, {"id": "tile-260345-back", "photo": "2603/260345_back.jpg", "clay_body": "SIO2 Zumaia Grey (Rokk Grey)", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-002", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-220", "name": "Black Timber", "brand": "Mayco"}]}, {"id": "tile-260346-back", "photo": "2603/260346_back.jpg", "clay_body": "SIO2 Zumaia Grey (Rokk Grey)", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-002", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-221", "name": "Mint Speck", "brand": "Mayco"}]}, {"id": "tile-260347-back", "photo": "2603/260347_back.jpg", "clay_body": "SIO2 Zumaia Grey (Rokk Grey)", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-002", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-222", "name": "Green Jasper", "brand": "Mayco"}]}, {"id": "tile-260348-back", "photo": "2603/260348_back.jpg", "clay_body": "SIO2 Zumaia Grey (Rokk Grey)", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-002", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "mayco-sw-224", "name": "Tropical Teal", "brand": "Mayco"}]}, {"id": "tile-260349-back", "photo": "2603/260349_back.jpg", "clay_body": "SIO2 Zumaia Grey (Rokk Grey)", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-002", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "amaco-c-21", "name": "Sky", "brand": "Amaco"}]}, {"id": "tile-260350-back", "photo": "2603/260350_back.jpg", "clay_body": "SIO2 Zumaia Grey (Rokk Grey)", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-002", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "amaco-pc-20", "name": "Blue Rutile", "brand": "Amaco"}]}, {"id": "tile-260351-back", "photo": "2603/260351_back.jpg", "clay_body": "SIO2 Zumaia Grey (Rokk Grey)", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-002", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "speedball-mf-002136", "name": "Blue Flame", "brand": "Speedball"}]}, {"id": "tile-260352-back", "photo": "2603/260352_back.jpg", "clay_body": "SIO2 Zumaia Grey (Rokk Grey)", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-002", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "speedball-mf-002132", "name": "Lemon Drop", "brand": "Speedball"}]}, {"id": "tile-260353-back", "photo": "2603/260353_back.jpg", "clay_body": "SIO2 Zumaia Grey (Rokk Grey)", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-002", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "speedball-mf-002108", "name": "Natural Opal", "brand": "Speedball"}]}, {"id": "tile-260354-back", "photo": "2603/260354_back.jpg", "clay_body": "SIO2 Zumaia Grey (Rokk Grey)", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-002", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "speedball-mf-002133", "name": "Dragon's Eye", "brand": "Speedball"}]}, {"id": "tile-260355-back", "photo": "2603/260355_back.jpg", "clay_body": "SIO2 Zumaia Grey (Rokk Grey)", "cone": 6, "atmosphere": "oxidation", "date": "2026-03-31", "notes": "", "batch": "batch-002", "tags": ["oxidation", "stoneware", "mid-fire"], "resolvedGlazes": [{"id": "mayco-eg-001", "name": "White Engobe", "brand": "Mayco"}, {"id": "mayco-eg-005", "name": "Black Engobe", "brand": "Mayco"}, {"id": "speedball-mf-002135", "name": "Prisma Green", "brand": "Speedball"}]}].map(t => [t.id, t])
+);
+function tileModal() {
+  return {
+    activeTile: null,
+    openTile(id) { this.activeTile = PAGE_TILES[id] ?? null; },
+    closeTile() { this.activeTile = null; },
+    photoUrl(f) { return 'https://pub-fadb8321999f444193651a63bba5967e.r2.dev/' + f; },
+  };
+}
+</script>
 </body>
 </html>
