@@ -1,0 +1,11138 @@
+// Auto-generated from batches.yaml + tiles.yaml + glazes.yaml
+// Edit the YAML files, then run: python build-data.py
+window.SITE_DATA = {
+  "batches": [
+    {
+      "id": "batch-001",
+      "date": "2026-03-31",
+      "clay_body": "SIO2 Barcino Grey",
+      "cone": 6,
+      "atmosphere": "oxidation",
+      "notes": "Back of each tile is white engobe on top and black engobe on bottom",
+      "tags": [
+        "mid-fire",
+        "oxidation",
+        "stoneware"
+      ]
+    },
+    {
+      "id": "batch-002",
+      "date": "2026-03-31",
+      "clay_body": "SIO2 Zumaia Grey (Rokk Grey)",
+      "cone": 6,
+      "atmosphere": "oxidation",
+      "notes": "Back of each tile is white engobe on top and black engobe on bottom",
+      "tags": [
+        "mid-fire",
+        "oxidation",
+        "stoneware"
+      ]
+    },
+    {
+      "id": "batch-003",
+      "date": "2026-03-14",
+      "clay_body": "Valentine LoStone Sea-Mist",
+      "cone": 4,
+      "atmosphere": "oxidation",
+      "notes": "",
+      "tags": [
+        "mid-fire",
+        "oxidation",
+        "stoneware"
+      ]
+    },
+    {
+      "id": "batch-004",
+      "date": "2026-03-14",
+      "clay_body": "Valentine Earthstone ES-10",
+      "cone": 6,
+      "atmosphere": "oxidation",
+      "notes": "",
+      "tags": [
+        "mid-fire",
+        "oxidation",
+        "stoneware"
+      ]
+    },
+    {
+      "id": "batch-005",
+      "date": "2026-02-17",
+      "clay_body": "Valentine LoStone Sea-Mist",
+      "cone": 5,
+      "atmosphere": "oxidation",
+      "notes": "",
+      "tags": [
+        "mid-fire",
+        "oxidation",
+        "stoneware"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "id": "tile-260300-front",
+      "batch": "batch-001",
+      "photo": "2603/260300_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260300-back",
+      "batch": "batch-001",
+      "photo": "2603/260300_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-112"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260301-front",
+      "batch": "batch-001",
+      "photo": "2603/260301_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-189"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260301-back",
+      "batch": "batch-001",
+      "photo": "2603/260301_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-189"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260302-front",
+      "batch": "batch-001",
+      "photo": "2603/260302_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-190"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260302-back",
+      "batch": "batch-001",
+      "photo": "2603/260302_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-190"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260303-front",
+      "batch": "batch-001",
+      "photo": "2603/260303_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-191"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260303-back",
+      "batch": "batch-001",
+      "photo": "2603/260303_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-191"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260304-front",
+      "batch": "batch-001",
+      "photo": "2603/260304_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-192"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260304-back",
+      "batch": "batch-001",
+      "photo": "2603/260304_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-192"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260305-front",
+      "batch": "batch-001",
+      "photo": "2603/260305_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-193"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260305-back",
+      "batch": "batch-001",
+      "photo": "2603/260305_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-193"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260306-front",
+      "batch": "batch-001",
+      "photo": "2603/260306_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-194"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260306-back",
+      "batch": "batch-001",
+      "photo": "2603/260306_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-194"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260307-front",
+      "batch": "batch-001",
+      "photo": "2603/260307_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-195"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260307-back",
+      "batch": "batch-001",
+      "photo": "2603/260307_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-195"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260308-front",
+      "batch": "batch-001",
+      "photo": "2603/260308_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-196"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260308-back",
+      "batch": "batch-001",
+      "photo": "2603/260308_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-196"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260309-front",
+      "batch": "batch-001",
+      "photo": "2603/260309_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-197"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260309-back",
+      "batch": "batch-001",
+      "photo": "2603/260309_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-197"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260310-front",
+      "batch": "batch-001",
+      "photo": "2603/260310_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-198"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260310-back",
+      "batch": "batch-001",
+      "photo": "2603/260310_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-198"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260311-front",
+      "batch": "batch-001",
+      "photo": "2603/260311_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-199"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260311-back",
+      "batch": "batch-001",
+      "photo": "2603/260311_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-199"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260312-front",
+      "batch": "batch-001",
+      "photo": "2603/260312_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-214"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260312-back",
+      "batch": "batch-001",
+      "photo": "2603/260312_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-214"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260313-front",
+      "batch": "batch-001",
+      "photo": "2603/260313_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-215"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260313-back",
+      "batch": "batch-001",
+      "photo": "2603/260313_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-215"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260314-front",
+      "batch": "batch-001",
+      "photo": "2603/260314_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-216"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260314-back",
+      "batch": "batch-001",
+      "photo": "2603/260314_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-216"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260315-front",
+      "batch": "batch-001",
+      "photo": "2603/260315_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-217"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260315-back",
+      "batch": "batch-001",
+      "photo": "2603/260315_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-217"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260316-front",
+      "batch": "batch-001",
+      "photo": "2603/260316_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-218"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260316-back",
+      "batch": "batch-001",
+      "photo": "2603/260316_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-218"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260317-front",
+      "batch": "batch-001",
+      "photo": "2603/260317_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-220"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260317-back",
+      "batch": "batch-001",
+      "photo": "2603/260317_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-220"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260318-front",
+      "batch": "batch-001",
+      "photo": "2603/260318_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-221"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260318-back",
+      "batch": "batch-001",
+      "photo": "2603/260318_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-221"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260319-front",
+      "batch": "batch-001",
+      "photo": "2603/260319_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-222"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260319-back",
+      "batch": "batch-001",
+      "photo": "2603/260319_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-222"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260320-front",
+      "batch": "batch-001",
+      "photo": "2603/260320_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-224"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260320-back",
+      "batch": "batch-001",
+      "photo": "2603/260320_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-224"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260321-front",
+      "batch": "batch-001",
+      "photo": "2603/260321_front.jpg",
+      "glaze_combo": [
+        "amaco-c-21"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260321-back",
+      "batch": "batch-001",
+      "photo": "2603/260321_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "amaco-c-21"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260322-front",
+      "batch": "batch-001",
+      "photo": "2603/260322_front.jpg",
+      "glaze_combo": [
+        "amaco-pc-20"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260322-back",
+      "batch": "batch-001",
+      "photo": "2603/260322_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "amaco-pc-20"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260323-front",
+      "batch": "batch-001",
+      "photo": "2603/260323_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002136"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260323-back",
+      "batch": "batch-001",
+      "photo": "2603/260323_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "speedball-mf-002136"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260324-front",
+      "batch": "batch-001",
+      "photo": "2603/260324_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002132"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260324-back",
+      "batch": "batch-001",
+      "photo": "2603/260324_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "speedball-mf-002132"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260325-front",
+      "batch": "batch-001",
+      "photo": "2603/260325_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002108"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260325-back",
+      "batch": "batch-001",
+      "photo": "2603/260325_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "speedball-mf-002108"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260326-front",
+      "batch": "batch-001",
+      "photo": "2603/260326_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002133"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260326-back",
+      "batch": "batch-001",
+      "photo": "2603/260326_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "speedball-mf-002133"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260327-front",
+      "batch": "batch-001",
+      "photo": "2603/260327_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002135"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260327-back",
+      "batch": "batch-001",
+      "photo": "2603/260327_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "speedball-mf-002135"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260328-front",
+      "batch": "batch-002",
+      "photo": "2603/260328_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260328-back",
+      "batch": "batch-002",
+      "photo": "2603/260328_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-112"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260329-front",
+      "batch": "batch-002",
+      "photo": "2603/260329_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-189"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260329-back",
+      "batch": "batch-002",
+      "photo": "2603/260329_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-189"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260330-front",
+      "batch": "batch-002",
+      "photo": "2603/260330_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-190"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260330-back",
+      "batch": "batch-002",
+      "photo": "2603/260330_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-190"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260331-front",
+      "batch": "batch-002",
+      "photo": "2603/260331_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-191"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260331-back",
+      "batch": "batch-002",
+      "photo": "2603/260331_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-191"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260332-front",
+      "batch": "batch-002",
+      "photo": "2603/260332_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-192"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260332-back",
+      "batch": "batch-002",
+      "photo": "2603/260332_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-192"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260333-front",
+      "batch": "batch-002",
+      "photo": "2603/260333_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-193"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260333-back",
+      "batch": "batch-002",
+      "photo": "2603/260333_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-193"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260334-front",
+      "batch": "batch-002",
+      "photo": "2603/260334_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-194"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260334-back",
+      "batch": "batch-002",
+      "photo": "2603/260334_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-194"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260335-front",
+      "batch": "batch-002",
+      "photo": "2603/260335_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-195"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260335-back",
+      "batch": "batch-002",
+      "photo": "2603/260335_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-195"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260336-front",
+      "batch": "batch-002",
+      "photo": "2603/260336_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-196"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260336-back",
+      "batch": "batch-002",
+      "photo": "2603/260336_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-196"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260337-front",
+      "batch": "batch-002",
+      "photo": "2603/260337_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-197"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260337-back",
+      "batch": "batch-002",
+      "photo": "2603/260337_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-197"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260338-front",
+      "batch": "batch-002",
+      "photo": "2603/260338_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-198"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260338-back",
+      "batch": "batch-002",
+      "photo": "2603/260338_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-198"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260339-front",
+      "batch": "batch-002",
+      "photo": "2603/260339_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-199"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260339-back",
+      "batch": "batch-002",
+      "photo": "2603/260339_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-199"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260340-front",
+      "batch": "batch-002",
+      "photo": "2603/260340_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-214"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260340-back",
+      "batch": "batch-002",
+      "photo": "2603/260340_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-214"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260341-front",
+      "batch": "batch-002",
+      "photo": "2603/260341_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-215"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260341-back",
+      "batch": "batch-002",
+      "photo": "2603/260341_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-215"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260342-front",
+      "batch": "batch-002",
+      "photo": "2603/260342_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-216"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260342-back",
+      "batch": "batch-002",
+      "photo": "2603/260342_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-216"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260343-front",
+      "batch": "batch-002",
+      "photo": "2603/260343_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-217"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260343-back",
+      "batch": "batch-002",
+      "photo": "2603/260343_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-217"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260344-front",
+      "batch": "batch-002",
+      "photo": "2603/260344_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-218"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260344-back",
+      "batch": "batch-002",
+      "photo": "2603/260344_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-218"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260345-front",
+      "batch": "batch-002",
+      "photo": "2603/260345_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-220"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260345-back",
+      "batch": "batch-002",
+      "photo": "2603/260345_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-220"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260346-front",
+      "batch": "batch-002",
+      "photo": "2603/260346_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-221"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260346-back",
+      "batch": "batch-002",
+      "photo": "2603/260346_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-221"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260347-front",
+      "batch": "batch-002",
+      "photo": "2603/260347_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-222"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260347-back",
+      "batch": "batch-002",
+      "photo": "2603/260347_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-222"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260348-front",
+      "batch": "batch-002",
+      "photo": "2603/260348_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-224"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260348-back",
+      "batch": "batch-002",
+      "photo": "2603/260348_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "mayco-sw-224"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260349-front",
+      "batch": "batch-002",
+      "photo": "2603/260349_front.jpg",
+      "glaze_combo": [
+        "amaco-c-21"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260349-back",
+      "batch": "batch-002",
+      "photo": "2603/260349_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "amaco-c-21"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260350-front",
+      "batch": "batch-002",
+      "photo": "2603/260350_front.jpg",
+      "glaze_combo": [
+        "amaco-pc-20"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260350-back",
+      "batch": "batch-002",
+      "photo": "2603/260350_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "amaco-pc-20"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260351-front",
+      "batch": "batch-002",
+      "photo": "2603/260351_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002136"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260351-back",
+      "batch": "batch-002",
+      "photo": "2603/260351_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "speedball-mf-002136"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260352-front",
+      "batch": "batch-002",
+      "photo": "2603/260352_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002132"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260352-back",
+      "batch": "batch-002",
+      "photo": "2603/260352_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "speedball-mf-002132"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260353-front",
+      "batch": "batch-002",
+      "photo": "2603/260353_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002108"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260353-back",
+      "batch": "batch-002",
+      "photo": "2603/260353_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "speedball-mf-002108"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260354-front",
+      "batch": "batch-002",
+      "photo": "2603/260354_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002133"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260354-back",
+      "batch": "batch-002",
+      "photo": "2603/260354_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "speedball-mf-002133"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260355-front",
+      "batch": "batch-002",
+      "photo": "2603/260355_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002135"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260355-back",
+      "batch": "batch-002",
+      "photo": "2603/260355_back.jpg",
+      "glaze_combo": [
+        "mayco-eg-001",
+        "mayco-eg-005",
+        "speedball-mf-002135"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260240-front",
+      "batch": "batch-003",
+      "photo": "2602/260240_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-194",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260240-back",
+      "batch": "batch-003",
+      "photo": "2602/260240_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-512",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260241-front",
+      "batch": "batch-003",
+      "photo": "2602/260241_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-195",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260241-back",
+      "batch": "batch-003",
+      "photo": "2602/260241_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-511",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260242-front",
+      "batch": "batch-003",
+      "photo": "2602/260242_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-196",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260242-back",
+      "batch": "batch-003",
+      "photo": "2602/260242_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-224",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260244-front",
+      "batch": "batch-003",
+      "photo": "2602/260244_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-197",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260244-back",
+      "batch": "batch-003",
+      "photo": "2602/260244_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-222",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260245-front",
+      "batch": "batch-003",
+      "photo": "2602/260245_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-198",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260245-back",
+      "batch": "batch-003",
+      "photo": "2602/260245_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-221",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260246-front",
+      "batch": "batch-003",
+      "photo": "2602/260246_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-199",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260246-back",
+      "batch": "batch-003",
+      "photo": "2602/260246_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-220",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260247-front",
+      "batch": "batch-003",
+      "photo": "2602/260247_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-214",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260247-back",
+      "batch": "batch-003",
+      "photo": "2602/260247_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-219",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260248-front",
+      "batch": "batch-003",
+      "photo": "2602/260248_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-215",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260248-back",
+      "batch": "batch-003",
+      "photo": "2602/260248_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-218",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260249-front",
+      "batch": "batch-003",
+      "photo": "2602/260249_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-216",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260249-back",
+      "batch": "batch-003",
+      "photo": "2602/260249_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-217",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260251-front",
+      "batch": "batch-003",
+      "photo": "2602/260251_front.jpg",
+      "glaze_combo": [
+        "amaco-pc-20",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260251-back",
+      "batch": "batch-003",
+      "photo": "2602/260251_back.jpg",
+      "glaze_combo": [
+        "amaco-pc-64",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260252-front",
+      "batch": "batch-003",
+      "photo": "2602/260252_front.jpg",
+      "glaze_combo": [
+        "chrysanthos-he144",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260252-back",
+      "batch": "batch-003",
+      "photo": "2602/260252_back.jpg",
+      "glaze_combo": [
+        "chrysanthos-he405",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260253-front",
+      "batch": "batch-003",
+      "photo": "2602/260253_front.jpg",
+      "glaze_combo": [
+        "spectrum-1406",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260256-front",
+      "batch": "batch-003",
+      "photo": "2602/260256_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002136",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260256-back",
+      "batch": "batch-003",
+      "photo": "2602/260256_back.jpg",
+      "glaze_combo": [
+        "speedball-mf-002136"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260257-front",
+      "batch": "batch-003",
+      "photo": "2602/260257_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002108",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260257-back",
+      "batch": "batch-003",
+      "photo": "2602/260257_back.jpg",
+      "glaze_combo": [
+        "speedball-mf-002108"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260259-front",
+      "batch": "batch-003",
+      "photo": "2602/260259_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002135",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260259-back",
+      "batch": "batch-003",
+      "photo": "2602/260259_back.jpg",
+      "glaze_combo": [
+        "speedball-mf-002135"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260260-front",
+      "batch": "batch-003",
+      "photo": "2602/260260_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002133",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260260-back",
+      "batch": "batch-003",
+      "photo": "2602/260260_back.jpg",
+      "glaze_combo": [
+        "speedball-mf-002133"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250801-front",
+      "batch": "batch-004",
+      "photo": "2508/250801_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-190",
+        "mayco-sw-198"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250801-back",
+      "batch": "batch-004",
+      "photo": "2508/250801_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-190"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250802-front",
+      "batch": "batch-004",
+      "photo": "2508/250802_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-191",
+        "mayco-sw-194"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250802-back",
+      "batch": "batch-004",
+      "photo": "2508/250802_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-190",
+        "mayco-sw-191"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250803-front",
+      "batch": "batch-004",
+      "photo": "2508/250803_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-192",
+        "mayco-sw-194"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250803-back",
+      "batch": "batch-004",
+      "photo": "2508/250803_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-190",
+        "mayco-sw-192"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250804-front",
+      "batch": "batch-004",
+      "photo": "2508/250804_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-193",
+        "mayco-sw-194"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250804-back",
+      "batch": "batch-004",
+      "photo": "2508/250804_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-190",
+        "mayco-sw-193"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250805-front",
+      "batch": "batch-004",
+      "photo": "2508/250805_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-194"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250805-back",
+      "batch": "batch-004",
+      "photo": "2508/250805_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-190",
+        "mayco-sw-194"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250806-front",
+      "batch": "batch-004",
+      "photo": "2508/250806_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-195",
+        "mayco-sw-194"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250806-back",
+      "batch": "batch-004",
+      "photo": "2508/250806_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-190",
+        "mayco-sw-195"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250807-front",
+      "batch": "batch-004",
+      "photo": "2508/250807_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-196",
+        "mayco-sw-194"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250807-back",
+      "batch": "batch-004",
+      "photo": "2508/250807_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-190",
+        "mayco-sw-196"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250808-front",
+      "batch": "batch-004",
+      "photo": "2508/250808_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-197",
+        "mayco-sw-194"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250808-back",
+      "batch": "batch-004",
+      "photo": "2508/250808_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-190",
+        "mayco-sw-197"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250809-front",
+      "batch": "batch-004",
+      "photo": "2508/250809_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-198",
+        "mayco-sw-194"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250809-back",
+      "batch": "batch-004",
+      "photo": "2508/250809_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-190",
+        "mayco-sw-198"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250810-front",
+      "batch": "batch-004",
+      "photo": "2508/250810_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-190",
+        "mayco-sw-195"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250810-back",
+      "batch": "batch-004",
+      "photo": "2508/250810_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-191",
+        "mayco-sw-190"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250811-front",
+      "batch": "batch-004",
+      "photo": "2508/250811_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-512"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250811-back",
+      "batch": "batch-004",
+      "photo": "2508/250811_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-191"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250812-front",
+      "batch": "batch-004",
+      "photo": "2508/250812_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-192",
+        "mayco-sw-195"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250812-back",
+      "batch": "batch-004",
+      "photo": "2508/250812_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-191",
+        "mayco-sw-192"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250814-front",
+      "batch": "batch-004",
+      "photo": "2508/250814_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-194",
+        "mayco-sw-195"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250814-back",
+      "batch": "batch-004",
+      "photo": "2508/250814_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-191",
+        "mayco-sw-194"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250815-front",
+      "batch": "batch-004",
+      "photo": "2508/250815_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-195"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250815-back",
+      "batch": "batch-004",
+      "photo": "2508/250815_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-191",
+        "mayco-sw-195"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250816-front",
+      "batch": "batch-004",
+      "photo": "2508/250816_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-196",
+        "mayco-sw-195"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250816-back",
+      "batch": "batch-004",
+      "photo": "2508/250816_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-191",
+        "mayco-sw-196"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250817-front",
+      "batch": "batch-004",
+      "photo": "2508/250817_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-197",
+        "mayco-sw-195"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250817-back",
+      "batch": "batch-004",
+      "photo": "2508/250817_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-191",
+        "mayco-sw-197"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250818-front",
+      "batch": "batch-004",
+      "photo": "2508/250818_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-198",
+        "mayco-sw-195"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250818-back",
+      "batch": "batch-004",
+      "photo": "2508/250818_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-191",
+        "mayco-sw-198"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250819-front",
+      "batch": "batch-004",
+      "photo": "2508/250819_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-190",
+        "mayco-sw-196"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250819-back",
+      "batch": "batch-004",
+      "photo": "2508/250819_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-192",
+        "mayco-sw-190"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250820-front",
+      "batch": "batch-004",
+      "photo": "2508/250820_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-191",
+        "mayco-sw-196"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250820-back",
+      "batch": "batch-004",
+      "photo": "2508/250820_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-192",
+        "mayco-sw-191"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250821-front",
+      "batch": "batch-004",
+      "photo": "2508/250821_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-513"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250821-back",
+      "batch": "batch-004",
+      "photo": "2508/250821_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-192"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250822-front",
+      "batch": "batch-004",
+      "photo": "2508/250822_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-193",
+        "mayco-sw-196"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250822-back",
+      "batch": "batch-004",
+      "photo": "2508/250822_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-192",
+        "mayco-sw-193"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250823-front",
+      "batch": "batch-004",
+      "photo": "2508/250823_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-194",
+        "mayco-sw-196"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250823-back",
+      "batch": "batch-004",
+      "photo": "2508/250823_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-192",
+        "mayco-sw-194"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250824-front",
+      "batch": "batch-004",
+      "photo": "2508/250824_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-195",
+        "mayco-sw-196"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250824-back",
+      "batch": "batch-004",
+      "photo": "2508/250824_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-192",
+        "mayco-sw-195"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250825-front",
+      "batch": "batch-004",
+      "photo": "2508/250825_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-196"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250825-back",
+      "batch": "batch-004",
+      "photo": "2508/250825_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-192",
+        "mayco-sw-196"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250826-front",
+      "batch": "batch-004",
+      "photo": "2508/250826_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-197",
+        "mayco-sw-196"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250826-back",
+      "batch": "batch-004",
+      "photo": "2508/250826_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-192",
+        "mayco-sw-197"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250827-front",
+      "batch": "batch-004",
+      "photo": "2508/250827_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-198",
+        "mayco-sw-196"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250827-back",
+      "batch": "batch-004",
+      "photo": "2508/250827_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-192",
+        "mayco-sw-198"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250828-front",
+      "batch": "batch-004",
+      "photo": "2508/250828_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-190",
+        "mayco-sw-197"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250828-back",
+      "batch": "batch-004",
+      "photo": "2508/250828_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-193",
+        "mayco-sw-190"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250829-front",
+      "batch": "batch-004",
+      "photo": "2508/250829_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-191",
+        "mayco-sw-197"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250829-back",
+      "batch": "batch-004",
+      "photo": "2508/250829_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-193",
+        "mayco-sw-191"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250830-front",
+      "batch": "batch-004",
+      "photo": "2508/250830_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-192",
+        "mayco-sw-197"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250830-back",
+      "batch": "batch-004",
+      "photo": "2508/250830_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-193",
+        "mayco-sw-192"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250831-front",
+      "batch": "batch-004",
+      "photo": "2508/250831_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-193",
+        "mayco-sw-197"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250831-back",
+      "batch": "batch-004",
+      "photo": "2508/250831_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-193"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250832-front",
+      "batch": "batch-004",
+      "photo": "2508/250832_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-194",
+        "mayco-sw-197"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250832-back",
+      "batch": "batch-004",
+      "photo": "2508/250832_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-193",
+        "mayco-sw-194"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250833-front",
+      "batch": "batch-004",
+      "photo": "2508/250833_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-195",
+        "mayco-sw-197"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250833-back",
+      "batch": "batch-004",
+      "photo": "2508/250833_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-193",
+        "mayco-sw-195"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250834-front",
+      "batch": "batch-004",
+      "photo": "2508/250834_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-196",
+        "mayco-sw-197"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250834-back",
+      "batch": "batch-004",
+      "photo": "2508/250834_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-193",
+        "mayco-sw-196"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250835-front",
+      "batch": "batch-004",
+      "photo": "2508/250835_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-197"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250835-back",
+      "batch": "batch-004",
+      "photo": "2508/250835_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-193",
+        "mayco-sw-197"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250836-front",
+      "batch": "batch-004",
+      "photo": "2508/250836_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-198",
+        "mayco-sw-197"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250836-back",
+      "batch": "batch-004",
+      "photo": "2508/250836_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-193",
+        "mayco-sw-198"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250837-front",
+      "batch": "batch-004",
+      "photo": "2508/250837_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-194",
+        "mayco-sw-191"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250837-back",
+      "batch": "batch-004",
+      "photo": "2508/250837_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-194",
+        "mayco-sw-190"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250838-front",
+      "batch": "batch-004",
+      "photo": "2508/250838_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-195",
+        "mayco-sw-191"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250838-back",
+      "batch": "batch-004",
+      "photo": "2508/250838_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-195",
+        "mayco-sw-190"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250839-front",
+      "batch": "batch-004",
+      "photo": "2508/250839_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-196",
+        "mayco-sw-191"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-250839-back",
+      "batch": "batch-004",
+      "photo": "2508/250839_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-196",
+        "mayco-sw-190"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260261-front",
+      "batch": "batch-004",
+      "photo": "2602/260261_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002136"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260261-back",
+      "batch": "batch-004",
+      "photo": "2602/260261_back.jpg",
+      "glaze_combo": [
+        "speedball-mf-002136"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260262-front",
+      "batch": "batch-004",
+      "photo": "2602/260262_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002136",
+        "speedball-mf-002133"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260262-back",
+      "batch": "batch-004",
+      "photo": "2602/260262_back.jpg",
+      "glaze_combo": [
+        "speedball-mf-002133",
+        "speedball-mf-002136"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260263-front",
+      "batch": "batch-004",
+      "photo": "2602/260263_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002136",
+        "speedball-mf-002108"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260263-back",
+      "batch": "batch-004",
+      "photo": "2602/260263_back.jpg",
+      "glaze_combo": [
+        "speedball-mf-002108",
+        "speedball-mf-002136"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260264-front",
+      "batch": "batch-004",
+      "photo": "2602/260264_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002136",
+        "speedball-mf-002135"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260264-back",
+      "batch": "batch-004",
+      "photo": "2602/260264_back.jpg",
+      "glaze_combo": [
+        "speedball-mf-002135",
+        "speedball-mf-002136"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260265-front",
+      "batch": "batch-004",
+      "photo": "2602/260265_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002136",
+        "speedball-mf-002132"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260265-back",
+      "batch": "batch-004",
+      "photo": "2602/260265_back.jpg",
+      "glaze_combo": [
+        "speedball-mf-002132",
+        "speedball-mf-002136"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260266-front",
+      "batch": "batch-004",
+      "photo": "2602/260266_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002133",
+        "speedball-mf-002108"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260266-back",
+      "batch": "batch-004",
+      "photo": "2602/260266_back.jpg",
+      "glaze_combo": [
+        "speedball-mf-002108",
+        "speedball-mf-002133"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260267-front",
+      "batch": "batch-004",
+      "photo": "2602/260267_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002133",
+        "speedball-mf-002135"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260267-back",
+      "batch": "batch-004",
+      "photo": "2602/260267_back.jpg",
+      "glaze_combo": [
+        "speedball-mf-002135",
+        "speedball-mf-002133"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260268-front",
+      "batch": "batch-004",
+      "photo": "2602/260268_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002133",
+        "speedball-mf-002132"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260268-back",
+      "batch": "batch-004",
+      "photo": "2602/260268_back.jpg",
+      "glaze_combo": [
+        "speedball-mf-002132",
+        "speedball-mf-002133"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260270-front",
+      "batch": "batch-004",
+      "photo": "2602/260270_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002132",
+        "speedball-mf-002108"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260270-back",
+      "batch": "batch-004",
+      "photo": "2602/260270_back.jpg",
+      "glaze_combo": [
+        "speedball-mf-002108",
+        "speedball-mf-002132"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260271-front",
+      "batch": "batch-004",
+      "photo": "2602/260271_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002132",
+        "speedball-mf-002135"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260271-back",
+      "batch": "batch-004",
+      "photo": "2602/260271_back.jpg",
+      "glaze_combo": [
+        "speedball-mf-002135",
+        "speedball-mf-002132"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260272-front",
+      "batch": "batch-004",
+      "photo": "2602/260272_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002132"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260272-back",
+      "batch": "batch-004",
+      "photo": "2602/260272_back.jpg",
+      "glaze_combo": [
+        "speedball-mf-002108"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260273-front",
+      "batch": "batch-004",
+      "photo": "2602/260273_front.jpg",
+      "glaze_combo": [
+        "speedball-mf-002135"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260200-front",
+      "batch": "batch-005",
+      "photo": "2602/260200_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-199",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260200-back",
+      "batch": "batch-005",
+      "photo": "2602/260200_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-199"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260201-front",
+      "batch": "batch-005",
+      "photo": "2602/260201_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-214",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260201-back",
+      "batch": "batch-005",
+      "photo": "2602/260201_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-214"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260202-front",
+      "batch": "batch-005",
+      "photo": "2602/260202_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-215",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260203-front",
+      "batch": "batch-005",
+      "photo": "2602/260203_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-216",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260204-front",
+      "batch": "batch-005",
+      "photo": "2602/260204_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-217",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260204-back",
+      "batch": "batch-005",
+      "photo": "2602/260204_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-217"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260205-front",
+      "batch": "batch-005",
+      "photo": "2602/260205_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-218",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260205-back",
+      "batch": "batch-005",
+      "photo": "2602/260205_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-218"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260206-front",
+      "batch": "batch-005",
+      "photo": "2602/260207_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-220",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260206-back",
+      "batch": "batch-005",
+      "photo": "2602/260207_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-220"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260207-front",
+      "batch": "batch-005",
+      "photo": "2602/260208_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-221",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260207-back",
+      "batch": "batch-005",
+      "photo": "2602/260208_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-221"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260208-front",
+      "batch": "batch-005",
+      "photo": "2602/260209_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-222",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260208-back",
+      "batch": "batch-005",
+      "photo": "2602/260209_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-222"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260209-front",
+      "batch": "batch-005",
+      "photo": "2602/260206_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-219",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260209-back",
+      "batch": "batch-005",
+      "photo": "2602/260206_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-219"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260210-front",
+      "batch": "batch-005",
+      "photo": "2602/260210_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-224",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260210-back",
+      "batch": "batch-005",
+      "photo": "2602/260210_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-224"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260211-front",
+      "batch": "batch-005",
+      "photo": "2602/260211_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-514",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260211-back",
+      "batch": "batch-005",
+      "photo": "2602/260211_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-514"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260212-front",
+      "batch": "batch-005",
+      "photo": "2602/260212_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-515",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260212-back",
+      "batch": "batch-005",
+      "photo": "2602/260212_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-515"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260213-front",
+      "batch": "batch-005",
+      "photo": "2602/260213_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-112",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260213-back",
+      "batch": "batch-005",
+      "photo": "2602/260213_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-112"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260214-front",
+      "batch": "batch-005",
+      "photo": "2602/260214_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-189",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260214-back",
+      "batch": "batch-005",
+      "photo": "2602/260214_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-189"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260215-front",
+      "batch": "batch-005",
+      "photo": "2602/260215_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-190",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260215-back",
+      "batch": "batch-005",
+      "photo": "2602/260215_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-190"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260217-front",
+      "batch": "batch-005",
+      "photo": "2602/260217_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-191",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260217-back",
+      "batch": "batch-005",
+      "photo": "2602/260217_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-191"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260218-front",
+      "batch": "batch-005",
+      "photo": "2602/260218_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-192",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260218-back",
+      "batch": "batch-005",
+      "photo": "2602/260218_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-192"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260219-front",
+      "batch": "batch-005",
+      "photo": "2602/260219_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-193",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260219-back",
+      "batch": "batch-005",
+      "photo": "2602/260219_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-193"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260220-front",
+      "batch": "batch-005",
+      "photo": "2602/260220_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-194",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260220-back",
+      "batch": "batch-005",
+      "photo": "2602/260220_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-194"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260221-front",
+      "batch": "batch-005",
+      "photo": "2602/260221_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-195",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260221-back",
+      "batch": "batch-005",
+      "photo": "2602/260221_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-195"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260222-front",
+      "batch": "batch-005",
+      "photo": "2602/260222_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-196",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260222-back",
+      "batch": "batch-005",
+      "photo": "2602/260222_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-196"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260223-front",
+      "batch": "batch-005",
+      "photo": "2602/260223_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-197",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260223-back",
+      "batch": "batch-005",
+      "photo": "2602/260223_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-197"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260224-front",
+      "batch": "batch-005",
+      "photo": "2602/260224_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-198",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260224-back",
+      "batch": "batch-005",
+      "photo": "2602/260224_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-198"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260225-front",
+      "batch": "batch-005",
+      "photo": "2602/260225_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-511",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260225-back",
+      "batch": "batch-005",
+      "photo": "2602/260225_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-511"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260226-front",
+      "batch": "batch-005",
+      "photo": "2602/260226_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-512",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260226-back",
+      "batch": "batch-005",
+      "photo": "2602/260226_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-512"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260227-front",
+      "batch": "batch-005",
+      "photo": "2602/260227_front.jpg",
+      "glaze_combo": [
+        "mayco-sw-513",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260227-back",
+      "batch": "batch-005",
+      "photo": "2602/260227_back.jpg",
+      "glaze_combo": [
+        "mayco-sw-513"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260228-front",
+      "batch": "batch-005",
+      "photo": "2602/260228_front.jpg",
+      "glaze_combo": [
+        "amaco-pc-64",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260228-back",
+      "batch": "batch-005",
+      "photo": "2602/260228_back.jpg",
+      "glaze_combo": [
+        "amaco-pc-64"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260229-front",
+      "batch": "batch-005",
+      "photo": "2602/260229_front.jpg",
+      "glaze_combo": [
+        "amaco-pc-20",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260229-back",
+      "batch": "batch-005",
+      "photo": "2602/260229_back.jpg",
+      "glaze_combo": [
+        "amaco-pc-20"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260230-front",
+      "batch": "batch-005",
+      "photo": "2602/260230_front.jpg",
+      "glaze_combo": [
+        "spectrum-1406",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260230-back",
+      "batch": "batch-005",
+      "photo": "2602/260230_back.jpg",
+      "glaze_combo": [
+        "spectrum-1406"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260232-front",
+      "batch": "batch-005",
+      "photo": "2602/260232_front.jpg",
+      "glaze_combo": [
+        "chrysanthos-he144",
+        "botz-9800"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tile-260250-front",
+      "batch": "batch-005",
+      "photo": "2602/260250_front.jpg",
+      "glaze_combo": [
+        "botz-9899",
+        "botz-9800"
+      ],
+      "notes": ""
+    }
+  ],
+  "glazes": [
+    {
+      "id": "mayco-sc-001",
+      "name": "Pink-A-Boo",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-001",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "pink"
+    },
+    {
+      "id": "mayco-sc-002",
+      "name": "Melon-Choly",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-002",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "orange"
+    },
+    {
+      "id": "mayco-sc-003",
+      "name": "Wine About It",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-003",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "burgundy"
+    },
+    {
+      "id": "mayco-sc-005",
+      "name": "Tiger Tail",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-005",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "orange-yellow"
+    },
+    {
+      "id": "mayco-sc-006",
+      "name": "Sunkissed",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-006",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "yellow-orange"
+    },
+    {
+      "id": "mayco-sc-007",
+      "name": "Leapin' Lizard",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-007",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "mayco-sc-008",
+      "name": "Just Froggy",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-008",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "mayco-sc-009",
+      "name": "Jaded",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-009",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "mayco-sc-010",
+      "name": "Teal Next Time",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-010",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "teal"
+    },
+    {
+      "id": "mayco-sc-011",
+      "name": "Blue Yonder",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-011",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "mayco-sc-012",
+      "name": "Moody Blue",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-012",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "mayco-sc-013",
+      "name": "Grapel",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-013",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "purple"
+    },
+    {
+      "id": "mayco-sc-014",
+      "name": "Java Bean",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-014",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "brown"
+    },
+    {
+      "id": "mayco-sc-015",
+      "name": "Tuxedo",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-015",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "black"
+    },
+    {
+      "id": "mayco-sc-016",
+      "name": "Cotton Tail",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-016",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "white"
+    },
+    {
+      "id": "mayco-sc-017",
+      "name": "Cheeky Pinky",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-017",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "pink"
+    },
+    {
+      "id": "mayco-sc-018",
+      "name": "Rosey Posey",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-018",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "rose"
+    },
+    {
+      "id": "mayco-sc-020",
+      "name": "Cashew Later",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-020",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "tan"
+    },
+    {
+      "id": "mayco-sc-023",
+      "name": "Jack O'Lantern",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-023",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "orange"
+    },
+    {
+      "id": "mayco-sc-024",
+      "name": "Dandelion",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-024",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "yellow"
+    },
+    {
+      "id": "mayco-sc-025",
+      "name": "Crackerjack Brown",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-025",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "brown"
+    },
+    {
+      "id": "mayco-sc-026",
+      "name": "Green Thumb",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-026",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "mayco-sc-027",
+      "name": "Sour Apple",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-027",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "lime green"
+    },
+    {
+      "id": "mayco-sc-028",
+      "name": "Blue Isle",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-028",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "mayco-sc-029",
+      "name": "Blue Grass",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-029",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue-green"
+    },
+    {
+      "id": "mayco-sc-030",
+      "name": "Blue Dawn",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-030",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "mayco-sc-031",
+      "name": "The Blues",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-031",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "mayco-sc-032",
+      "name": "Bluebeard",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-032",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue-purple"
+    },
+    {
+      "id": "mayco-sc-033",
+      "name": "Fruit Of The Vine",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-033",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "purple"
+    },
+    {
+      "id": "mayco-sc-034",
+      "name": "Down To Earth",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-034",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "brown"
+    },
+    {
+      "id": "mayco-sc-035",
+      "name": "Gray Hare",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-035",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "gray"
+    },
+    {
+      "id": "mayco-sc-036",
+      "name": "Irish Luck",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-036",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "mayco-sc-037",
+      "name": "Ivory Tower",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-037",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "ivory"
+    },
+    {
+      "id": "mayco-sc-039",
+      "name": "Army Surplus",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-039",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "olive green"
+    },
+    {
+      "id": "mayco-sc-040",
+      "name": "Blueberry Hill",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-040",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue-purple"
+    },
+    {
+      "id": "mayco-sc-041",
+      "name": "Brown Cow",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-041",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "brown"
+    },
+    {
+      "id": "mayco-sc-042",
+      "name": "Butter Me Up",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-042",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "yellow"
+    },
+    {
+      "id": "mayco-sc-043",
+      "name": "Lettuce Alone",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-043",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "mayco-sc-045",
+      "name": "My Blue Heaven",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-045",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "mayco-sc-046",
+      "name": "Rawhide",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-046",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "tan"
+    },
+    {
+      "id": "mayco-sc-048",
+      "name": "Camel Back",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-048",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "tan"
+    },
+    {
+      "id": "mayco-sc-050",
+      "name": "Orange Ya Happy",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-050",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "orange"
+    },
+    {
+      "id": "mayco-sc-051",
+      "name": "Poo Bear",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-051",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "brown"
+    },
+    {
+      "id": "mayco-sc-052",
+      "name": "Toad-ily Green",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-052",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "mayco-sc-053",
+      "name": "Purple Haze",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-053",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "purple"
+    },
+    {
+      "id": "mayco-sc-054",
+      "name": "Vanilla Dip",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-054",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "cream"
+    },
+    {
+      "id": "mayco-sc-055",
+      "name": "Yella Bout It",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-055",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "yellow"
+    },
+    {
+      "id": "mayco-sc-058",
+      "name": "501 Blues",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-058",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "mayco-sc-060",
+      "name": "Silver Lining",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-060",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "silver"
+    },
+    {
+      "id": "mayco-sc-065",
+      "name": "Peri-Twinkle",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-065",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "periwinkle"
+    },
+    {
+      "id": "mayco-sc-070",
+      "name": "Pink-A-Dot",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-070",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "pink"
+    },
+    {
+      "id": "mayco-sc-071",
+      "name": "Purple-Licious",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-071",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "purple"
+    },
+    {
+      "id": "mayco-sc-072",
+      "name": "Grape Jelly",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-072",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "purple"
+    },
+    {
+      "id": "mayco-sc-073",
+      "name": "Candy Apple Red",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-073",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "red"
+    },
+    {
+      "id": "mayco-sc-074",
+      "name": "Hot Tamale",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-074",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "red-orange"
+    },
+    {
+      "id": "mayco-sc-075",
+      "name": "Orange-A-Peel",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-075",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "orange"
+    },
+    {
+      "id": "mayco-sc-076",
+      "name": "Cara-bein Blue",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-076",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "turquoise"
+    },
+    {
+      "id": "mayco-sc-077",
+      "name": "Glo-Worm",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-077",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "yellow-green"
+    },
+    {
+      "id": "mayco-sc-078",
+      "name": "Lime Light",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-078",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "lime"
+    },
+    {
+      "id": "mayco-sc-079",
+      "name": "It's Sage",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-079",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "sage green"
+    },
+    {
+      "id": "mayco-sc-080",
+      "name": "Basketball",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-080",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "orange"
+    },
+    {
+      "id": "mayco-sc-081",
+      "name": "Cinnamon Stix",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-081",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "cinnamon"
+    },
+    {
+      "id": "mayco-sc-083",
+      "name": "Tip Taupe",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-083",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "taupe"
+    },
+    {
+      "id": "mayco-sc-085",
+      "name": "Orkid",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-085",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "orchid"
+    },
+    {
+      "id": "mayco-sc-086",
+      "name": "Old Lace",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-086",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "cream"
+    },
+    {
+      "id": "mayco-sc-087",
+      "name": "Ruby Slippers",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-087",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "red"
+    },
+    {
+      "id": "mayco-sc-088",
+      "name": "Tu Tu Tango",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-088",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "coral"
+    },
+    {
+      "id": "mayco-sc-089",
+      "name": "Cutie Pie Coral",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-089",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "coral"
+    },
+    {
+      "id": "mayco-sc-090",
+      "name": "Elephant Ears",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-090",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "gray"
+    },
+    {
+      "id": "mayco-sc-091",
+      "name": "Seabreeze",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-091",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "aqua"
+    },
+    {
+      "id": "mayco-sc-092",
+      "name": "Café Ole",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-092",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "brown"
+    },
+    {
+      "id": "mayco-sc-093",
+      "name": "Honeydew List",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-093",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "mayco-sc-095",
+      "name": "Pinkie Swear",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-095",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "pink"
+    },
+    {
+      "id": "mayco-sc-096",
+      "name": "Aqu-ward",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-096",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "aqua"
+    },
+    {
+      "id": "mayco-sc-097",
+      "name": "Cant-elope",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-097",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "orange"
+    },
+    {
+      "id": "mayco-sc-098",
+      "name": "Slime Time",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-098",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "slime green"
+    },
+    {
+      "id": "mayco-sc-099",
+      "name": "Char-ming",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-99",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "charcoal"
+    },
+    {
+      "id": "mayco-sc-100",
+      "name": "Makin Me Blush",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-100",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blush"
+    },
+    {
+      "id": "mayco-sc-101",
+      "name": "Spruce It Up",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-101",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "spruce green"
+    },
+    {
+      "id": "mayco-sc-102",
+      "name": "Just Peachy",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-102",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "peach"
+    },
+    {
+      "id": "mayco-sc-103",
+      "name": "Lavendear",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-103",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "lavender"
+    },
+    {
+      "id": "mayco-sc-104",
+      "name": "Grape Expectations",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-104",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "grape"
+    },
+    {
+      "id": "mayco-sc-105",
+      "name": "Tic-Tac-Turquoise",
+      "brand": "Mayco",
+      "product_line": "Stroke & Coat",
+      "sku": "SC-105",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "turquoise"
+    },
+    {
+      "id": "mayco-sw-100",
+      "name": "Blue Surf",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-100",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "mayco-sw-101",
+      "name": "Stoned Denim",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-101",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "mayco-sw-104",
+      "name": "Black Walnut",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-104",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "brown-black"
+    },
+    {
+      "id": "mayco-sw-105",
+      "name": "Frost Blue",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-105",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "blue"
+    },
+    {
+      "id": "mayco-sw-106",
+      "name": "Alabaster",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-106",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "white"
+    },
+    {
+      "id": "mayco-sw-107",
+      "name": "Dunes",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-107",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "matte",
+      "color": "tan"
+    },
+    {
+      "id": "mayco-sw-108",
+      "name": "Green Tea",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-108",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "mayco-sw-109",
+      "name": "Capri Blue",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-109",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "mayco-sw-110",
+      "name": "Oyster",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-110",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "cream"
+    },
+    {
+      "id": "mayco-sw-111",
+      "name": "Wrought Iron",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-111",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "metallic",
+      "color": "gray"
+    },
+    {
+      "id": "mayco-sw-112",
+      "name": "Tiger's Eye",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-112",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "brown"
+    },
+    {
+      "id": "mayco-sw-113",
+      "name": "Speckled Plum",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-113",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "purple"
+    },
+    {
+      "id": "mayco-sw-115",
+      "name": "Midnight Rain",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-115",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "dark blue"
+    },
+    {
+      "id": "mayco-sw-116",
+      "name": "Robin's Egg",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-116",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "mayco-sw-117",
+      "name": "Honeycomb",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-117",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "amber"
+    },
+    {
+      "id": "mayco-sw-118",
+      "name": "Sea Salt",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-118",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "white-gray"
+    },
+    {
+      "id": "mayco-sw-119",
+      "name": "Cinnabar",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-119",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "red"
+    },
+    {
+      "id": "mayco-sw-120",
+      "name": "Northern Woods",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-120",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "brown-green"
+    },
+    {
+      "id": "mayco-sw-121",
+      "name": "Smoke",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-121",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "matte",
+      "color": "gray"
+    },
+    {
+      "id": "mayco-sw-122",
+      "name": "Maycoshino",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-122",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "white-orange"
+    },
+    {
+      "id": "mayco-sw-123",
+      "name": "Sapphire",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-123",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "mayco-sw-127",
+      "name": "Olivine",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-127",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "olive green"
+    },
+    {
+      "id": "mayco-sw-128",
+      "name": "Cordovan",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-128",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "red-brown"
+    },
+    {
+      "id": "mayco-sw-129",
+      "name": "Copper Float",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-129",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "copper-blue"
+    },
+    {
+      "id": "mayco-sw-130",
+      "name": "Copper Jade",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-130",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "copper-green"
+    },
+    {
+      "id": "mayco-sw-131",
+      "name": "Birch",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-131",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "matte",
+      "color": "white"
+    },
+    {
+      "id": "mayco-sw-132",
+      "name": "Mirror Black",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-132",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "metallic",
+      "color": "black"
+    },
+    {
+      "id": "mayco-sw-133",
+      "name": "Copper Ore",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-133",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "metallic",
+      "color": "copper"
+    },
+    {
+      "id": "mayco-sw-134",
+      "name": "Eggplant",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-134",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "purple"
+    },
+    {
+      "id": "mayco-sw-135",
+      "name": "Wintergreen",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-135",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "mayco-sw-136",
+      "name": "Weathered Blue",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-136",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "matte",
+      "color": "blue"
+    },
+    {
+      "id": "mayco-sw-137",
+      "name": "Storm Gray",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-137",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "gray"
+    },
+    {
+      "id": "mayco-sw-138",
+      "name": "Lemon Meringue",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-138",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "yellow"
+    },
+    {
+      "id": "mayco-sw-140",
+      "name": "Black Matte",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-140",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "matte",
+      "color": "black"
+    },
+    {
+      "id": "mayco-sw-141",
+      "name": "White Matte",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-141",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "matte",
+      "color": "white"
+    },
+    {
+      "id": "mayco-sw-142",
+      "name": "Gray Matte",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-142",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "matte",
+      "color": "gray"
+    },
+    {
+      "id": "mayco-sw-143",
+      "name": "Abalone",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-143",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "iridescent"
+    },
+    {
+      "id": "mayco-sw-146",
+      "name": "Aurora Green",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-146",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "mayco-sw-147",
+      "name": "Moonscape",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-147",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "gray-blue"
+    },
+    {
+      "id": "mayco-sw-148",
+      "name": "Lime Shower",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-148",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "mayco-sw-150",
+      "name": "Celadon Bloom",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-150",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "celadon"
+    },
+    {
+      "id": "mayco-sw-151",
+      "name": "Olive Float",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-151",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "olive"
+    },
+    {
+      "id": "mayco-sw-152",
+      "name": "Blue Splatterware",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-152",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "mayco-sw-153",
+      "name": "Indigo Rain",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-153",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "mayco-sw-154",
+      "name": "Shipwreck",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-154",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue-green"
+    },
+    {
+      "id": "mayco-sw-155",
+      "name": "Winter Wood",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-155",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "matte",
+      "color": "brown"
+    },
+    {
+      "id": "mayco-sw-156",
+      "name": "Galaxy",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-156",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "dark iridescent"
+    },
+    {
+      "id": "mayco-sw-158",
+      "name": "Lilac Matte",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-158",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "matte",
+      "color": "lilac"
+    },
+    {
+      "id": "mayco-sw-162",
+      "name": "Pink Matte",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-162",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "matte",
+      "color": "pink"
+    },
+    {
+      "id": "mayco-sw-164",
+      "name": "Satin Patina",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-164",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "green"
+    },
+    {
+      "id": "mayco-sw-165",
+      "name": "Lavender Mist",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-165",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "lavender"
+    },
+    {
+      "id": "mayco-sw-166",
+      "name": "Norse Blue",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-166",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "mayco-sw-167",
+      "name": "Sand & Sea",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-167",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue-tan"
+    },
+    {
+      "id": "mayco-sw-168",
+      "name": "Coral Sands",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-168",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "coral"
+    },
+    {
+      "id": "mayco-sw-169",
+      "name": "Frosted Lemon",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-169",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "yellow"
+    },
+    {
+      "id": "mayco-sw-170",
+      "name": "Blue Hydrangea",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-170",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "mayco-sw-171",
+      "name": "Enchanted Forest",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-171",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "mayco-sw-172",
+      "name": "Macadamia",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-172",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "tan"
+    },
+    {
+      "id": "mayco-sw-173",
+      "name": "Amber Quartz",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-173",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "amber"
+    },
+    {
+      "id": "mayco-sw-174",
+      "name": "Leather",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-174",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "brown"
+    },
+    {
+      "id": "mayco-sw-175",
+      "name": "Rusted Iron",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-175",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "metallic",
+      "color": "rust"
+    },
+    {
+      "id": "mayco-sw-176",
+      "name": "Sandstone",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-176",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "matte",
+      "color": "sand"
+    },
+    {
+      "id": "mayco-sw-177",
+      "name": "Raspberry Mist",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-177",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "pink-red"
+    },
+    {
+      "id": "mayco-sw-178",
+      "name": "Fool's Gold",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-178",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "metallic",
+      "color": "gold"
+    },
+    {
+      "id": "mayco-sw-179",
+      "name": "Muddy Waters",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-179",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "matte",
+      "color": "brown"
+    },
+    {
+      "id": "mayco-sw-180",
+      "name": "Desert Dusk",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-180",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "peach-brown"
+    },
+    {
+      "id": "mayco-sw-181",
+      "name": "Night Moth",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-181",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "dark blue"
+    },
+    {
+      "id": "mayco-sw-182",
+      "name": "Antique Brass",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-182",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "metallic",
+      "color": "brass"
+    },
+    {
+      "id": "mayco-sw-183",
+      "name": "Oxblood",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-183",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "red-brown"
+    },
+    {
+      "id": "mayco-sw-184",
+      "name": "Speckled Toad",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-184",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "mayco-sw-185",
+      "name": "Rainforest",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-185",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "mayco-sw-186",
+      "name": "Azurite",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-186",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "mayco-sw-187",
+      "name": "Himalayan Salt",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-187",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "white-pink"
+    },
+    {
+      "id": "mayco-sw-189",
+      "name": "Cenote",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-189",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "teal"
+    },
+    {
+      "id": "mayco-sw-190",
+      "name": "Passion Flower",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-190",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "purple"
+    },
+    {
+      "id": "mayco-sw-191",
+      "name": "Peppered Plum",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-191",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "purple"
+    },
+    {
+      "id": "mayco-sw-192",
+      "name": "Amaryllis",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-192",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "red"
+    },
+    {
+      "id": "mayco-sw-193",
+      "name": "Ivy",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-193",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "mayco-sw-194",
+      "name": "Nimbus",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-194",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "gray-blue"
+    },
+    {
+      "id": "mayco-sw-195",
+      "name": "Riptide",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-195",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "teal"
+    },
+    {
+      "id": "mayco-sw-196",
+      "name": "Sand Dollar",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-196",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "tan"
+    },
+    {
+      "id": "mayco-sw-197",
+      "name": "Fossil Rock",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-197",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "matte",
+      "color": "gray-brown"
+    },
+    {
+      "id": "mayco-sw-198",
+      "name": "Rose Quartz",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-198",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "rose"
+    },
+    {
+      "id": "mayco-sw-199",
+      "name": "Purple Aster",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-199",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "purple"
+    },
+    {
+      "id": "mayco-sw-201",
+      "name": "Turquoise",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-201",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "turquoise"
+    },
+    {
+      "id": "mayco-sw-203",
+      "name": "Root Beer",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-203",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "brown"
+    },
+    {
+      "id": "mayco-sw-204",
+      "name": "Amber Topaz",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-204",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "amber"
+    },
+    {
+      "id": "mayco-sw-205",
+      "name": "Coral",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-205",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "coral"
+    },
+    {
+      "id": "mayco-sw-206",
+      "name": "Melon",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-206",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "orange",
+      "discontinued": true
+    },
+    {
+      "id": "mayco-sw-207",
+      "name": "Chambray",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-207",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue",
+      "discontinued": true
+    },
+    {
+      "id": "mayco-sw-209",
+      "name": "Charcoal",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-209",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "matte",
+      "color": "gray",
+      "discontinued": true
+    },
+    {
+      "id": "mayco-sw-210",
+      "name": "Emerald",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-210",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "mayco-sw-211",
+      "name": "Glacier Blue",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-211",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "mayco-sw-212",
+      "name": "Peacock",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-212",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue-green"
+    },
+    {
+      "id": "mayco-sw-214",
+      "name": "Micro Pearl",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-214",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "white"
+    },
+    {
+      "id": "mayco-sw-215",
+      "name": "Micro Champagne",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-215",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "champagne"
+    },
+    {
+      "id": "mayco-sw-216",
+      "name": "Micro Jade",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-216",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "mayco-sw-217",
+      "name": "Micro Cerulean",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-217",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "mayco-sw-218",
+      "name": "Micro Ash",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-218",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "matte",
+      "color": "gray"
+    },
+    {
+      "id": "mayco-sw-219",
+      "name": "Opal Lustre",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-219",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "iridescent"
+    },
+    {
+      "id": "mayco-sw-220",
+      "name": "Black Timber",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW220",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "matte",
+      "color": "black"
+    },
+    {
+      "id": "mayco-sw-221",
+      "name": "Mint Speck",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW221",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "mint green"
+    },
+    {
+      "id": "mayco-sw-222",
+      "name": "Green Jasper",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW222",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "mayco-sw-223",
+      "name": "Milk Glass",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW223",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "white"
+    },
+    {
+      "id": "mayco-sw-224",
+      "name": "Tropical Teal",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW224",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "teal"
+    },
+    {
+      "id": "mayco-sw-225",
+      "name": "Lily Pad",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-225",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "mayco-sw-226",
+      "name": "Pink Pearl",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-226",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "pink"
+    },
+    {
+      "id": "mayco-sw-227",
+      "name": "Tidal Wave",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-227",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "mayco-sw-228",
+      "name": "Beetlewing",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-228",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "iridescent"
+    },
+    {
+      "id": "mayco-sw-229",
+      "name": "Mood Ring",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-229",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue-purple"
+    },
+    {
+      "id": "mayco-sw-230",
+      "name": "Pink Speck",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-230",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "pink"
+    },
+    {
+      "id": "mayco-sw-231",
+      "name": "Lilac Speck",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-231",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "lilac"
+    },
+    {
+      "id": "mayco-sw-232",
+      "name": "Baby Blue Speck",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-232",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "mayco-sw-250",
+      "name": "White Opal",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-250",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "white"
+    },
+    {
+      "id": "mayco-sw-251",
+      "name": "Pink Opal",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-251",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "pink"
+    },
+    {
+      "id": "mayco-sw-252",
+      "name": "Blue Opal",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-252",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "blue"
+    },
+    {
+      "id": "mayco-sw-253",
+      "name": "Green Opal",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-253",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "green"
+    },
+    {
+      "id": "mayco-sw-255",
+      "name": "Gray Opal",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-255",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "gray"
+    },
+    {
+      "id": "mayco-sw-401",
+      "name": "Light Flux",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-401",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "clear-white"
+    },
+    {
+      "id": "mayco-sw-402",
+      "name": "Dark Flux",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-402",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "dark"
+    },
+    {
+      "id": "mayco-sw-407",
+      "name": "Clear Flux",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-407",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "clear"
+    },
+    {
+      "id": "mayco-sw-408",
+      "name": "White Flux",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-408",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "white"
+    },
+    {
+      "id": "mayco-sw-501",
+      "name": "White Gloss",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-501",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "white"
+    },
+    {
+      "id": "mayco-sw-502",
+      "name": "Yellow Gloss",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-502",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "yellow"
+    },
+    {
+      "id": "mayco-sw-503",
+      "name": "Orange Gloss",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-503",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "orange"
+    },
+    {
+      "id": "mayco-sw-504",
+      "name": "Red Gloss",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-504",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "red"
+    },
+    {
+      "id": "mayco-sw-505",
+      "name": "Purple Gloss",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-505",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "purple"
+    },
+    {
+      "id": "mayco-sw-506",
+      "name": "Bright Blue Gloss",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-506",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "mayco-sw-507",
+      "name": "Bright Green Gloss",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-507",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "mayco-sw-508",
+      "name": "Black Gloss",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-508",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "black"
+    },
+    {
+      "id": "mayco-sw-509",
+      "name": "Dark Green Gloss",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-509",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "dark green"
+    },
+    {
+      "id": "mayco-sw-510",
+      "name": "Blue Gloss",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-510",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "mayco-sw-511",
+      "name": "Pink Gloss",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-511",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "pink"
+    },
+    {
+      "id": "mayco-sw-512",
+      "name": "Coral Gloss",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-512",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "coral"
+    },
+    {
+      "id": "mayco-sw-513",
+      "name": "Brown Gloss",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW-513",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "brown"
+    },
+    {
+      "id": "mayco-sw-514",
+      "name": "Sage Gloss",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW514",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "sage green"
+    },
+    {
+      "id": "mayco-sw-515",
+      "name": "Aqua Gloss",
+      "brand": "Mayco",
+      "product_line": "Stoneware",
+      "sku": "SW515",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "aqua"
+    },
+    {
+      "id": "mayco-eg-001",
+      "name": "White Engobe",
+      "brand": "Mayco",
+      "product_line": "Engobe",
+      "sku": "EG-001",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "matte",
+      "color": "white"
+    },
+    {
+      "id": "mayco-eg-002",
+      "name": "Speckled Buff Engobe",
+      "brand": "Mayco",
+      "product_line": "Engobe",
+      "sku": "EG-002",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "matte",
+      "color": "buff"
+    },
+    {
+      "id": "mayco-eg-003",
+      "name": "Brick Red Engobe",
+      "brand": "Mayco",
+      "product_line": "Engobe",
+      "sku": "EG-003",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "matte",
+      "color": "brick red"
+    },
+    {
+      "id": "mayco-eg-004",
+      "name": "Dark Brown Engobe",
+      "brand": "Mayco",
+      "product_line": "Engobe",
+      "sku": "EG-004",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "matte",
+      "color": "dark brown"
+    },
+    {
+      "id": "mayco-eg-005",
+      "name": "Black Engobe",
+      "brand": "Mayco",
+      "product_line": "Engobe",
+      "sku": "EG-005",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "matte",
+      "color": "black"
+    },
+    {
+      "id": "mayco-eg-006",
+      "name": "Sparkle Black Engobe",
+      "brand": "Mayco",
+      "product_line": "Engobe",
+      "sku": "EG006",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "metallic",
+      "color": "black"
+    },
+    {
+      "id": "mayco-eg-007",
+      "name": "Terracotta Engobe",
+      "brand": "Mayco",
+      "product_line": "Engobe",
+      "sku": "EG007",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "matte",
+      "color": "terracotta"
+    },
+    {
+      "id": "mayco-cg-707",
+      "name": "Woodland Fantasy",
+      "brand": "Mayco",
+      "product_line": "Jungle Gems",
+      "sku": "CG-707",
+      "cone": [
+        -6
+      ],
+      "finish": "glossy",
+      "color": "green",
+      "notes": "Crystal formation"
+    },
+    {
+      "id": "mayco-cg-1005",
+      "name": "Maroon Lagoon",
+      "brand": "Mayco",
+      "product_line": "Jungle Gems",
+      "sku": "CG-1005",
+      "cone": [
+        -6
+      ],
+      "finish": "glossy",
+      "color": "maroon",
+      "notes": "Crystal formation"
+    },
+    {
+      "id": "mayco-cg-1012",
+      "name": "Haystack",
+      "brand": "Mayco",
+      "product_line": "Jungle Gems",
+      "sku": "CG-1012",
+      "cone": [
+        -6
+      ],
+      "finish": "glossy",
+      "color": "tan",
+      "notes": "Crystal formation"
+    },
+    {
+      "id": "mayco-sp-274",
+      "name": "Speckled Hot Tamale",
+      "brand": "Mayco",
+      "product_line": "Speckled",
+      "sku": "SP-274",
+      "cone": [
+        -6,
+        6
+      ],
+      "finish": "glossy",
+      "color": "red"
+    },
+    {
+      "id": "mayco-sp-289",
+      "name": "Speckled Cutie Pie Coral",
+      "brand": "Mayco",
+      "product_line": "Speckled",
+      "sku": "SP-289",
+      "cone": [
+        -6,
+        6
+      ],
+      "finish": "glossy",
+      "color": "coral"
+    },
+    {
+      "id": "amaco-pc-01",
+      "name": "Saturation Metallic",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-01",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "metallic",
+      "color": "silver metallic"
+    },
+    {
+      "id": "amaco-pc-02",
+      "name": "Saturation Gold",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-02",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "metallic",
+      "color": "gold"
+    },
+    {
+      "id": "amaco-pc-04",
+      "name": "Palladium",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-04",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "metallic",
+      "color": "silver"
+    },
+    {
+      "id": "amaco-pc-09",
+      "name": "Vintage Gold",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-09",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "metallic",
+      "color": "gold"
+    },
+    {
+      "id": "amaco-pc-10",
+      "name": "June Bug",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-10",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "green iridescent"
+    },
+    {
+      "id": "amaco-pc-11",
+      "name": "Blue Spark",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-11",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "amaco-pc-12",
+      "name": "Blue Midnight",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-12",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "dark blue"
+    },
+    {
+      "id": "amaco-pc-13",
+      "name": "Serpentine Green",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-13",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "amaco-pc-14",
+      "name": "Lapis Flow",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-14",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "dark blue"
+    },
+    {
+      "id": "amaco-pc-15",
+      "name": "Satin Oribe",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-15",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "green"
+    },
+    {
+      "id": "amaco-pc-16",
+      "name": "Purple Crystal",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-16",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "purple"
+    },
+    {
+      "id": "amaco-pc-17",
+      "name": "Honey Flux",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-17",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "amber"
+    },
+    {
+      "id": "amaco-pc-18",
+      "name": "Tuscan Blue",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-18",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "blue"
+    },
+    {
+      "id": "amaco-pc-19",
+      "name": "Moon River",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-19",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "blue grey"
+    },
+    {
+      "id": "amaco-pc-20",
+      "name": "Blue Rutile",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-20",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue",
+      "notes": "Heavy variegation, streaky blues and purples"
+    },
+    {
+      "id": "amaco-pc-21",
+      "name": "Arctic Blue",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-21",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "light blue"
+    },
+    {
+      "id": "amaco-pc-22",
+      "name": "Blue Stone",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-22",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "blue grey"
+    },
+    {
+      "id": "amaco-pc-23",
+      "name": "Indigo Float",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-23",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "dark blue"
+    },
+    {
+      "id": "amaco-pc-24",
+      "name": "Sapphire Float",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-24",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "amaco-pc-25",
+      "name": "Textured Turquoise",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-25",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "textured",
+      "color": "turquoise"
+    },
+    {
+      "id": "amaco-pc-26",
+      "name": "Blue Lagoon",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-26",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "amaco-pc-27",
+      "name": "Tourmaline",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-27",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue green"
+    },
+    {
+      "id": "amaco-pc-28",
+      "name": "Frosted Turquoise",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-28",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "turquoise"
+    },
+    {
+      "id": "amaco-pc-29",
+      "name": "Deep Olive Speckle",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-29",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "textured",
+      "color": "olive"
+    },
+    {
+      "id": "amaco-pc-30",
+      "name": "Temmoku",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-30",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "dark brown black"
+    },
+    {
+      "id": "amaco-pc-31",
+      "name": "Oatmeal",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-31",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "cream"
+    },
+    {
+      "id": "amaco-pc-32",
+      "name": "Albany Slip Brown",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-32",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "brown"
+    },
+    {
+      "id": "amaco-pc-33",
+      "name": "Iron Lustre",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-33",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "brown"
+    },
+    {
+      "id": "amaco-pc-34",
+      "name": "Light Sepia",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-34",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "light brown"
+    },
+    {
+      "id": "amaco-pc-36",
+      "name": "Ironstone",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-36",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "brown grey"
+    },
+    {
+      "id": "amaco-pc-38",
+      "name": "Iron Yellow",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-38",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "yellow"
+    },
+    {
+      "id": "amaco-pc-40",
+      "name": "True Celadon",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-40",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "celadon green"
+    },
+    {
+      "id": "amaco-pc-41",
+      "name": "Vert Lustre",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-41",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "amaco-pc-42",
+      "name": "Seaweed",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-42",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "dark green"
+    },
+    {
+      "id": "amaco-pc-43",
+      "name": "Toasted Sage",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-43",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "sage green"
+    },
+    {
+      "id": "amaco-pc-44",
+      "name": "Sage",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-44",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "sage green"
+    },
+    {
+      "id": "amaco-pc-45",
+      "name": "Dark Green",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-45",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "dark green"
+    },
+    {
+      "id": "amaco-pc-46",
+      "name": "Lustrous Jade",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-46",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "jade green"
+    },
+    {
+      "id": "amaco-pc-47",
+      "name": "Emerald Falls",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-47",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "amaco-pc-48",
+      "name": "Art Deco Green",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-48",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "green"
+    },
+    {
+      "id": "amaco-pc-49",
+      "name": "Frosted Melon",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-49",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "peach"
+    },
+    {
+      "id": "amaco-pc-52",
+      "name": "Deep Sienna Speckle",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-52",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "textured",
+      "color": "brown"
+    },
+    {
+      "id": "amaco-pc-53",
+      "name": "Ancient Jasper",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-53",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "brown"
+    },
+    {
+      "id": "amaco-pc-55",
+      "name": "Chun Plum",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-55",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "purple"
+    },
+    {
+      "id": "amaco-pc-56",
+      "name": "Ancient Copper",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-56",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "copper green"
+    },
+    {
+      "id": "amaco-pc-57",
+      "name": "Smokey Merlot",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-57",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "dark purple"
+    },
+    {
+      "id": "amaco-pc-59",
+      "name": "Deep Firebrick",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-59",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "red brown"
+    },
+    {
+      "id": "amaco-pc-61",
+      "name": "Textured Amber",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-61",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "textured",
+      "color": "amber"
+    },
+    {
+      "id": "amaco-pc-62",
+      "name": "Textured Amber Brown",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-62",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "textured",
+      "color": "amber brown"
+    },
+    {
+      "id": "amaco-pc-63",
+      "name": "Cosmic Tea Dust",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-63",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "satin",
+      "color": "brown"
+    },
+    {
+      "id": "amaco-pc-64",
+      "name": "Aventurine",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-64",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "green gold"
+    },
+    {
+      "id": "amaco-pc-65",
+      "name": "Black Aventurine",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-65",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "black"
+    },
+    {
+      "id": "amaco-pc-66",
+      "name": "Cosmic Oilspot",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-66",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "black"
+    },
+    {
+      "id": "amaco-pc-67",
+      "name": "River Rock",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-67",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "textured",
+      "color": "grey brown"
+    },
+    {
+      "id": "amaco-pc-68",
+      "name": "Golden Honey",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-68",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "gold amber"
+    },
+    {
+      "id": "amaco-pc-69",
+      "name": "Cosmic Gold Dust",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-69",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "gold"
+    },
+    {
+      "id": "amaco-pc-70",
+      "name": "Copper Red",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-70",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "red"
+    },
+    {
+      "id": "amaco-pc-71",
+      "name": "Flambe",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-71",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "red orange"
+    },
+    {
+      "id": "amaco-pc-72",
+      "name": "Fire & Ice",
+      "brand": "Amaco",
+      "product_line": "Potter's Choice",
+      "sku": "PC-72",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue white"
+    },
+    {
+      "id": "amaco-c-01",
+      "name": "Obsidian",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-01",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "black"
+    },
+    {
+      "id": "amaco-c-03",
+      "name": "Smoke",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-03",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "grey"
+    },
+    {
+      "id": "amaco-c-05",
+      "name": "Charcoal",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-05",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "dark grey"
+    },
+    {
+      "id": "amaco-c-10",
+      "name": "Snow",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-10",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "white"
+    },
+    {
+      "id": "amaco-c-11",
+      "name": "Mixing Clear",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-11",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "transparent"
+    },
+    {
+      "id": "amaco-c-19",
+      "name": "Glacier",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-19",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "pale blue"
+    },
+    {
+      "id": "amaco-c-20",
+      "name": "Cobalt",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-20",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "cobalt blue"
+    },
+    {
+      "id": "amaco-c-21",
+      "name": "Sky",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-21",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "sky blue"
+    },
+    {
+      "id": "amaco-c-22",
+      "name": "Fog",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-22",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "grey"
+    },
+    {
+      "id": "amaco-c-23",
+      "name": "Ice",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-23",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "pale blue"
+    },
+    {
+      "id": "amaco-c-24",
+      "name": "Succulent",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-24",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "amaco-c-25",
+      "name": "Downpour",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-25",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "amaco-c-26",
+      "name": "Lagoon",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-26",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "teal"
+    },
+    {
+      "id": "amaco-c-27",
+      "name": "Storm",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-27",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue grey"
+    },
+    {
+      "id": "amaco-c-29",
+      "name": "Deep Sea",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-29",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "dark teal"
+    },
+    {
+      "id": "amaco-c-32",
+      "name": "Ochre",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-32",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "ochre"
+    },
+    {
+      "id": "amaco-c-33",
+      "name": "Sandalwood",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-33",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "tan"
+    },
+    {
+      "id": "amaco-c-36",
+      "name": "Iron",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-36",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "dark brown"
+    },
+    {
+      "id": "amaco-c-40",
+      "name": "Aqua",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-40",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "aqua"
+    },
+    {
+      "id": "amaco-c-41",
+      "name": "Pear",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-41",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "yellow green"
+    },
+    {
+      "id": "amaco-c-42",
+      "name": "Saguaro",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-42",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "sage green"
+    },
+    {
+      "id": "amaco-c-43",
+      "name": "Wasabi",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-43",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "yellow green"
+    },
+    {
+      "id": "amaco-c-47",
+      "name": "Jade",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-47",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "jade green"
+    },
+    {
+      "id": "amaco-c-49",
+      "name": "Rainforest",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-49",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "dark green"
+    },
+    {
+      "id": "amaco-c-50",
+      "name": "Cherry Blossom",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-50",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "pink"
+    },
+    {
+      "id": "amaco-c-52",
+      "name": "Red Rock",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-52",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "red brown"
+    },
+    {
+      "id": "amaco-c-53",
+      "name": "Weeping Plum",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-53",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "purple"
+    },
+    {
+      "id": "amaco-c-54",
+      "name": "Snapdragon",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-54",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "orange"
+    },
+    {
+      "id": "amaco-c-55",
+      "name": "Poppy",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-55",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "red"
+    },
+    {
+      "id": "amaco-c-56",
+      "name": "Lavender",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-56",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "lavender"
+    },
+    {
+      "id": "amaco-c-57",
+      "name": "Mulberry",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-57",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "dark purple"
+    },
+    {
+      "id": "amaco-c-60",
+      "name": "Marigold",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-60",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "yellow orange"
+    },
+    {
+      "id": "amaco-c-65",
+      "name": "Tangelo",
+      "brand": "Amaco",
+      "product_line": "Celadon",
+      "sku": "C-65",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "orange"
+    },
+    {
+      "id": "amaco-v-361",
+      "name": "Black",
+      "brand": "Amaco",
+      "product_line": "Velvet Underglaze",
+      "sku": "V-361",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "matte",
+      "color": "black"
+    },
+    {
+      "id": "speedball-underglaze-cobalt-blue",
+      "name": "Cobalt Blue",
+      "brand": "Speedball",
+      "product_line": "Underglaze",
+      "cone": [
+        -6,
+        6
+      ],
+      "finish": "matte",
+      "color": "blue"
+    },
+    {
+      "id": "speedball-underglaze-red",
+      "name": "Red",
+      "brand": "Speedball",
+      "product_line": "Underglaze",
+      "cone": [
+        -6,
+        6
+      ],
+      "finish": "matte",
+      "color": "red"
+    },
+    {
+      "id": "speedball-underglaze-yellow",
+      "name": "Yellow",
+      "brand": "Speedball",
+      "product_line": "Underglaze",
+      "cone": [
+        -6,
+        6
+      ],
+      "finish": "matte",
+      "color": "yellow"
+    },
+    {
+      "id": "speedball-underglaze-black",
+      "name": "Black",
+      "brand": "Speedball",
+      "product_line": "Underglaze",
+      "cone": [
+        -6,
+        6
+      ],
+      "finish": "matte",
+      "color": "black"
+    },
+    {
+      "id": "speedball-underglaze-white",
+      "name": "White",
+      "brand": "Speedball",
+      "product_line": "Underglaze",
+      "cone": [
+        -6,
+        6
+      ],
+      "finish": "matte",
+      "color": "white"
+    },
+    {
+      "id": "speedball-mf-002100",
+      "name": "Blue Tiger's Eye",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002100",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "speedball-mf-002101",
+      "name": "Blackened Copper",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002101",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "dark copper"
+    },
+    {
+      "id": "speedball-mf-002102",
+      "name": "Blushing White",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002102",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "white"
+    },
+    {
+      "id": "speedball-mf-002103",
+      "name": "Dragon Stone",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002103",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "grey green"
+    },
+    {
+      "id": "speedball-mf-002104",
+      "name": "Teal Agate",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002104",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "teal"
+    },
+    {
+      "id": "speedball-mf-002105",
+      "name": "Blue Topaz",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002105",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "speedball-mf-002106",
+      "name": "Blue Moss",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002106",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue green"
+    },
+    {
+      "id": "speedball-mf-002107",
+      "name": "Lavender Mist",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002107",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "lavender"
+    },
+    {
+      "id": "speedball-mf-002108",
+      "name": "Natural Opal",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002108",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "white"
+    },
+    {
+      "id": "speedball-mf-002109",
+      "name": "Wisteria",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002109",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "purple"
+    },
+    {
+      "id": "speedball-mf-002110",
+      "name": "Variegated Lapis",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002110",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "dark blue"
+    },
+    {
+      "id": "speedball-mf-002111",
+      "name": "Sea Glass",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002111",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "seafoam"
+    },
+    {
+      "id": "speedball-mf-002112",
+      "name": "Basque Green",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002112",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "speedball-mf-002113",
+      "name": "Gossamer Drift",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002113",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "white"
+    },
+    {
+      "id": "speedball-mf-002114",
+      "name": "Smoke",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002114",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "grey"
+    },
+    {
+      "id": "speedball-mf-002115",
+      "name": "Blackcurrant",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002115",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "dark purple"
+    },
+    {
+      "id": "speedball-mf-002116",
+      "name": "Hematite",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002116",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "dark grey"
+    },
+    {
+      "id": "speedball-mf-002117",
+      "name": "Storied Sage",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002117",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "sage green"
+    },
+    {
+      "id": "speedball-mf-002118",
+      "name": "Buttermilk",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002118",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "cream"
+    },
+    {
+      "id": "speedball-mf-002119",
+      "name": "Champagne Quartz",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002119",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "champagne"
+    },
+    {
+      "id": "speedball-mf-002120",
+      "name": "Coriander",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002120",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "warm brown"
+    },
+    {
+      "id": "speedball-mf-002121",
+      "name": "Prussian Jade",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002121",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "dark teal"
+    },
+    {
+      "id": "speedball-mf-002123",
+      "name": "Ethereal Blue",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002123",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "light blue"
+    },
+    {
+      "id": "speedball-mf-002124",
+      "name": "Midnight Plum",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002124",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "dark purple"
+    },
+    {
+      "id": "speedball-mf-002125",
+      "name": "Jasper",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002125",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "red brown"
+    },
+    {
+      "id": "speedball-mf-002126",
+      "name": "Nightshade",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002126",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "dark purple"
+    },
+    {
+      "id": "speedball-mf-002127",
+      "name": "Biscotti",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002127",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "tan"
+    },
+    {
+      "id": "speedball-mf-002128",
+      "name": "Green Tourmaline",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002128",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "speedball-mf-002129",
+      "name": "Orange Creamsicle",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002129",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "orange"
+    },
+    {
+      "id": "speedball-mf-002130",
+      "name": "Raspberry Fizz",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002130",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "pink red"
+    },
+    {
+      "id": "speedball-mf-002131",
+      "name": "Living Coral",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002131",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "coral"
+    },
+    {
+      "id": "speedball-mf-002132",
+      "name": "Lemon Drop",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002132",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "yellow"
+    },
+    {
+      "id": "speedball-mf-002133",
+      "name": "Dragon's Eye",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002133",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue purple"
+    },
+    {
+      "id": "speedball-mf-002134",
+      "name": "Galaxy Mist",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002134",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue purple"
+    },
+    {
+      "id": "speedball-mf-002135",
+      "name": "Prisma Green",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002135",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "speedball-mf-002136",
+      "name": "Blue Flame",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Glaze",
+      "sku": "002136",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue red"
+    },
+    {
+      "id": "speedball-flux-002137",
+      "name": "Vanilla",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Flux Glaze",
+      "sku": "002137",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "transparent cream"
+    },
+    {
+      "id": "speedball-flux-002138",
+      "name": "Carolina Blue",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Flux Glaze",
+      "sku": "002138",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "transparent blue"
+    },
+    {
+      "id": "speedball-flux-002139",
+      "name": "Cocoa",
+      "brand": "Speedball",
+      "product_line": "Mid-Fire Flux Glaze",
+      "sku": "002139",
+      "cone": [
+        5,
+        6
+      ],
+      "finish": "glossy",
+      "color": "transparent brown"
+    },
+    {
+      "id": "chrysanthos-gg-cobalt-blue",
+      "name": "Cobalt Blue",
+      "brand": "Chrysanthos",
+      "product_line": "Glaze & Go",
+      "cone": [
+        -6,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "chrysanthos-gg-white",
+      "name": "White",
+      "brand": "Chrysanthos",
+      "product_line": "Glaze & Go",
+      "cone": [
+        -6,
+        6
+      ],
+      "finish": "glossy",
+      "color": "white"
+    },
+    {
+      "id": "chrysanthos-gg-black",
+      "name": "Black",
+      "brand": "Chrysanthos",
+      "product_line": "Glaze & Go",
+      "cone": [
+        -6,
+        6
+      ],
+      "finish": "glossy",
+      "color": "black"
+    },
+    {
+      "id": "chrysanthos-sig-celadon",
+      "name": "Celadon",
+      "brand": "Chrysanthos",
+      "product_line": "Signature",
+      "cone": [
+        6
+      ],
+      "finish": "satin",
+      "color": "celadon green"
+    },
+    {
+      "id": "chrysanthos-he001",
+      "name": "Bronze Metal",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE001",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "metallic",
+      "color": "bronze",
+      "notes": "Contains lead — not food safe"
+    },
+    {
+      "id": "chrysanthos-he005",
+      "name": "Gun Metal",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE005",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "metallic",
+      "color": "grey",
+      "notes": "Contains lead — not food safe"
+    },
+    {
+      "id": "chrysanthos-he009",
+      "name": "Bronze Metal LF",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE009",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "metallic",
+      "color": "bronze"
+    },
+    {
+      "id": "chrysanthos-he013",
+      "name": "Gun Metal LF",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE013",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "metallic",
+      "color": "dark grey"
+    },
+    {
+      "id": "chrysanthos-he101",
+      "name": "Neutral",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE101",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "transparent"
+    },
+    {
+      "id": "chrysanthos-he105",
+      "name": "Honey Onyx",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE105",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "amber"
+    },
+    {
+      "id": "chrysanthos-he109",
+      "name": "Orange Onyx",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE109",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "orange"
+    },
+    {
+      "id": "chrysanthos-he120",
+      "name": "Jasper",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE120",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "red brown"
+    },
+    {
+      "id": "chrysanthos-he125",
+      "name": "Mildew",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE125",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "grey green"
+    },
+    {
+      "id": "chrysanthos-he133",
+      "name": "Green Agate",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE133",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "chrysanthos-he135",
+      "name": "Adamite",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE135",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "chrysanthos-he143",
+      "name": "Brownite",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE143",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "brown"
+    },
+    {
+      "id": "chrysanthos-he144",
+      "name": "Brown Garnet",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE144",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "dark red brown"
+    },
+    {
+      "id": "chrysanthos-he151",
+      "name": "Blue Stone",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE151",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "chrysanthos-he152",
+      "name": "Tanzanite",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE152",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue purple"
+    },
+    {
+      "id": "chrysanthos-he157",
+      "name": "Obsidian",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE157",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "black"
+    },
+    {
+      "id": "chrysanthos-he405",
+      "name": "Blue Mottle",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE405",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "chrysanthos-he-yellow-onyx",
+      "name": "Yellow Onyx",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "yellow"
+    },
+    {
+      "id": "chrysanthos-he-brown-gamite",
+      "name": "Brown Gamite",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "brown"
+    },
+    {
+      "id": "chrysanthos-he-marble-brown",
+      "name": "Marble Brown",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "brown"
+    },
+    {
+      "id": "chrysanthos-he-forest-rhyolite",
+      "name": "Forest Rhyolite",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "green brown"
+    },
+    {
+      "id": "chrysanthos-he-parchment-brown",
+      "name": "Parchment Brown",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "tan"
+    },
+    {
+      "id": "chrysanthos-he301",
+      "name": "Crackle Clear",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE301",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "transparent"
+    },
+    {
+      "id": "chrysanthos-he421",
+      "name": "Sodalite",
+      "brand": "Chrysanthos",
+      "product_line": "High Fire Exotic",
+      "sku": "HE421",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "botz-4001",
+      "name": "Egg Yellow",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4001",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "yellow"
+    },
+    {
+      "id": "botz-4002",
+      "name": "Cobalt Blue",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4002",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "botz-4003",
+      "name": "Wine",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4003",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "burgundy"
+    },
+    {
+      "id": "botz-4004",
+      "name": "Black",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4004",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "black"
+    },
+    {
+      "id": "botz-4005",
+      "name": "Chrome Green",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4005",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "botz-4006",
+      "name": "Turquoise",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4006",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "turquoise"
+    },
+    {
+      "id": "botz-4007",
+      "name": "Rosewood",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4007",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "rose"
+    },
+    {
+      "id": "botz-4008",
+      "name": "Soft Grey",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4008",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "grey"
+    },
+    {
+      "id": "botz-4009",
+      "name": "White",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4009",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "white"
+    },
+    {
+      "id": "botz-4010",
+      "name": "Chestnut",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4010",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "brown"
+    },
+    {
+      "id": "botz-4011",
+      "name": "Grey",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4011",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "grey"
+    },
+    {
+      "id": "botz-4012",
+      "name": "Capri Blue",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4012",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "botz-4013",
+      "name": "Lilac",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4013",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "lilac"
+    },
+    {
+      "id": "botz-4014",
+      "name": "Plum",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4014",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "purple"
+    },
+    {
+      "id": "botz-4015",
+      "name": "Fern Green",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4015",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "botz-4016",
+      "name": "Lime Green",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4016",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "lime green"
+    },
+    {
+      "id": "botz-4017",
+      "name": "Sun Yellow",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4017",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "yellow"
+    },
+    {
+      "id": "botz-4018",
+      "name": "Salmon",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4018",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "salmon"
+    },
+    {
+      "id": "botz-4019",
+      "name": "Whiskey",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4019",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "amber"
+    },
+    {
+      "id": "botz-4020",
+      "name": "Mocha",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4020",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "brown"
+    },
+    {
+      "id": "botz-4021",
+      "name": "Blue Green",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4021",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "teal"
+    },
+    {
+      "id": "botz-4042",
+      "name": "Orange",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4042",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "orange"
+    },
+    {
+      "id": "botz-4043",
+      "name": "Sunset Red",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4043",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "red"
+    },
+    {
+      "id": "botz-4044",
+      "name": "Strong Red",
+      "brand": "Botz",
+      "product_line": "Unidekor",
+      "sku": "4044",
+      "cone": [
+        -6,
+        9
+      ],
+      "finish": "glossy",
+      "color": "dark red"
+    },
+    {
+      "id": "botz-9101",
+      "name": "Glossy White",
+      "brand": "Botz",
+      "product_line": "Earthenware",
+      "sku": "9101",
+      "cone": [
+        -6,
+        -3
+      ],
+      "finish": "glossy",
+      "color": "white"
+    },
+    {
+      "id": "botz-9102",
+      "name": "Glossy Transparent",
+      "brand": "Botz",
+      "product_line": "Earthenware",
+      "sku": "9102",
+      "cone": [
+        -6,
+        -3
+      ],
+      "finish": "glossy",
+      "color": "transparent"
+    },
+    {
+      "id": "botz-9103",
+      "name": "Linden Green",
+      "brand": "Botz",
+      "product_line": "Earthenware",
+      "sku": "9103",
+      "cone": [
+        -6,
+        -3
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "botz-9104",
+      "name": "Cognac",
+      "brand": "Botz",
+      "product_line": "Earthenware",
+      "sku": "9104",
+      "cone": [
+        -6,
+        -3
+      ],
+      "finish": "glossy",
+      "color": "amber"
+    },
+    {
+      "id": "botz-9105",
+      "name": "Dark Brown",
+      "brand": "Botz",
+      "product_line": "Earthenware",
+      "sku": "9105",
+      "cone": [
+        -6,
+        -3
+      ],
+      "finish": "glossy",
+      "color": "dark brown"
+    },
+    {
+      "id": "botz-9106",
+      "name": "High Gloss Transparent",
+      "brand": "Botz",
+      "product_line": "Earthenware",
+      "sku": "9106",
+      "cone": [
+        -6,
+        -3
+      ],
+      "finish": "glossy",
+      "color": "transparent"
+    },
+    {
+      "id": "botz-9107",
+      "name": "White Matt",
+      "brand": "Botz",
+      "product_line": "Earthenware",
+      "sku": "9107",
+      "cone": [
+        -6,
+        -3
+      ],
+      "finish": "matte",
+      "color": "white"
+    },
+    {
+      "id": "botz-9108",
+      "name": "Transparent Matt",
+      "brand": "Botz",
+      "product_line": "Earthenware",
+      "sku": "9108",
+      "cone": [
+        -6,
+        -3
+      ],
+      "finish": "matte",
+      "color": "transparent"
+    },
+    {
+      "id": "botz-9131",
+      "name": "White Glimmer",
+      "brand": "Botz",
+      "product_line": "Earthenware",
+      "sku": "9131",
+      "cone": [
+        -6,
+        -3
+      ],
+      "finish": "glossy",
+      "color": "white"
+    },
+    {
+      "id": "botz-9861",
+      "name": "Concrete Grey",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9861",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "matte",
+      "color": "grey"
+    },
+    {
+      "id": "botz-9862",
+      "name": "Desert Yellow",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9862",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "matte",
+      "color": "yellow"
+    },
+    {
+      "id": "botz-9863",
+      "name": "Forget-Me-Not",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9863",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "blue"
+    },
+    {
+      "id": "botz-9864",
+      "name": "Rose Rock",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9864",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "pink"
+    },
+    {
+      "id": "botz-9865",
+      "name": "Eucalyptus",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9865",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "matte",
+      "color": "green"
+    },
+    {
+      "id": "botz-9866",
+      "name": "Driftwood",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9866",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "matte",
+      "color": "brown"
+    },
+    {
+      "id": "botz-9867",
+      "name": "Patina",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9867",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "matte",
+      "color": "green"
+    },
+    {
+      "id": "botz-9868",
+      "name": "Glacier",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9868",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "white"
+    },
+    {
+      "id": "botz-9869",
+      "name": "Mountain Lake",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9869",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "blue"
+    },
+    {
+      "id": "botz-9870",
+      "name": "Transparent",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9870",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "transparent"
+    },
+    {
+      "id": "botz-9871",
+      "name": "Bright Yellow",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9871",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "yellow"
+    },
+    {
+      "id": "botz-9872",
+      "name": "Orange",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9872",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "orange"
+    },
+    {
+      "id": "botz-9873",
+      "name": "Vermilion",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9873",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "red"
+    },
+    {
+      "id": "botz-9874",
+      "name": "Ultra Marine",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9874",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "botz-9875",
+      "name": "Cactus",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9875",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "botz-9876",
+      "name": "White",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9876",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "white"
+    },
+    {
+      "id": "botz-9877",
+      "name": "Black",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9877",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "black"
+    },
+    {
+      "id": "botz-9878",
+      "name": "Clear Crackle",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9878",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "textured",
+      "color": "transparent"
+    },
+    {
+      "id": "botz-9879",
+      "name": "Bright Blue Effect",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9879",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "botz-9880",
+      "name": "Pacific",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9880",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "blue"
+    },
+    {
+      "id": "botz-9881",
+      "name": "Deep Blue",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9881",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "dark blue"
+    },
+    {
+      "id": "botz-9882",
+      "name": "Blue Grey Speckle",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9882",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "textured",
+      "color": "blue grey"
+    },
+    {
+      "id": "botz-9883",
+      "name": "Black Blue Speckle",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9883",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "textured",
+      "color": "black blue"
+    },
+    {
+      "id": "botz-9884",
+      "name": "Weasel Brown",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9884",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "brown"
+    },
+    {
+      "id": "botz-9885",
+      "name": "Tenmoku",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9885",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "dark brown"
+    },
+    {
+      "id": "botz-9886",
+      "name": "Speckle Cream",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9886",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "textured",
+      "color": "cream"
+    },
+    {
+      "id": "botz-9887",
+      "name": "Cream White",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9887",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "cream"
+    },
+    {
+      "id": "botz-9888",
+      "name": "Black Granite",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9888",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "textured",
+      "color": "black"
+    },
+    {
+      "id": "botz-9889",
+      "name": "Indigo",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9889",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "dark blue"
+    },
+    {
+      "id": "botz-9890",
+      "name": "Turquoise Granite",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9890",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "textured",
+      "color": "turquoise"
+    },
+    {
+      "id": "botz-9891",
+      "name": "Green Granite",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9891",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "textured",
+      "color": "green"
+    },
+    {
+      "id": "botz-9892",
+      "name": "Salamander",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9892",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "brown green"
+    },
+    {
+      "id": "botz-9893",
+      "name": "Basalt Grey",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9893",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "satin",
+      "color": "grey"
+    },
+    {
+      "id": "botz-9894",
+      "name": "Beige Granite",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9894",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "textured",
+      "color": "beige"
+    },
+    {
+      "id": "botz-9895",
+      "name": "Sand Granite",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9895",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "textured",
+      "color": "beige"
+    },
+    {
+      "id": "botz-9896",
+      "name": "Ochre Granite",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9896",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "textured",
+      "color": "ochre"
+    },
+    {
+      "id": "botz-9897",
+      "name": "Lilac Speckle",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9897",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "textured",
+      "color": "lilac"
+    },
+    {
+      "id": "botz-9898",
+      "name": "Ice Crystal",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9898",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "textured",
+      "color": "white"
+    },
+    {
+      "id": "botz-9899",
+      "name": "Travertin",
+      "brand": "Botz",
+      "product_line": "Stoneware",
+      "sku": "9899",
+      "cone": [
+        6,
+        10
+      ],
+      "finish": "textured",
+      "color": "beige"
+    },
+    {
+      "id": "botz-9300",
+      "name": "Transparent",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9300",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "transparent"
+    },
+    {
+      "id": "botz-9301",
+      "name": "Opal White",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9301",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "white"
+    },
+    {
+      "id": "botz-9302",
+      "name": "Agate Grey",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9302",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "grey"
+    },
+    {
+      "id": "botz-9303",
+      "name": "Citrine Yellow",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9303",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "yellow"
+    },
+    {
+      "id": "botz-9304",
+      "name": "Celadon Green",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9304",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "celadon green"
+    },
+    {
+      "id": "botz-9305",
+      "name": "Aquamarine",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9305",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "aquamarine"
+    },
+    {
+      "id": "botz-9306",
+      "name": "Sapphire Blue",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9306",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "botz-9307",
+      "name": "Pearl Pink",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9307",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "pink"
+    },
+    {
+      "id": "botz-9308",
+      "name": "Carnelian",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9308",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "orange red"
+    },
+    {
+      "id": "botz-9309",
+      "name": "Heliodor",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9309",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "golden yellow"
+    },
+    {
+      "id": "botz-9310",
+      "name": "Malachite",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9310",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "botz-9311",
+      "name": "Topaz Blue",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9311",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "botz-9312",
+      "name": "Onyx Black",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9312",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "black"
+    },
+    {
+      "id": "botz-9313",
+      "name": "Pyrit White",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9313",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "white"
+    },
+    {
+      "id": "botz-9314",
+      "name": "Smoky Quartz",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9314",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "brown grey"
+    },
+    {
+      "id": "botz-9315",
+      "name": "Larimar",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9315",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "light blue"
+    },
+    {
+      "id": "botz-9316",
+      "name": "Morganite",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9316",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "peach pink"
+    },
+    {
+      "id": "botz-9317",
+      "name": "Raw Diamond",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9317",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "clear"
+    },
+    {
+      "id": "botz-9318",
+      "name": "Calcite Yellow",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9318",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "pale yellow"
+    },
+    {
+      "id": "botz-9319",
+      "name": "Peridot",
+      "brand": "Botz",
+      "product_line": "Botz PRO",
+      "sku": "9319",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "yellow green"
+    },
+    {
+      "id": "botz-9800",
+      "name": "SPS - Melting Point Reducer",
+      "brand": "Botz",
+      "product_line": "Botz SPS",
+      "sku": "9800",
+      "cone": [
+        -6,
+        10
+      ],
+      "finish": "glossy",
+      "color": "transparent"
+    },
+    {
+      "id": "spectrum-1100",
+      "name": "Transparent",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1100",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "transparent"
+    },
+    {
+      "id": "spectrum-1102",
+      "name": "Wedgwood",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1102",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "spectrum-1103",
+      "name": "Dusty Rose",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1103",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "pink"
+    },
+    {
+      "id": "spectrum-1104",
+      "name": "Grass Green",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1104",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "spectrum-1106",
+      "name": "Crimson",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1106",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "red"
+    },
+    {
+      "id": "spectrum-1107",
+      "name": "Black",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1107",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "black"
+    },
+    {
+      "id": "spectrum-1108",
+      "name": "Butter Yellow",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1108",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "yellow"
+    },
+    {
+      "id": "spectrum-1109",
+      "name": "Coral",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1109",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "coral"
+    },
+    {
+      "id": "spectrum-1110",
+      "name": "Turquoise",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1110",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "turquoise"
+    },
+    {
+      "id": "spectrum-1111",
+      "name": "Holly Green",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1111",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "spectrum-1112",
+      "name": "Gold",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1112",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "gold"
+    },
+    {
+      "id": "spectrum-1113",
+      "name": "Milk & Honey",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1113",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "cream"
+    },
+    {
+      "id": "spectrum-1114",
+      "name": "Gold Rain",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1114",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "gold"
+    },
+    {
+      "id": "spectrum-1115",
+      "name": "Moonscape",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1115",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "grey"
+    },
+    {
+      "id": "spectrum-1116",
+      "name": "Mirror",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1116",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "metallic"
+    },
+    {
+      "id": "spectrum-1117",
+      "name": "Texture Chocolate",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1117",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "brown"
+    },
+    {
+      "id": "spectrum-1118",
+      "name": "White",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1118",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "white"
+    },
+    {
+      "id": "spectrum-1120",
+      "name": "Satin Clear",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1120",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "transparent"
+    },
+    {
+      "id": "spectrum-1121",
+      "name": "Satin White",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1121",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "white"
+    },
+    {
+      "id": "spectrum-1122",
+      "name": "Satin Mottle",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1122",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "mottled"
+    },
+    {
+      "id": "spectrum-1123",
+      "name": "Satin Speckle",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1123",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "speckled"
+    },
+    {
+      "id": "spectrum-1124",
+      "name": "Satin Wedgewood",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1124",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "blue"
+    },
+    {
+      "id": "spectrum-1126",
+      "name": "Satin Black",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1126",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "black"
+    },
+    {
+      "id": "spectrum-1127",
+      "name": "Satin Turquoise",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1127",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "turquoise"
+    },
+    {
+      "id": "spectrum-1129",
+      "name": "Texture Oasis",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1129",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "green"
+    },
+    {
+      "id": "spectrum-1131",
+      "name": "Charcoal",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1131",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "dark grey"
+    },
+    {
+      "id": "spectrum-1132",
+      "name": "Purple",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1132",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "purple"
+    },
+    {
+      "id": "spectrum-1134",
+      "name": "Chocolate Brown",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1134",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "brown"
+    },
+    {
+      "id": "spectrum-1135",
+      "name": "Navy Blue",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1135",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "dark blue"
+    },
+    {
+      "id": "spectrum-1136",
+      "name": "Royal Blue",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1136",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "spectrum-1137",
+      "name": "Teal Blue",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1137",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "teal"
+    },
+    {
+      "id": "spectrum-1138",
+      "name": "Lime Green",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1138",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "lime"
+    },
+    {
+      "id": "spectrum-1139",
+      "name": "Chrome Green",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1139",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "spectrum-1140",
+      "name": "Texture Kiwi",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1140",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "green"
+    },
+    {
+      "id": "spectrum-1141",
+      "name": "Texture Cascade",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1141",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "blue"
+    },
+    {
+      "id": "spectrum-1142",
+      "name": "Texture Wheat",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1142",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "tan"
+    },
+    {
+      "id": "spectrum-1143",
+      "name": "Texture Navy",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1143",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "dark blue"
+    },
+    {
+      "id": "spectrum-1144",
+      "name": "Texture Mottle",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1144",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "mottled"
+    },
+    {
+      "id": "spectrum-1145",
+      "name": "Texture Autumn",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1145",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "orange brown"
+    },
+    {
+      "id": "spectrum-1146",
+      "name": "Texture Swampy",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1146",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "green brown"
+    },
+    {
+      "id": "spectrum-1148",
+      "name": "Texture Chowder",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1148",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "cream"
+    },
+    {
+      "id": "spectrum-1149",
+      "name": "Oceanic Blue",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1149",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "blue"
+    },
+    {
+      "id": "spectrum-1151",
+      "name": "Fuschia",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1151",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "pink"
+    },
+    {
+      "id": "spectrum-1152",
+      "name": "Texture Chrome",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1152",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "silver"
+    },
+    {
+      "id": "spectrum-1153",
+      "name": "Texture Cobalt",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1153",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "dark blue"
+    },
+    {
+      "id": "spectrum-1154",
+      "name": "Texture Iron",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1154",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "dark brown"
+    },
+    {
+      "id": "spectrum-1155",
+      "name": "Pebble Stone",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1155",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "grey"
+    },
+    {
+      "id": "spectrum-1156",
+      "name": "Olive Stone",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1156",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "olive"
+    },
+    {
+      "id": "spectrum-1157",
+      "name": "Texture Honey",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1157",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "amber"
+    },
+    {
+      "id": "spectrum-1158",
+      "name": "Texture Bronze",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1158",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "bronze"
+    },
+    {
+      "id": "spectrum-1159",
+      "name": "Green Stone",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1159",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "green"
+    },
+    {
+      "id": "spectrum-1161",
+      "name": "Texture Topaz",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1161",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "amber blue"
+    },
+    {
+      "id": "spectrum-1162",
+      "name": "Texture Burgundy",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1162",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "dark red"
+    },
+    {
+      "id": "spectrum-1164",
+      "name": "Dark Red",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1164",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "dark red"
+    },
+    {
+      "id": "spectrum-1165",
+      "name": "Bright Red",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1165",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "red"
+    },
+    {
+      "id": "spectrum-1166",
+      "name": "Bright Orange",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1166",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "orange"
+    },
+    {
+      "id": "spectrum-1167",
+      "name": "Bright Green",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1167",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "spectrum-1168",
+      "name": "Bright Purple",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1168",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "purple"
+    },
+    {
+      "id": "spectrum-1169",
+      "name": "Dark Purple",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1169",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "dark purple"
+    },
+    {
+      "id": "spectrum-1170",
+      "name": "Texture Mulberry",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1170",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "purple red"
+    },
+    {
+      "id": "spectrum-1171",
+      "name": "Texture Plum",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1171",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "plum"
+    },
+    {
+      "id": "spectrum-1172",
+      "name": "Texture Leopard",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1172",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "brown spotted"
+    },
+    {
+      "id": "spectrum-1173",
+      "name": "Running Hot Chowder",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1173",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "cream"
+    },
+    {
+      "id": "spectrum-1174",
+      "name": "Texture Rusty Scales",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1174",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "rust"
+    },
+    {
+      "id": "spectrum-1175",
+      "name": "Texture Dark Ripple",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1175",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "dark"
+    },
+    {
+      "id": "spectrum-1176",
+      "name": "Texture Cinnamon Ripple",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1176",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "cinnamon"
+    },
+    {
+      "id": "spectrum-1177",
+      "name": "Antique Mottle",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1177",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "mottled"
+    },
+    {
+      "id": "spectrum-1180",
+      "name": "Lagoon",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1180",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "teal"
+    },
+    {
+      "id": "spectrum-1181",
+      "name": "Texture Cloud Burst",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1181",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "blue white"
+    },
+    {
+      "id": "spectrum-1182",
+      "name": "Texture Jungle",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1182",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "green"
+    },
+    {
+      "id": "spectrum-1183",
+      "name": "Texture Dark Cloud",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1183",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "dark grey"
+    },
+    {
+      "id": "spectrum-1184",
+      "name": "Hunter Green",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1184",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "dark green"
+    },
+    {
+      "id": "spectrum-1185",
+      "name": "Forest Green",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1185",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "green"
+    },
+    {
+      "id": "spectrum-1186",
+      "name": "Soft Pink",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1186",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "pink"
+    },
+    {
+      "id": "spectrum-1187",
+      "name": "Clear Crackle",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1187",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "transparent"
+    },
+    {
+      "id": "spectrum-1188",
+      "name": "Pewter",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1188",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "grey"
+    },
+    {
+      "id": "spectrum-1191",
+      "name": "Muddy Waters",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1191",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "brown"
+    },
+    {
+      "id": "spectrum-1192",
+      "name": "Reactive Purple",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1192",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "purple"
+    },
+    {
+      "id": "spectrum-1193",
+      "name": "Fire Engine Red",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1193",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "red"
+    },
+    {
+      "id": "spectrum-1194",
+      "name": "Christmas Red",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1194",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "red"
+    },
+    {
+      "id": "spectrum-1195",
+      "name": "Neon Orange",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1195",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "orange"
+    },
+    {
+      "id": "spectrum-1196",
+      "name": "Hot Pink",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1196",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "pink"
+    },
+    {
+      "id": "spectrum-1197",
+      "name": "Reactive Red",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1197",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "red"
+    },
+    {
+      "id": "spectrum-1198",
+      "name": "Oil Spot",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1198",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "glossy",
+      "color": "iridescent"
+    },
+    {
+      "id": "spectrum-1199",
+      "name": "Texture Mossy",
+      "brand": "Spectrum",
+      "product_line": "1100 Opaque Gloss",
+      "sku": "1199",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "textured",
+      "color": "green"
+    },
+    {
+      "id": "spectrum-1401",
+      "name": "Cherry Salmon",
+      "brand": "Spectrum",
+      "product_line": "1400 Shino",
+      "sku": "1401",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "salmon pink"
+    },
+    {
+      "id": "spectrum-1402",
+      "name": "Saffron",
+      "brand": "Spectrum",
+      "product_line": "1400 Shino",
+      "sku": "1402",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "yellow orange"
+    },
+    {
+      "id": "spectrum-1403",
+      "name": "Citron",
+      "brand": "Spectrum",
+      "product_line": "1400 Shino",
+      "sku": "1403",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "yellow green"
+    },
+    {
+      "id": "spectrum-1404",
+      "name": "Wasabi",
+      "brand": "Spectrum",
+      "product_line": "1400 Shino",
+      "sku": "1404",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "green"
+    },
+    {
+      "id": "spectrum-1405",
+      "name": "Blue Oyster",
+      "brand": "Spectrum",
+      "product_line": "1400 Shino",
+      "sku": "1405",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "blue grey"
+    },
+    {
+      "id": "spectrum-1406",
+      "name": "Ahi",
+      "brand": "Spectrum",
+      "product_line": "1400 Shino",
+      "sku": "1406",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "blue"
+    },
+    {
+      "id": "spectrum-1407",
+      "name": "Aubergine",
+      "brand": "Spectrum",
+      "product_line": "1400 Shino",
+      "sku": "1407",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "purple"
+    },
+    {
+      "id": "spectrum-1408",
+      "name": "Jalapeno",
+      "brand": "Spectrum",
+      "product_line": "1400 Shino",
+      "sku": "1408",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "green"
+    },
+    {
+      "id": "spectrum-1409",
+      "name": "Guacamole",
+      "brand": "Spectrum",
+      "product_line": "1400 Shino",
+      "sku": "1409",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "olive green"
+    },
+    {
+      "id": "spectrum-1410",
+      "name": "Miso",
+      "brand": "Spectrum",
+      "product_line": "1400 Shino",
+      "sku": "1410",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "tan"
+    },
+    {
+      "id": "spectrum-1411",
+      "name": "Nutmeg",
+      "brand": "Spectrum",
+      "product_line": "1400 Shino",
+      "sku": "1411",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "brown"
+    },
+    {
+      "id": "spectrum-1412",
+      "name": "Charcoal",
+      "brand": "Spectrum",
+      "product_line": "1400 Shino",
+      "sku": "1412",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "dark grey"
+    },
+    {
+      "id": "spectrum-1431",
+      "name": "Pearl White",
+      "brand": "Spectrum",
+      "product_line": "1430 Floating",
+      "sku": "1431",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "white"
+    },
+    {
+      "id": "spectrum-1432",
+      "name": "Curry",
+      "brand": "Spectrum",
+      "product_line": "1430 Floating",
+      "sku": "1432",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "yellow"
+    },
+    {
+      "id": "spectrum-1433",
+      "name": "Twilight",
+      "brand": "Spectrum",
+      "product_line": "1430 Floating",
+      "sku": "1433",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "purple blue"
+    },
+    {
+      "id": "spectrum-1434",
+      "name": "Autumn Purple",
+      "brand": "Spectrum",
+      "product_line": "1430 Floating",
+      "sku": "1434",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "purple"
+    },
+    {
+      "id": "spectrum-1435",
+      "name": "Sangria",
+      "brand": "Spectrum",
+      "product_line": "1430 Floating",
+      "sku": "1435",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "dark red"
+    },
+    {
+      "id": "spectrum-1436",
+      "name": "Kim Chi",
+      "brand": "Spectrum",
+      "product_line": "1430 Floating",
+      "sku": "1436",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "orange red"
+    },
+    {
+      "id": "spectrum-1437",
+      "name": "Floating Celadon",
+      "brand": "Spectrum",
+      "product_line": "1430 Floating",
+      "sku": "1437",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "celadon"
+    },
+    {
+      "id": "spectrum-1438",
+      "name": "Cactus",
+      "brand": "Spectrum",
+      "product_line": "1430 Floating",
+      "sku": "1438",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "green"
+    },
+    {
+      "id": "spectrum-1439",
+      "name": "Nori Green",
+      "brand": "Spectrum",
+      "product_line": "1430 Floating",
+      "sku": "1439",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "dark green"
+    },
+    {
+      "id": "spectrum-1440",
+      "name": "Floating Blue",
+      "brand": "Spectrum",
+      "product_line": "1430 Floating",
+      "sku": "1440",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "blue"
+    },
+    {
+      "id": "spectrum-1441",
+      "name": "Scandinavian Blue",
+      "brand": "Spectrum",
+      "product_line": "1430 Floating",
+      "sku": "1441",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "blue"
+    },
+    {
+      "id": "spectrum-1442",
+      "name": "Glacier",
+      "brand": "Spectrum",
+      "product_line": "1430 Floating",
+      "sku": "1442",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "light blue"
+    },
+    {
+      "id": "spectrum-1443",
+      "name": "Fuzzy Peach",
+      "brand": "Spectrum",
+      "product_line": "1430 Floating",
+      "sku": "1443",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "peach"
+    },
+    {
+      "id": "spectrum-1444",
+      "name": "Tiger's Eye",
+      "brand": "Spectrum",
+      "product_line": "1430 Floating",
+      "sku": "1444",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "amber brown"
+    },
+    {
+      "id": "spectrum-1445",
+      "name": "Papaya",
+      "brand": "Spectrum",
+      "product_line": "1430 Floating",
+      "sku": "1445",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "orange"
+    },
+    {
+      "id": "spectrum-1446",
+      "name": "Sunrise",
+      "brand": "Spectrum",
+      "product_line": "1430 Floating",
+      "sku": "1446",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "orange yellow"
+    },
+    {
+      "id": "spectrum-1447",
+      "name": "Bougainvillea",
+      "brand": "Spectrum",
+      "product_line": "1430 Floating",
+      "sku": "1447",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "magenta"
+    },
+    {
+      "id": "spectrum-1448",
+      "name": "Shallot",
+      "brand": "Spectrum",
+      "product_line": "1430 Floating",
+      "sku": "1448",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "purple pink"
+    },
+    {
+      "id": "spectrum-1449",
+      "name": "Floating Turquoise",
+      "brand": "Spectrum",
+      "product_line": "1430 Floating",
+      "sku": "1449",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "turquoise"
+    },
+    {
+      "id": "spectrum-1450",
+      "name": "Morning Glory",
+      "brand": "Spectrum",
+      "product_line": "1430 Floating",
+      "sku": "1450",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "blue purple"
+    },
+    {
+      "id": "spectrum-1451",
+      "name": "Louisiana Bayou",
+      "brand": "Spectrum",
+      "product_line": "1430 Floating",
+      "sku": "1451",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "murky green"
+    },
+    {
+      "id": "spectrum-1452",
+      "name": "Spanish Moss",
+      "brand": "Spectrum",
+      "product_line": "1430 Floating",
+      "sku": "1452",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "grey green"
+    },
+    {
+      "id": "spectrum-1453",
+      "name": "Ginger",
+      "brand": "Spectrum",
+      "product_line": "1430 Floating",
+      "sku": "1453",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "amber"
+    },
+    {
+      "id": "spectrum-1454",
+      "name": "Tapenade",
+      "brand": "Spectrum",
+      "product_line": "1430 Floating",
+      "sku": "1454",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "olive brown"
+    },
+    {
+      "id": "spectrum-1461",
+      "name": "Onyx",
+      "brand": "Spectrum",
+      "product_line": "1460 Celadon",
+      "sku": "1461",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "black"
+    },
+    {
+      "id": "spectrum-1462",
+      "name": "Rainy Day",
+      "brand": "Spectrum",
+      "product_line": "1460 Celadon",
+      "sku": "1462",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "grey"
+    },
+    {
+      "id": "spectrum-1463",
+      "name": "Cerulean",
+      "brand": "Spectrum",
+      "product_line": "1460 Celadon",
+      "sku": "1463",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "blue"
+    },
+    {
+      "id": "spectrum-1464",
+      "name": "Moroccan Blue",
+      "brand": "Spectrum",
+      "product_line": "1460 Celadon",
+      "sku": "1464",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "dark blue"
+    },
+    {
+      "id": "spectrum-1465",
+      "name": "Light Celadon",
+      "brand": "Spectrum",
+      "product_line": "1460 Celadon",
+      "sku": "1465",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "light celadon"
+    },
+    {
+      "id": "spectrum-1466",
+      "name": "Celadon",
+      "brand": "Spectrum",
+      "product_line": "1460 Celadon",
+      "sku": "1466",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "celadon"
+    },
+    {
+      "id": "spectrum-1467",
+      "name": "Spring Green",
+      "brand": "Spectrum",
+      "product_line": "1460 Celadon",
+      "sku": "1467",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "light green"
+    },
+    {
+      "id": "spectrum-1468",
+      "name": "Bottle Green",
+      "brand": "Spectrum",
+      "product_line": "1460 Celadon",
+      "sku": "1468",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "dark green"
+    },
+    {
+      "id": "spectrum-1469",
+      "name": "Mimosa",
+      "brand": "Spectrum",
+      "product_line": "1460 Celadon",
+      "sku": "1469",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "yellow"
+    },
+    {
+      "id": "spectrum-1470",
+      "name": "Cranberry",
+      "brand": "Spectrum",
+      "product_line": "1460 Celadon",
+      "sku": "1470",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "dark red"
+    },
+    {
+      "id": "spectrum-1471",
+      "name": "Orchid",
+      "brand": "Spectrum",
+      "product_line": "1460 Celadon",
+      "sku": "1471",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "purple pink"
+    },
+    {
+      "id": "spectrum-1472",
+      "name": "Watermelon",
+      "brand": "Spectrum",
+      "product_line": "1460 Celadon",
+      "sku": "1472",
+      "cone": [
+        4,
+        6
+      ],
+      "finish": "satin",
+      "color": "pink red"
+    }
+  ]
+};
