@@ -2259,7 +2259,7 @@ window.SITE_DATA = {
       "batch": "batch-004",
       "photo": "2602/260261_back.jpg",
       "glaze_combo": [
-        "speedball-mf-002136"
+        "speedball-mf-002133"
       ],
       "notes": ""
     },
