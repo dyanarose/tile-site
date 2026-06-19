@@ -2569,7 +2569,7 @@ window.SITE_DATA = {
     {
       "id": "tile-260206-front",
       "batch": "batch-005",
-      "photo": "2602/260207_front.jpg",
+      "photo": "2602/260206_front.jpg",
       "glaze_combo": [
         "mayco-sw-220",
         "botz-9800"
@@ -2579,7 +2579,7 @@ window.SITE_DATA = {
     {
       "id": "tile-260206-back",
       "batch": "batch-005",
-      "photo": "2602/260207_back.jpg",
+      "photo": "2602/260206_back.jpg",
       "glaze_combo": [
         "mayco-sw-220"
       ],
@@ -2588,7 +2588,7 @@ window.SITE_DATA = {
     {
       "id": "tile-260207-front",
       "batch": "batch-005",
-      "photo": "2602/260208_front.jpg",
+      "photo": "2602/260207_front.jpg",
       "glaze_combo": [
         "mayco-sw-221",
         "botz-9800"
@@ -2598,7 +2598,7 @@ window.SITE_DATA = {
     {
       "id": "tile-260207-back",
       "batch": "batch-005",
-      "photo": "2602/260208_back.jpg",
+      "photo": "2602/260207_back.jpg",
       "glaze_combo": [
         "mayco-sw-221"
       ],
@@ -2607,7 +2607,7 @@ window.SITE_DATA = {
     {
       "id": "tile-260208-front",
       "batch": "batch-005",
-      "photo": "2602/260209_front.jpg",
+      "photo": "2602/260208_front.jpg",
       "glaze_combo": [
         "mayco-sw-222",
         "botz-9800"
@@ -2617,7 +2617,7 @@ window.SITE_DATA = {
     {
       "id": "tile-260208-back",
       "batch": "batch-005",
-      "photo": "2602/260209_back.jpg",
+      "photo": "2602/260208_back.jpg",
       "glaze_combo": [
         "mayco-sw-222"
       ],
@@ -2626,7 +2626,7 @@ window.SITE_DATA = {
     {
       "id": "tile-260209-front",
       "batch": "batch-005",
-      "photo": "2602/260206_front.jpg",
+      "photo": "2602/260209_front.jpg",
       "glaze_combo": [
         "mayco-sw-219",
         "botz-9800"
@@ -2636,7 +2636,7 @@ window.SITE_DATA = {
     {
       "id": "tile-260209-back",
       "batch": "batch-005",
-      "photo": "2602/260206_back.jpg",
+      "photo": "2602/260209_back.jpg",
       "glaze_combo": [
         "mayco-sw-219"
       ],
@@ -11133,6 +11133,162 @@ window.SITE_DATA = {
       ],
       "finish": "satin",
       "color": "pink red"
+    },
+    {
+      "id": "kj-028",
+      "name": "Blue Tide",
+      "brand": "KJ Ceramic Tools",
+      "product_line": "Crystalline",
+      "sku": "KJ-028",
+      "cone": [
+        10
+      ],
+      "finish": "crystalline",
+      "color": "blue",
+      "food_safe": false
+    },
+    {
+      "id": "kj-029",
+      "name": "Navy Blue",
+      "brand": "KJ Ceramic Tools",
+      "product_line": "Crystalline",
+      "sku": "KJ-029",
+      "cone": [
+        10
+      ],
+      "finish": "crystalline",
+      "color": "navy",
+      "food_safe": false
+    },
+    {
+      "id": "kj-034",
+      "name": "Emerald Frost",
+      "brand": "KJ Ceramic Tools",
+      "product_line": "Crystalline",
+      "sku": "KJ-034",
+      "cone": [
+        10
+      ],
+      "finish": "crystalline",
+      "color": "green",
+      "food_safe": false
+    },
+    {
+      "id": "kj-035",
+      "name": "Cobalt Ocean",
+      "brand": "KJ Ceramic Tools",
+      "product_line": "Crystalline",
+      "sku": "KJ-035",
+      "cone": [
+        10
+      ],
+      "finish": "crystalline",
+      "color": "blue",
+      "food_safe": false
+    },
+    {
+      "id": "kj-036",
+      "name": "Nickel Amber",
+      "brand": "KJ Ceramic Tools",
+      "product_line": "Crystalline",
+      "sku": "KJ-036",
+      "cone": [
+        10
+      ],
+      "finish": "crystalline",
+      "color": "amber",
+      "food_safe": false
+    },
+    {
+      "id": "kj-037",
+      "name": "Forest Teal",
+      "brand": "KJ Ceramic Tools",
+      "product_line": "Crystalline",
+      "sku": "KJ-037",
+      "cone": [
+        10
+      ],
+      "finish": "crystalline",
+      "color": "teal",
+      "food_safe": false
+    },
+    {
+      "id": "kj-038",
+      "name": "Woodland Shower",
+      "brand": "KJ Ceramic Tools",
+      "product_line": "Crystalline",
+      "sku": "KJ-038",
+      "cone": [
+        10
+      ],
+      "finish": "crystalline",
+      "color": "green",
+      "food_safe": false
+    },
+    {
+      "id": "kj-039",
+      "name": "Sapphire Blue",
+      "brand": "KJ Ceramic Tools",
+      "product_line": "Crystalline",
+      "sku": "KJ-039",
+      "cone": [
+        10
+      ],
+      "finish": "crystalline",
+      "color": "blue",
+      "food_safe": false
+    },
+    {
+      "id": "kj-041",
+      "name": "Mint Tea",
+      "brand": "KJ Ceramic Tools",
+      "product_line": "Crystalline",
+      "sku": "KJ-041",
+      "cone": [
+        10
+      ],
+      "finish": "crystalline",
+      "color": "mint green",
+      "food_safe": false
+    },
+    {
+      "id": "kj-042",
+      "name": "Ocean Burst",
+      "brand": "KJ Ceramic Tools",
+      "product_line": "Crystalline",
+      "sku": "KJ-042",
+      "cone": [
+        10
+      ],
+      "finish": "crystalline",
+      "color": "blue",
+      "food_safe": false
+    },
+    {
+      "id": "kj-043",
+      "name": "Harvest Glow",
+      "brand": "KJ Ceramic Tools",
+      "product_line": "Crystalline",
+      "sku": "KJ-043",
+      "cone": [
+        10
+      ],
+      "finish": "crystalline",
+      "color": "amber",
+      "food_safe": false
+    },
+    {
+      "id": "kj-044",
+      "name": "Mossy Green",
+      "brand": "KJ Ceramic Tools",
+      "product_line": "Crystalline",
+      "sku": "KJ-044",
+      "cone": [
+        10
+      ],
+      "finish": "crystalline",
+      "color": "green",
+      "food_safe": false
     }
   ]
 };
