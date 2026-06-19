@@ -1,6 +1,6 @@
 # Pottery Test Tile Archive
 
-A static single-page app for browsing and filtering pottery test tiles. No server, no build step — just open `index.html` or deploy to any static host.
+A static site for browsing and filtering pottery test tiles. Source lives in `src/` and `data/`; the build script outputs to `_site/`.
 
 **Live site:** https://dyanarose.github.io/tile-site/
 
@@ -9,8 +9,8 @@ A static single-page app for browsing and filtering pottery test tiles. No serve
 1. **Photograph** all tiles
 2. **Upload photos to R2** — drag and drop in the Cloudflare R2 dashboard, or use rclone for bulk uploads
 3. **Edit `data/batches.yaml`** — add one batch block
-4. **Edit `data/tiles.yaml`** — add one tile block per tile
-5. **Regenerate the data file:**
+4. **Edit `data/tiles/<batch-id>.yaml`** — add one tile block per tile
+5. **Rebuild the site:**
    ```bash
    python build-data.py
    ```
@@ -24,12 +24,11 @@ A static single-page app for browsing and filtering pottery test tiles. No serve
 
 ## Configuration
 
-The `CONFIG` block at the top of `index.html` controls:
+The photo base URL and site URL are set at the top of `build-data.py`:
 
-```js
-const CONFIG = {
-  photoBaseUrl: 'https://your-bucket.r2.dev/',  // R2 public base URL
-};
+```python
+SITE_URL   = "https://tiletest.com"
+PHOTO_BASE = "https://your-bucket.r2.dev/"
 ```
 
 ## Data format
@@ -49,7 +48,7 @@ const CONFIG = {
   tags: [high-fire, reduction]
 ```
 
-### `data/tiles.yaml`
+### `data/tiles/<batch-id>.yaml`
 
 Tiles only record what differs from their parent batch. Minimum required: `id`, `batch`, `photo`.
 
@@ -69,9 +68,12 @@ Tiles only record what differs from their parent batch. Minimum required: `id`, 
 
 ## Local development
 
-Open `index.html` directly in a browser — no server needed.
+```bash
+python build-data.py
+python -m http.server 8000 --directory _site
+```
 
-After editing YAML, run `python build-data.py` to regenerate `data/data.js`, then refresh.
+Then open `http://localhost:8000`. Run `build-data.py` again after any YAML edits and refresh.
 
 ## Stack
 

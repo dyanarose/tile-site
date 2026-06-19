@@ -701,3 +701,18 @@
 - { id: spectrum-1470, name: Cranberry,     brand: Spectrum, product_line: "1460 Celadon", sku: "1470", cone: [4, 6], finish: satin, color: dark red }
 - { id: spectrum-1471, name: Orchid,        brand: Spectrum, product_line: "1460 Celadon", sku: "1471", cone: [4, 6], finish: satin, color: purple pink }
 - { id: spectrum-1472, name: Watermelon,    brand: Spectrum, product_line: "1460 Celadon", sku: "1472", cone: [4, 6], finish: satin, color: pink red }
+
+# ── KJ Ceramic Tools — Crystalline Glazes (cone 10, food-unsafe) ─────────────
+
+- { id: kj-028, name: Blue Tide,       brand: "KJ Ceramic Tools", product_line: "Crystalline", sku: KJ-028, cone: [10], finish: crystalline, color: blue,       food_safe: false }
+- { id: kj-029, name: Navy Blue,       brand: "KJ Ceramic Tools", product_line: "Crystalline", sku: KJ-029, cone: [10], finish: crystalline, color: navy,       food_safe: false }
+- { id: kj-034, name: Emerald Frost,   brand: "KJ Ceramic Tools", product_line: "Crystalline", sku: KJ-034, cone: [10], finish: crystalline, color: green,      food_safe: false }
+- { id: kj-035, name: Cobalt Ocean,    brand: "KJ Ceramic Tools", product_line: "Crystalline", sku: KJ-035, cone: [10], finish: crystalline, color: blue,       food_safe: false }
+- { id: kj-036, name: Nickel Amber,    brand: "KJ Ceramic Tools", product_line: "Crystalline", sku: KJ-036, cone: [10], finish: crystalline, color: amber,      food_safe: false }
+- { id: kj-037, name: Forest Teal,     brand: "KJ Ceramic Tools", product_line: "Crystalline", sku: KJ-037, cone: [10], finish: crystalline, color: teal,       food_safe: false }
+- { id: kj-038, name: Woodland Shower, brand: "KJ Ceramic Tools", product_line: "Crystalline", sku: KJ-038, cone: [10], finish: crystalline, color: green,      food_safe: false }
+- { id: kj-039, name: Sapphire Blue,   brand: "KJ Ceramic Tools", product_line: "Crystalline", sku: KJ-039, cone: [10], finish: crystalline, color: blue,       food_safe: false }
+- { id: kj-041, name: Mint Tea,        brand: "KJ Ceramic Tools", product_line: "Crystalline", sku: KJ-041, cone: [10], finish: crystalline, color: mint green,  food_safe: false }
+- { id: kj-042, name: Ocean Burst,     brand: "KJ Ceramic Tools", product_line: "Crystalline", sku: KJ-042, cone: [10], finish: crystalline, color: blue,       food_safe: false }
+- { id: kj-043, name: Harvest Glow,    brand: "KJ Ceramic Tools", product_line: "Crystalline", sku: KJ-043, cone: [10], finish: crystalline, color: amber,      food_safe: false }
+- { id: kj-044, name: Mossy Green,     brand: "KJ Ceramic Tools", product_line: "Crystalline", sku: KJ-044, cone: [10], finish: crystalline, color: green,      food_safe: false }

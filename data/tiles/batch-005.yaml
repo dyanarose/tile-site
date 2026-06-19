@@ -1,4 +1,4 @@
-# Batch 003
+# Batch 005
 # Tiles only record what differs from their parent batch.
 # At minimum: id, batch, photo.
 
@@ -64,49 +64,49 @@
 
 - id: tile-260206-front
   batch: batch-005
-  photo: 2602/260207_front.jpg
+  photo: 2602/260206_front.jpg
   glaze_combo: [mayco-sw-220, botz-9800]
   notes: ""
 
 - id: tile-260206-back
   batch: batch-005
-  photo: 2602/260207_back.jpg
+  photo: 2602/260206_back.jpg
   glaze_combo: [mayco-sw-220]
   notes: ""
 
 - id: tile-260207-front
   batch: batch-005
-  photo: 2602/260208_front.jpg
+  photo: 2602/260207_front.jpg
   glaze_combo: [mayco-sw-221, botz-9800]
   notes: ""
 
 - id: tile-260207-back
   batch: batch-005
-  photo: 2602/260208_back.jpg
+  photo: 2602/260207_back.jpg
   glaze_combo: [mayco-sw-221]
   notes: ""
 
 - id: tile-260208-front
   batch: batch-005
-  photo: 2602/260209_front.jpg
+  photo: 2602/260208_front.jpg
   glaze_combo: [mayco-sw-222, botz-9800]
   notes: ""
 
 - id: tile-260208-back
   batch: batch-005
-  photo: 2602/260209_back.jpg
+  photo: 2602/260208_back.jpg
   glaze_combo: [mayco-sw-222]
   notes: ""
 
 - id: tile-260209-front
   batch: batch-005
-  photo: 2602/260206_front.jpg
-  glaze_combo: [ mayco-sw-219, botz-9800 ]
+  photo: 2602/260209_front.jpg
+  glaze_combo: [mayco-sw-219, botz-9800]
   notes: ""
 
 - id: tile-260209-back
   batch: batch-005
-  photo: 2602/260206_back.jpg
+  photo: 2602/260209_back.jpg
   glaze_combo: [mayco-sw-219]
   notes: ""
 
